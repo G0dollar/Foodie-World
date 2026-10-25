@@ -1,90 +1,179 @@
 # Foodie World
 
-A plain HTML, CSS and JavaScript WDL mini-project. No installation, build step, framework or database is needed.
+**Explore the world through drinks, breakfasts, and full meals.**
 
-## Run
+Foodie World is a Web Development Laboratory mini-project built with HTML, CSS, and vanilla JavaScript. Visitors can browse regional food, explore real photographs, compare menu selections, play a short quiz, and use simple kitchen tools.
 
-1. Extract the complete Foodie-World folder.
-2. Open index.html in a modern browser.
-3. Alternatively, open the folder in VS Code and use Live Server. A local server provides more consistent localStorage behaviour across browsers than file URLs.
+The complete project includes **25 HTML pages, 54 food entries, and 72 locally stored food photographs**. It runs without a framework, package installation, or build step.
 
-Keep the CSS, JS and images folders alongside the HTML pages.
+## Quick start
 
-## Pages and scope
+### Run with VS Code Live Server
 
-25 real HTML documents: four activity pages plus index.html, credits.html, suggest.html, and 18 category pages (six regions × drinks/breakies/fullies).
+1. Extract the **complete project ZIP**. Do not run files from inside the archive.
+2. In VS Code, use **File → Open Folder** and select the extracted `Foodie-World` folder.
+3. Confirm that `index.html`, `css`, `js`, and `images` are directly inside that folder.
+4. Right-click `index.html` and select **Open with Live Server**.
+5. Explore the site in the browser tab that opens.
 
-Each category page has three entries, for 54 entries overall. Every entry includes regional association, a diet label, ingredients and a simplified preparation overview. Food regions are used rather than geographical continent boundaries. The Middle East is a region; the Americas are grouped together.
+Use a recent browser with JavaScript enabled. Keep the server address and port consistent when checking saved suggestions and quiz scores: browser storage belongs to the current origin.
 
-Implemented: responsive shared layout, category and region navigation, case-insensitive name search, vegetarian filtering, random selection among visible results, native HTML expandable recipe notes, labelled form inputs, JavaScript validation and browser-local suggestion storage.
+You can also open `index.html` directly. A local server is recommended because browsers can handle storage differently for `file://` pages.
 
-Vegetarian means no eggs, meat or fish; dairy is allowed. Labels apply to the specified versions. Recipe notes are brief educational overviews, not exhaustive recipes with quantities or timing. Cultural associations are starting points, not exclusive origin claims.
+**No npm commands, API keys, account, or database setup are required.** Images are bundled with the project, so displaying them does not require an internet connection. External photo-source and reference links do require internet access.
 
-All four stretch features are now implemented: comparison, quiz, gallery and ingredient-aware converter.
+## Explore the website
 
-## Files
+Foodie World groups its content into six **food regions**: Asia, Europe, Africa, Americas, Middle East, and Oceania. These are browsing categories rather than a strict geographical continent classification.
 
-- `index.html`: main page and 18 category links.
-- `*-drinks.html`, `*-breakies.html`, `*-fullies.html`: static food content.
-- `suggest.html`: validated form and list of locally saved suggestions.
-- `credits.html`: contribution record and acknowledgements.
-- `css/style.css`: shared styling and responsive breakpoints.
-- `js/script.js`: shared search, vegetarian filtering and random picker.
-- `js/form.js`: field validation and localStorage handling.
-- `images/food-table.svg`: original decorative homepage illustration.
-- `images/favicon.svg`: site icon.
-- `food-data.json`: supplementary reference data; the site displays the static HTML directly and does not fetch this file.
+Each region has three menu categories:
 
-## Before submission
+| Category | What it contains |
+| --- | --- |
+| Drinks | Hot and cold beverages |
+| Breakies | Breakfast dishes |
+| Fullies | Main meals and filling dishes |
 
-Replace the clearly marked teammate names in credits.html, remove unused rows and confirm actual contributions. The code does not invent teammate identities or completed presentation work. Edit the contribution description for Samarth to reflect actual work completed. AI assistance is acknowledged.
+Every category page contains three entries. Each entry includes a regional association, vegetarian label, photograph, ingredients, and expandable preparation notes.
 
-## Form behaviour
+### Main features
 
-No data is sent anywhere. A successful save adds an entry to localStorage under `foodie-world-suggestions-v1`, retaining the latest 50 entries. Suggestions do not change the main food listings. Names and text are rendered with textContent, not HTML injection. If storage is blocked or full, the form reports that saving failed and preserves the entered values.
+- **Name search:** filters food cards without distinguishing uppercase and lowercase letters.
+- **Vegetarian filter:** works together with search. The project's definition excludes eggs, meat, and fish; dairy is allowed.
+- **Surprise Me:** selects a currently visible card, highlights it, and opens its recipe notes.
+- **Expandable recipes:** use native HTML `<details>` and `<summary>` elements.
+- **Region collages:** twelve-photo previews link to the matching region in Gallery.
+- **Responsive layouts:** shared styles adapt cards, forms, and navigation to smaller screens.
 
-Your name, dish name and origin require at least two non-space characters. Ingredients require at least ten. Region and category must be chosen. Fields have maximum lengths. The vegetarian checkbox is optional.
+Food histories often cross borders. Regional labels are starting points for exploration, not exclusive claims about a dish's origin. Recipe notes are simplified educational overviews rather than complete recipes with quantities and cooking times.
 
-## Manual demonstration / viva checklist
+### Activities and tools
 
-1. Open the homepage and use the 18 category links.
-2. On Asia Fullies, turn on Vegetarian only: the chicken dish disappears.
-3. Search CHANA: only Chana Masala remains, regardless of letter case.
-4. Press Surprise Me: the remaining card is highlighted and expanded.
-5. Search a nonexistent name: empty state appears and Surprise Me is disabled.
-6. Clear search and filter: all cards return.
-7. Open Suggest a Dish, submit empty fields and inspect inline errors.
-8. Complete the form with valid data and save; reload to check persistence.
-9. Clear form resets fields and errors; delete saved suggestions asks for confirmation.
-10. Check the homepage, food page and form at a narrow browser width.
+| Page | What you can do |
+| --- | --- |
+| `compare.html` | Compare ingredients, flavour examples, and menu entries from two regions. Swap selections or follow links to their food pages. |
+| `quiz.html` | Answer five questions with four choices each, receive feedback, review answers, and replay. Questions refer to where dishes appear on this website. |
+| `gallery.html` | Browse 72 photographs, filter by region, and open an enlarged view. Use Previous/Next, arrow keys, or Escape in the viewer. |
+| `converter.html` | Convert US cups ↔ grams for five ingredients and Celsius ↔ Fahrenheit. |
+| `suggest.html` | Validate and save a food suggestion in the current browser. |
 
-## Implementation notes for explaining the code
+The converter uses ingredient-specific weight values: a cup of flour and a cup of sugar do not have the same weight. Cup conversions are approximate and use **US recipe cups**, not 250 mL metric cups. Temperature conversion changes units only; it does not adjust for fan ovens.
 
-`data-name` and `data-veg` on each article hold filter values. `filterCards()` combines search and checkbox conditions and uses the hidden attribute. The random picker uses Math.random and Math.floor over visible cards. `<details>` and `<summary>` provide expansion without custom JavaScript. The form prevents the default submit, validates trimmed inputs, serializes data with JSON.stringify, and saves it using localStorage.setItem. CSS Grid handles card and form layouts; media queries change the column count on smaller screens.
+## Page structure
 
-Use your own words to explain these concepts during the presentation.
+| Pages | Count | Filename pattern |
+| --- | ---: | --- |
+| Homepage | 1 | `index.html` |
+| Regional menu pages | 18 | `[region]-drinks.html`, `[region]-breakies.html`, `[region]-fullies.html` |
+| Suggestion form | 1 | `suggest.html` |
+| Team contributions and acknowledgements | 1 | `credits.html` |
+| Comparison, quiz, gallery, and converter | 4 | `compare.html`, `quiz.html`, `gallery.html`, `converter.html` |
+| **Total** | **25** | |
 
-## Credits
+Region filename prefixes are `asia`, `europe`, `africa`, `americas`, `middle-east`, and `oceania`.
 
-The Credits page uses a simple four-member contribution table without portraits. Replace bracketed names and confirm actual responsibilities before submission. Photo source credits for the food imagery are listed separately on the same page.
+## Files that matter
 
-## Extra activities
+| File or folder | Purpose |
+| --- | --- |
+| `css/style.css` | Shared layout, typography, colours, forms, and food cards |
+| `css/extras.css` | Activity navigation, comparison, quiz, gallery, and converter styles |
+| `css/photos.css` | Photograph presentation and collage grids |
+| `js/script.js` | Food search, vegetarian filtering, and random selection |
+| `js/form.js` | Suggestion validation and browser storage |
+| `js/extras-data.js` | Region and dish data used by comparison and quiz |
+| `js/conversions.js` | Ingredient weights and conversion calculations |
+| `js/extras.js` | Comparison, quiz, gallery, and converter interactions |
+| `images/food/` | Local menu photos and collage extras |
+| `images/food/ATTRIBUTION.md` | Photograph authors, licences, and source links |
+| `images/food/sources.json` | Detailed image source metadata |
+| `images/favicon.svg` | Browser-tab icon |
+| `food-data.json` | Supplementary food-content reference |
+| `design.md` | Project scope and design decisions |
 
-- `compare.html`: choose two distinct food regions; compare ingredients, flavours and linked menu examples. Selecting the same region automatically chooses a different region on the other side. Swap exchanges the selections.
-- `quiz.html`: five questions, four choices each, feedback and one point per correct answer. Questions refer to the website’s menu. Retrying reshuffles the session. A best score is saved locally when storage is available.
-- `gallery.html`: 72 locally stored food photographs, region filter and native-dialog lightbox. Escape closes it; Left/Right move among currently visible photos. Photos and per-file licences are recorded in `images/food/ATTRIBUTION.md` and `sources.json`, as well as on the gallery and Credits pages. Gallery images depict their own versions and do not imply the vegetarian status of our recipes.
-- `converter.html`: US cups ↔ grams for five ingredients and °C ↔ °F. Zero mass and negative temperatures are valid; negative mass, empty/non-finite values and temperatures below absolute zero are rejected. Results update through the Convert buttons and reset when conversion settings or values change. Small values retain meaningful precision.
+The food cards are written directly in HTML. Editing `food-data.json` alone does **not** update the displayed food pages. Comparison and quiz data are maintained separately in `js/extras-data.js`.
 
-New shared files: `css/extras.css`, `js/extras-data.js`, `js/conversions.js`, and `js/extras.js`. The four activity links appear on every page. Each uses regular script tags; no fetch call or server is required.
+## Suggestions and saved scores
 
-### Checks for the extras
+This is a frontend project. **The suggestion form does not send data to a server or add dishes to the public menu.**
 
-Compare two regions; select a duplicate and verify automatic replacement; swap them; follow dish links. Complete all five quiz questions, verify the score and review, then replay. Filter the gallery, open/close images with mouse and keyboard, and check photo credits. Confirm 1 cup flour = 120 g, 198 g sugar = 1 cup, 0 °C = 32 °F, 212 °F = 100 °C, -40 °C = -40 °F, and invalid/blank amounts show errors.
+A valid suggestion is stored using `localStorage`, retaining the latest 50 entries in that browser. The quiz also saves a best score when storage is available.
 
-## Real photographs and region collages
+| Storage key | Contents |
+| --- | --- |
+| `foodie-world-suggestions-v1` | Locally saved suggestions |
+| `foodie-world-quiz-best` | Best quiz score |
 
-All 54 food cards now use real photos; the Feijoa Smoothie card explicitly uses a photograph of its main ingredient, not an unrelated prepared drink. The other 53 cards show dish/drink servings or clearly identified serving variants. Each region profile and category banner contains 12 photos: nine menu entries and three bonus foods. Clicking a collage opens that region’s twelve-photo gallery. The homepage hero uses a selection from all six regions.
+Suggestions require a name, dish name, region, category, origin, and ingredient description. Text fields reject empty or whitespace-only values and enforce minimum lengths. The vegetarian checkbox is optional.
 
-The collages are native HTML/CSS grids, not generated illustrations or flattened raster composites. `css/photos.css` controls their layouts. Photographs are local assets under `images/food/`, with full author/licence/source information in `images/food/ATTRIBUTION.md`, `sources.json`, the gallery, Credits and food cards. Retain the credit lines if you reuse these photos. Existing `images/gallery/` files are retained for backwards compatibility; the new gallery uses `images/food/`.
+Clearing browser site data removes saved entries and scores. A different browser, device, server port, or website address may have separate storage. If storage is unavailable or full, the form reports the problem instead of claiming that the suggestion was saved.
 
-Each photo opens in the existing gallery lightbox. Links such as `gallery.html?region=asia` select a region on load; dish links also include a photo fragment. Downloaded thumbnails and lazy loading keep the site usable offline. There are still 25 HTML pages.
+## Photographs and collages
+
+The collection contains **54 images associated with menu entries and 18 bonus food images**, with twelve photographs per region.
+
+- Most menu images show prepared dishes or drinks. Captions identify serving variations where appropriate.
+- **Feijoa Smoothie uses a clearly labelled photograph of feijoa fruit**, its main ingredient, because a suitable reusable photograph of the prepared drink was unavailable.
+- Photographs may include different garnishes or toppings from the simplified recipe notes. Vegetarian labels apply to the listed recipe version.
+- Collages are HTML/CSS grids of individual images. They are not flattened image files.
+- A link such as `gallery.html?region=asia` opens the relevant region's collection.
+
+Photo credits appear on food cards, in Gallery, on Credits, and in `images/food/ATTRIBUTION.md`. The viewer preserves the photograph's full proportions; preview tiles use CSS cropping.
+
+**Retain the photograph credits, source links, and applicable licence information when sharing or modifying the project.** Individual photographs retain their stated licences; this README does not grant a blanket licence for all project content.
+
+## Customising the project
+
+| Change | Where to edit |
+| --- | --- |
+| Team names and contributions | Four-member table in `credits.html` |
+| Food descriptions and recipe notes | The corresponding regional HTML page |
+| Food search labels | Keep each card's `data-name` consistent with its displayed name |
+| Vegetarian status | The card's `data-veg` value and visible diet label |
+| Quiz or comparison content | `js/extras-data.js` |
+| Ingredient conversion values | `js/conversions.js`; also update the reference table in `converter.html` |
+| Colours and common spacing | `css/style.css` |
+| Collage layout | `css/photos.css` |
+| Photo replacements | Image path, alt text, visible credits, and source records |
+
+Keep filenames lowercase, use hyphens instead of spaces, and preserve relative paths. When changing shared data, update related visible labels and descriptions too.
+
+If you customise the homepage, keep navigation links to the four activities so every feature remains easy to find.
+
+## Troubleshooting
+
+| Problem | What to check |
+| --- | --- |
+| Collages are missing or unstyled | Confirm the page links to `css/photos.css` and that the file exists. Ensure you opened the newest extracted `index.html`, then try **Ctrl + Shift + R**. |
+| Images show broken-image icons | Check that the full `images/food/` directory was extracted. Match each `src` to the exact filename, extension, and letter case. |
+| Only part of a collage appears | Match the image count to the grid in `photos.css`. The default hero layout has 3 columns and 4 rows for 12 photos; adding more images requires adjusting the layout. |
+| Activity pages look unstyled | Confirm `css/extras.css` is present and linked. |
+| Search, quiz, or buttons do nothing | Enable JavaScript and check the browser console for missing scripts or errors. Activity pages need their shared data and interaction scripts. |
+| Saved suggestions disappear | Use the same browser and server address/port. Check whether site data was cleared or browser storage is blocked. |
+| An update seems to have no effect | Save the edited file, confirm Live Server is serving that project folder, and refresh without cache. |
+
+For a missing asset, open browser developer tools, select **Network**, reload, and look for failed requests such as `404`. The failed URL identifies which file path needs correction.
+
+## Demonstration checklist
+
+A short presentation can follow this sequence:
+
+1. Open Home and explain the six regions and three menu categories.
+2. Open Asia Fullies, turn on Vegetarian only, and search for `CHANA`.
+3. Use Surprise Me and expand the selected dish's preparation notes.
+4. Open a region collage, filter the gallery, and demonstrate the photo viewer.
+5. Compare two regions and use Swap.
+6. Complete the quiz and show its score and answer review.
+7. Convert 1 US cup of flour to 120 g and 212 °F to 100 °C.
+8. Submit an empty suggestion form to demonstrate validation, then save a valid suggestion and reload.
+9. Show the four-member contribution table and photograph acknowledgements.
+
+These steps demonstrate multi-page navigation, semantic HTML, CSS Grid, responsive styling, DOM updates, events, form validation, and browser storage.
+
+## Team and acknowledgements
+
+Before submission, replace the bracketed names in `credits.html` and record each member's **actual** contribution. The Credits page uses a four-member table without member portraits.
+
+The project uses HTML5, CSS3, and vanilla JavaScript. AI assistance was used for code and content preparation; the project author reported that AI use is permitted for this assignment.
+
+Photographs are credited individually to their creators. Ingredient weight references come from the [King Arthur Baking Ingredient Weight Chart](https://www.kingarthurbaking.com/learn/ingredient-weight-chart).
