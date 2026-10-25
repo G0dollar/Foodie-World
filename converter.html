@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Foodie World: explore drinks, breakfasts and meals across six food regions.">
+        <title>Kitchen converter | Foodie World</title>
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/extras.css">
+        <link rel="stylesheet" href="css/photos.css">
+        <script src="js/script.js" defer></script>
+        <script src="js/extras-data.js" defer></script>
+        <script src="js/conversions.js" defer></script>
+        <script src="js/extras.js" defer></script>
+    </head>
+    <body>
+        <a class="skip" href="#main">Skip to content</a>
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="index.html"><span class="brand-icon">✳</span> Foodie World<span class="brand-dot">.</span></a>
+                <nav class="main-nav" aria-label="Main navigation">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#regions">Explore regions</a>
+                    <a href="suggest.html">Suggest a dish</a>
+                    <a href="credits.html">Credits</a>
+                </nav>
+            </div>
+        </header>
+        <div class="features-bar">
+            <nav class="wrap" aria-label="Foodie World activities">
+                <a href="compare.html">Compare cuisines</a>
+                <a href="quiz.html">Cuisine quiz</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="converter.html" aria-current="page">Kitchen converter</a>
+            </nav>
+        </div>
+        <main id="main">
+            <section class="wrap extras-heading">
+                <p class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    / Kitchen converter
+                </p>
+                <p class="eyebrow">
+                    A LITTLE HELP AT THE COUNTER
+                </p>
+                <h1>
+                    Kitchen converter
+                    <span class="brand-dot">.</span>
+                </h1>
+                <p class="lede">
+                    Convert ingredient amounts between grams and US cups, or switch between Celsius and Fahrenheit. Choose the ingredient before converting weight and volume.
+                </p>
+            </section>
+            <section class="wrap extras-content">
+                <div class="converter-grid">
+                    <section class="tool-panel" aria-labelledby="mass-heading">
+                        <p class="eyebrow">
+                            WEIGHT ↔ VOLUME
+                        </p>
+                        <h2 id="mass-heading">
+                            Grams &amp; cups
+                        </h2>
+                        <form id="mass-form" class="compact-form" novalidate>
+                            <div class="field">
+                                <label for="mass-ingredient">Ingredient</label>
+                                <select id="mass-ingredient">
+                                    <option value="flour">All-purpose flour</option>
+                                    <option value="sugar">Granulated white sugar</option>
+                                    <option value="brown-sugar">Packed brown sugar</option>
+                                    <option value="cocoa">Unsweetened cocoa powder</option>
+                                    <option value="almond">Almond flour</option>
+                                </select>
+                            </div>
+                            <div class="field">
+                                <label for="mass-direction">Conversion</label>
+                                <select id="mass-direction">
+                                    <option value="cups-to-grams">US cups → grams</option>
+                                    <option value="grams-to-cups">Grams → US cups</option>
+                                </select>
+                            </div>
+                            <div class="field">
+                                <label id="mass-amount-label" for="mass-amount">Amount in US cups</label>
+                                <input type="number" id="mass-amount" value="1" min="0" step="any" required aria-describedby="mass-error">
+                                <small id="mass-error" class="error"></small>
+                            </div>
+                            <button class="button" type="submit">Convert amount →</button>
+                        </form>
+                        <output id="mass-result" class="conversion-result" aria-live="polite"></output>
+                        <p id="mass-explanation" class="filter-note">
+                        </p>
+                        <p class="filter-note">
+                            Approximate US-cup equivalents. Packing and ingredient brands affect weight; a kitchen scale is more consistent.
+                        </p>
+                    </section>
+                    <section class="tool-panel" aria-labelledby="temperature-heading">
+                        <p class="eyebrow">
+                            TEMPERATURE
+                        </p>
+                        <h2 id="temperature-heading">
+                            Celsius &amp; Fahrenheit
+                        </h2>
+                        <form id="temperature-form" class="compact-form" novalidate>
+                            <div class="field">
+                                <label for="temperature-direction">Conversion</label>
+                                <select id="temperature-direction">
+                                    <option value="c-to-f">Celsius (°C) → Fahrenheit (°F)</option>
+                                    <option value="f-to-c">Fahrenheit (°F) → Celsius (°C)</option>
+                                </select>
+                            </div>
+                            <div class="field">
+                                <label id="temperature-amount-label" for="temperature-amount">Temperature in °C</label>
+                                <input type="number" id="temperature-amount" value="180" step="any" required aria-describedby="temperature-error">
+                                <small id="temperature-error" class="error"></small>
+                            </div>
+                            <button class="button" type="submit">Convert temperature →</button>
+                        </form>
+                        <output id="temperature-result" class="conversion-result" aria-live="polite"></output>
+                        <p class="filter-note">
+                            °F = (°C × 9/5) + 32
+                            <br>
+                            °C = (°F − 32) × 5/9
+                            <br>
+                            This changes units only; it does not adjust fan-oven temperatures.
+                        </p>
+                    </section>
+                </div>
+                <section class="panel reference-panel">
+                    <h2>
+                        What does one US cup weigh?
+                    </h2>
+                    <div class="table-scroll">
+                        <table>
+                            <caption>
+                                Reference values used by this calculator
+                            </caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">
+                                        Ingredient
+                                    </th>
+                                    <th scope="col">
+                                        Approximate grams per cup
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">
+                                        All-purpose flour
+                                    </th>
+                                    <td>
+                                        120 g
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        Granulated white sugar
+                                    </th>
+                                    <td>
+                                        198 g
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        Packed brown sugar
+                                    </th>
+                                    <td>
+                                        213 g
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        Unsweetened cocoa powder
+                                    </th>
+                                    <td>
+                                        84 g
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        Almond flour
+                                    </th>
+                                    <td>
+                                        96 g
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p>
+                        Source:
+                        <a href="https://www.kingarthurbaking.com/learn/ingredient-weight-chart">King Arthur Baking Ingredient Weight Chart</a>
+                        . Cocoa is scaled from 42 g per ½ cup. These values use US recipe cups, not 250 mL metric cups.
+                    </p>
+                </section>
+                <noscript>
+                    <p>
+                        Enable JavaScript to use the calculators. The reference table and temperature formulas remain available.
+                    </p>
+                </noscript>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-inner">
+                <a class="brand" href="index.html">Foodie World.</a>
+                <p>
+                    A little curiosity. A world of flavour.
+                </p>
+                <p>
+                    WDL mini-project · HTML / CSS / JavaScript
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

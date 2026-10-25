@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Foodie World: explore drinks, breakfasts and meals across six food regions.">
+        <title>Africa Breakies | Foodie World</title>
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/extras.css">
+        <link rel="stylesheet" href="css/photos.css">
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <a class="skip" href="#main">Skip to content</a>
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="index.html"><span class="brand-icon">✳</span> Foodie World<span class="brand-dot">.</span></a>
+                <nav class="main-nav" aria-label="Main navigation">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#regions">Explore regions</a>
+                    <a href="suggest.html">Suggest a dish</a>
+                    <a href="credits.html">Credits</a>
+                </nav>
+            </div>
+        </header>
+        <div class="features-bar">
+            <nav class="wrap" aria-label="Foodie World activities">
+                <a href="compare.html">Compare cuisines</a>
+                <a href="quiz.html">Cuisine quiz</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="converter.html">Kitchen converter</a>
+            </nav>
+        </div>
+        <main id="main">
+            <div class="region-nav">
+                <nav class="wrap" aria-label="Food regions">
+                    <a  href="asia-breakies.html">Asia</a>
+                    <a  href="europe-breakies.html">Europe</a>
+                    <a aria-current="page" href="africa-breakies.html">Africa</a>
+                    <a  href="americas-breakies.html">Americas</a>
+                    <a  href="middle-east-breakies.html">Middle East</a>
+                    <a  href="oceania-breakies.html">Oceania</a>
+                </nav>
+            </div>
+            <section class="category-head wrap">
+                <p class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    / Africa / Breakies
+                </p>
+                <p class="eyebrow">
+                    A GOOD MORNING STARTS HERE
+                </p>
+                <h1>
+                    Africa
+                    <em>breakies.</em>
+                </h1>
+                <p class="lede">
+                    Breakfast ideas to start your day with a little curiosity. Meet fragrant teas, hearty grains and warming stews from a few of Africa’s many food traditions.
+                </p>
+                <nav class="category-tabs" aria-label="Africa food categories">
+                    <a  href="africa-drinks.html">Drinks</a>
+                    <a aria-current="page" href="africa-breakies.html">Breakies</a>
+                    <a  href="africa-fullies.html">Fullies</a>
+                </nav>
+            </section>
+            <div class="wrap region-photo-banner">
+                <a class="region-banner-collage" href="gallery.html?region=africa" aria-label="Open the Africa collage of 12 food photographs">
+                    <img src="images/food/africa/mint-tea.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/bissap.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/rooibos-tea.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/ful-medames.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/mandazi.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/vegetable-couscous.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/bunny-chow.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/uji.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/vegetable-jollof-rice.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/doro-wat.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/bobotie.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/injera.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <span class="banner-collage-label">Africa on a plate <small>Explore all 12 photographs ↗</small></span>
+                </a>
+            </div>
+            <section class="wrap food-section" aria-label="Food listings">
+                <div class="toolbar">
+                    <div class="search-field">
+                        <label for="search">Find a favourite</label>
+                        <input id="search" type="search" placeholder="Search by name…" autocomplete="off">
+                    </div>
+                    <label class="check-label"><input id="veg-only" type="checkbox"> Vegetarian only</label>
+                    <button type="button" id="surprise" class="button">Surprise me ✦</button>
+                </div>
+                <p class="filter-note">
+                    Vegetarian here excludes eggs, meat and fish; dairy is allowed. Labels apply to the versions listed. Photos show example servings; toppings may differ.
+                </p>
+                <p class="kitchen-help">
+                    <a href="converter.html">Need help with measurements? Open the kitchen converter →</a>
+                </p>
+                <p id="result-count" class="results" aria-live="polite">
+                    3 dishes to explore
+                </p>
+                <p id="pick-message" class="pick-message" role="status">
+                </p>
+                <div class="food-grid">
+                    <article class="food-card" data-name="Ful Medames" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=africa#photo-africa-ful-medames" aria-label="View photo for Ful Medames"><img src="images/food/africa/ful-medames.jpg" alt="Ful Medames" width="720" height="540" loading="lazy" decoding="async"><small>01 / BREAKIES</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: Zachbe at en.wikipedia ·
+                                <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Ful_medames.jpg">Source</a>
+                            </p>
+                            <div class="food-meta">
+                                <span>Egypt</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Ful Medames
+                            </h2>
+                            <p>
+                                Warm cooked fava beans with a little water.
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Cooked fava beans, lemon, garlic, cumin, olive oil.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Warm cooked fava beans with a little water. Mash lightly and season with garlic, cumin, lemon and olive oil.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="food-card" data-name="Uji" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=africa#photo-africa-uji" aria-label="View photo for Uji"><img src="images/food/africa/uji.jpg" alt="Sour millet porridge, an illustrative uji-style serving" width="720" height="540" loading="lazy" decoding="async"><small>02 / BREAKIES</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: Odegisam ·
+                                <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Porridge_served_in_calabash.jpg">Source</a>
+                            </p>
+                            <p class="food-photo-caption">
+                                Sour millet porridge, an illustrative uji-style serving
+                            </p>
+                            <div class="food-meta">
+                                <span>East Africa</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Uji
+                            </h2>
+                            <p>
+                                Mix flour with cold water to form a slurry.
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Millet or sorghum flour, water, milk or sugar if desired.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Mix flour with cold water to form a slurry. Stir into simmering water and cook, stirring, until smooth and fully cooked.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="food-card" data-name="Mandazi" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=africa#photo-africa-mandazi" aria-label="View photo for Mandazi"><img src="images/food/africa/mandazi.jpg" alt="Mandazi" width="720" height="540" loading="lazy" decoding="async"><small>03 / BREAKIES</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: Orrling ·
+                                <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Andazi.jpg">Source</a>
+                            </p>
+                            <div class="food-meta">
+                                <span>East Africa</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Mandazi
+                            </h2>
+                            <p>
+                                Mix an egg-free dough with the flour, coconut milk, sugar, baking powder and cardamom.
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Flour, coconut milk, sugar, baking powder, cardamom, oil.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Mix an egg-free dough with the flour, coconut milk, sugar, baking powder and cardamom. Rest, roll, cut and fry carefully until cooked and golden.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                </div>
+                <p id="empty" class="empty" hidden>
+                    No matches found. Try another name or turn off the vegetarian filter.
+                </p>
+                <noscript>
+                    <p>
+                        Enable JavaScript to use search, filters and Surprise Me. All food entries and recipe details are available below.
+                    </p>
+                </noscript>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-inner">
+                <a class="brand" href="index.html">Foodie World.</a>
+                <p>
+                    A little curiosity. A world of flavour.
+                </p>
+                <p>
+                    WDL mini-project · HTML / CSS / JavaScript
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

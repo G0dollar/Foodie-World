@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Foodie World: explore drinks, breakfasts and meals across six food regions.">
+        <title>Americas Fullies | Foodie World</title>
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/extras.css">
+        <link rel="stylesheet" href="css/photos.css">
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <a class="skip" href="#main">Skip to content</a>
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="index.html"><span class="brand-icon">✳</span> Foodie World<span class="brand-dot">.</span></a>
+                <nav class="main-nav" aria-label="Main navigation">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#regions">Explore regions</a>
+                    <a href="suggest.html">Suggest a dish</a>
+                    <a href="credits.html">Credits</a>
+                </nav>
+            </div>
+        </header>
+        <div class="features-bar">
+            <nav class="wrap" aria-label="Foodie World activities">
+                <a href="compare.html">Compare cuisines</a>
+                <a href="quiz.html">Cuisine quiz</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="converter.html">Kitchen converter</a>
+            </nav>
+        </div>
+        <main id="main">
+            <div class="region-nav">
+                <nav class="wrap" aria-label="Food regions">
+                    <a  href="asia-fullies.html">Asia</a>
+                    <a  href="europe-fullies.html">Europe</a>
+                    <a  href="africa-fullies.html">Africa</a>
+                    <a aria-current="page" href="americas-fullies.html">Americas</a>
+                    <a  href="middle-east-fullies.html">Middle East</a>
+                    <a  href="oceania-fullies.html">Oceania</a>
+                </nav>
+            </div>
+            <section class="category-head wrap">
+                <p class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    / Americas / Fullies
+                </p>
+                <p class="eyebrow">
+                    MAKE A MEAL OF IT
+                </p>
+                <h1>
+                    Americas
+                    <em>fullies.</em>
+                </h1>
+                <p class="lede">
+                    Comforting mains and filling meals, one region at a time. Travel from bright fruit drinks to corn-based breakfasts and comforting bean bowls.
+                </p>
+                <nav class="category-tabs" aria-label="Americas food categories">
+                    <a  href="americas-drinks.html">Drinks</a>
+                    <a  href="americas-breakies.html">Breakies</a>
+                    <a aria-current="page" href="americas-fullies.html">Fullies</a>
+                </nav>
+            </section>
+            <div class="wrap region-photo-banner">
+                <a class="region-banner-collage" href="gallery.html?region=americas" aria-label="Open the Americas collage of 12 food photographs">
+                    <img src="images/food/americas/agua-de-jamaica.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/americas/hot-cocoa.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/americas/arepas.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/americas/gallo-pinto.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/americas/breakfast-burrito.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/americas/vegetarian-tacos.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/americas/beef-empanadas.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/americas/guacamole.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/americas/poutine.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/americas/limonada.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/americas/vegetarian-chili.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/americas/pancakes.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <span class="banner-collage-label">Americas on a plate <small>Explore all 12 photographs ↗</small></span>
+                </a>
+            </div>
+            <section class="wrap food-section" aria-label="Food listings">
+                <div class="toolbar">
+                    <div class="search-field">
+                        <label for="search">Find a favourite</label>
+                        <input id="search" type="search" placeholder="Search by name…" autocomplete="off">
+                    </div>
+                    <label class="check-label"><input id="veg-only" type="checkbox"> Vegetarian only</label>
+                    <button type="button" id="surprise" class="button">Surprise me ✦</button>
+                </div>
+                <p class="filter-note">
+                    Vegetarian here excludes eggs, meat and fish; dairy is allowed. Labels apply to the versions listed. Photos show example servings; toppings may differ.
+                </p>
+                <p class="kitchen-help">
+                    <a href="converter.html">Need help with measurements? Open the kitchen converter →</a>
+                </p>
+                <p id="result-count" class="results" aria-live="polite">
+                    3 dishes to explore
+                </p>
+                <p id="pick-message" class="pick-message" role="status">
+                </p>
+                <div class="food-grid">
+                    <article class="food-card" data-name="Vegetarian Tacos" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=americas#photo-americas-vegetarian-tacos" aria-label="View photo for Vegetarian Tacos"><img src="images/food/americas/vegetarian-tacos.jpg" alt="Vegetarian Tacos" width="720" height="540" loading="lazy" decoding="async"><small>01 / FULLIES</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: jasonlam ·
+                                <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:02_Vegetarian_Taco_-_California_Taqueria.jpg">Source</a>
+                            </p>
+                            <div class="food-meta">
+                                <span>Mexico-inspired</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Vegetarian Tacos
+                            </h2>
+                            <p>
+                                Warm tortillas and beans.
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Corn tortillas, cooked beans, cabbage, tomato, avocado, lime.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Warm tortillas and beans. Fill with beans, shredded cabbage, tomato and avocado, then squeeze lime over the top.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="food-card" data-name="Vegetarian Chili" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=americas#photo-americas-vegetarian-chili" aria-label="View photo for Vegetarian Chili"><img src="images/food/americas/vegetarian-chili.jpg" alt="Chili sin carne: a vegan bean chili serving" width="720" height="540" loading="lazy" decoding="async"><small>02 / FULLIES</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: Benreis ·
+                                <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Chilli_sine_carne_Zur_Tanne_Harsdorf.jpg">Source</a>
+                            </p>
+                            <p class="food-photo-caption">
+                                Chili sin carne: a vegan bean chili serving
+                            </p>
+                            <div class="food-meta">
+                                <span>United States</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Vegetarian Chili
+                            </h2>
+                            <p>
+                                Sauté onion and pepper with spices.
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Kidney beans, tomato, onion, pepper, cumin, chili powder.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Sauté onion and pepper with spices. Add tomatoes and cooked beans, then simmer until rich and thick.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="food-card" data-name="Beef Empanadas" data-veg="false">
+                        <a class="food-art food-photo" href="gallery.html?region=americas#photo-americas-beef-empanadas" aria-label="View photo for Beef Empanadas"><img src="images/food/americas/beef-empanadas.jpg" alt="Beef empanada with onion, pepper and olives" width="720" height="540" loading="lazy" decoding="async"><small>03 / FULLIES</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: Andy Li ·
+                                <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Beef_Empanada_-_Malo_Argentinian_Empanadas,_Brighton_2023-11-25.jpg">Source</a>
+                            </p>
+                            <p class="food-photo-caption">
+                                Beef empanada with onion, pepper and olives
+                            </p>
+                            <div class="food-meta">
+                                <span>Argentina</span>
+                                <span class="badge nonveg">Non-vegetarian</span>
+                            </div>
+                            <h2>
+                                Beef Empanadas
+                            </h2>
+                            <p>
+                                Cook beef and onion with paprika, drain and cool.
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Egg-free pastry, minced beef, onion, paprika, olives.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Cook beef and onion with paprika, drain and cool. Fill pastry rounds, add olives, seal and bake until pastry is golden and filling is hot.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                </div>
+                <p id="empty" class="empty" hidden>
+                    No matches found. Try another name or turn off the vegetarian filter.
+                </p>
+                <noscript>
+                    <p>
+                        Enable JavaScript to use search, filters and Surprise Me. All food entries and recipe details are available below.
+                    </p>
+                </noscript>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-inner">
+                <a class="brand" href="index.html">Foodie World.</a>
+                <p>
+                    A little curiosity. A world of flavour.
+                </p>
+                <p>
+                    WDL mini-project · HTML / CSS / JavaScript
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

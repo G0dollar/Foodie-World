@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Foodie World: explore drinks, breakfasts and meals across six food regions.">
+        <title>Asia Fullies | Foodie World</title>
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/extras.css">
+        <link rel="stylesheet" href="css/photos.css">
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <a class="skip" href="#main">Skip to content</a>
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="index.html"><span class="brand-icon">✳</span> Foodie World<span class="brand-dot">.</span></a>
+                <nav class="main-nav" aria-label="Main navigation">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#regions">Explore regions</a>
+                    <a href="suggest.html">Suggest a dish</a>
+                    <a href="credits.html">Credits</a>
+                </nav>
+            </div>
+        </header>
+        <div class="features-bar">
+            <nav class="wrap" aria-label="Foodie World activities">
+                <a href="compare.html">Compare cuisines</a>
+                <a href="quiz.html">Cuisine quiz</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="converter.html">Kitchen converter</a>
+            </nav>
+        </div>
+        <main id="main">
+            <div class="region-nav">
+                <nav class="wrap" aria-label="Food regions">
+                    <a aria-current="page" href="asia-fullies.html">Asia</a>
+                    <a  href="europe-fullies.html">Europe</a>
+                    <a  href="africa-fullies.html">Africa</a>
+                    <a  href="americas-fullies.html">Americas</a>
+                    <a  href="middle-east-fullies.html">Middle East</a>
+                    <a  href="oceania-fullies.html">Oceania</a>
+                </nav>
+            </div>
+            <section class="category-head wrap">
+                <p class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    / Asia / Fullies
+                </p>
+                <p class="eyebrow">
+                    MAKE A MEAL OF IT
+                </p>
+                <h1>
+                    Asia
+                    <em>fullies.</em>
+                </h1>
+                <p class="lede">
+                    Comforting mains and filling meals, one region at a time. From warming cups of chai to colourful rice bowls, discover a few favourites from across Asia.
+                </p>
+                <nav class="category-tabs" aria-label="Asia food categories">
+                    <a  href="asia-drinks.html">Drinks</a>
+                    <a  href="asia-breakies.html">Breakies</a>
+                    <a aria-current="page" href="asia-fullies.html">Fullies</a>
+                </nav>
+            </section>
+            <div class="wrap region-photo-banner">
+                <a class="region-banner-collage" href="gallery.html?region=asia" aria-label="Open the Asia collage of 12 food photographs">
+                    <img src="images/food/asia/mango-lassi.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/asia/poha.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/asia/idli.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/asia/tamagoyaki.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/asia/chana-masala.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/asia/vegetable-sushi-rolls.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/asia/chicken-biryani.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/asia/gulab-jamun.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/asia/pad-thai.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/asia/mochi.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/asia/masala-chai.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/asia/matcha-latte.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <span class="banner-collage-label">Asia on a plate <small>Explore all 12 photographs ↗</small></span>
+                </a>
+            </div>
+            <section class="wrap food-section" aria-label="Food listings">
+                <div class="toolbar">
+                    <div class="search-field">
+                        <label for="search">Find a favourite</label>
+                        <input id="search" type="search" placeholder="Search by name…" autocomplete="off">
+                    </div>
+                    <label class="check-label"><input id="veg-only" type="checkbox"> Vegetarian only</label>
+                    <button type="button" id="surprise" class="button">Surprise me ✦</button>
+                </div>
+                <p class="filter-note">
+                    Vegetarian here excludes eggs, meat and fish; dairy is allowed. Labels apply to the versions listed. Photos show example servings; toppings may differ.
+                </p>
+                <p class="kitchen-help">
+                    <a href="converter.html">Need help with measurements? Open the kitchen converter →</a>
+                </p>
+                <p id="result-count" class="results" aria-live="polite">
+                    3 dishes to explore
+                </p>
+                <p id="pick-message" class="pick-message" role="status">
+                </p>
+                <div class="food-grid">
+                    <article class="food-card" data-name="Chana Masala" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=asia#photo-asia-chana-masala" aria-label="View photo for Chana Masala"><img src="images/food/asia/chana-masala.jpg" alt="Chana Masala" width="720" height="540" loading="lazy" decoding="async"><small>01 / FULLIES</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: Bhavana Homecook ·
+                                <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Channa_Masala.jpg">Source</a>
+                            </p>
+                            <div class="food-meta">
+                                <span>India</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Chana Masala
+                            </h2>
+                            <p>
+                                Cook onion, ginger and garlic with spices.
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Cooked chickpeas, onion, tomato, ginger, garlic, cumin, garam masala.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Cook onion, ginger and garlic with spices. Add tomatoes, then cooked chickpeas and water; simmer until the sauce thickens.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="food-card" data-name="Vegetable Sushi Rolls" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=asia#photo-asia-vegetable-sushi-rolls" aria-label="View photo for Vegetable Sushi Rolls"><img src="images/food/asia/vegetable-sushi-rolls.jpg" alt="Vegetable Sushi Rolls" width="720" height="540" loading="lazy" decoding="async"><small>02 / FULLIES</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: Makesushi ·
+                                <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Vegan_sushi_roll_picture.jpg">Source</a>
+                            </p>
+                            <div class="food-meta">
+                                <span>Japan-inspired</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Vegetable Sushi Rolls
+                            </h2>
+                            <p>
+                                Season cooked sushi rice with rice vinegar.
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Sushi rice, nori, rice vinegar, cucumber, carrot, avocado.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Season cooked sushi rice with rice vinegar. Spread on nori, add sliced vegetables, roll tightly and cut into pieces.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="food-card" data-name="Chicken Biryani" data-veg="false">
+                        <a class="food-art food-photo" href="gallery.html?region=asia#photo-asia-chicken-biryani" aria-label="View photo for Chicken Biryani"><img src="images/food/asia/chicken-biryani.jpg" alt="Chicken Biryani" width="720" height="540" loading="lazy" decoding="async"><small>03 / FULLIES</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: Delhifoodwalks ·
+                                <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:ChickenBiryani.jpg">Source</a>
+                            </p>
+                            <div class="food-meta">
+                                <span>South Asia</span>
+                                <span class="badge nonveg">Non-vegetarian</span>
+                            </div>
+                            <h2>
+                                Chicken Biryani
+                            </h2>
+                            <p>
+                                Marinate chicken in yogurt and spices.
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Chicken, basmati rice, yogurt, onion, ginger, garlic, biryani spices.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Marinate chicken in yogurt and spices. Cook the chicken, layer with partially cooked rice and browned onions, and steam covered until chicken and rice are fully cooked.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                </div>
+                <p id="empty" class="empty" hidden>
+                    No matches found. Try another name or turn off the vegetarian filter.
+                </p>
+                <noscript>
+                    <p>
+                        Enable JavaScript to use search, filters and Surprise Me. All food entries and recipe details are available below.
+                    </p>
+                </noscript>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-inner">
+                <a class="brand" href="index.html">Foodie World.</a>
+                <p>
+                    A little curiosity. A world of flavour.
+                </p>
+                <p>
+                    WDL mini-project · HTML / CSS / JavaScript
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

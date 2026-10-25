@@ -1,0 +1,80 @@
+[
+  {
+    "region": "asia",
+    "title": "Masala chai",
+    "alt": "A spiced cup of tea",
+    "link": "asia-drinks.html",
+    "file": "images/gallery/asia.jpg",
+    "author": "Ganesh Mohan T",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Masala_Chai.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Masala_Chai.jpg/1280px-Masala_Chai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "changes": "Wikimedia-generated thumbnail; displayed cropped in the gallery grid. Enlarged view preserves the image proportions."
+  },
+  {
+    "region": "europe",
+    "title": "Pasta al pomodoro",
+    "alt": "Pasta with tomato sauce",
+    "link": "europe-fullies.html",
+    "file": "images/gallery/europe.jpg",
+    "author": "10Rosso",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pasta_al_pomodoro_1-1.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Pasta_al_pomodoro_1-1.jpg/1280px-Pasta_al_pomodoro_1-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "changes": "Wikimedia-generated thumbnail; displayed cropped in the gallery grid. Enlarged view preserves the image proportions."
+  },
+  {
+    "region": "africa",
+    "title": "Couscous with chicken and vegetables",
+    "alt": "A couscous meal; this photograph includes chicken",
+    "link": "africa-fullies.html",
+    "file": "images/gallery/africa.jpg",
+    "author": "Miansari66",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Couscous_with_Chicken_and_Vegetable_Stew.JPG",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Couscous_with_Chicken_and_Vegetable_Stew.JPG/1280px-Couscous_with_Chicken_and_Vegetable_Stew.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "changes": "Wikimedia-generated thumbnail; displayed cropped in the gallery grid. Enlarged view preserves the image proportions."
+  },
+  {
+    "region": "americas",
+    "title": "Tacos",
+    "alt": "Soft tortillas with assorted fillings",
+    "link": "americas-fullies.html",
+    "file": "images/gallery/americas.jpg",
+    "author": "Kurt Kaiser",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Tacos_in_a_soft_tortilla.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Tacos_in_a_soft_tortilla.jpg/1280px-Tacos_in_a_soft_tortilla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "changes": "Wikimedia-generated thumbnail; displayed cropped in the gallery grid. Enlarged view preserves the image proportions."
+  },
+  {
+    "region": "middle-east",
+    "title": "Hummus and pita",
+    "alt": "A chickpea dip served with bread",
+    "link": "middle-east-fullies.html",
+    "file": "images/gallery/middle-east.jpg",
+    "author": "Popo le Chien",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Houmous.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Houmous.jpg/1280px-Houmous.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "changes": "Wikimedia-generated thumbnail; displayed cropped in the gallery grid. Enlarged view preserves the image proportions."
+  },
+  {
+    "region": "oceania",
+    "title": "Avocado toast",
+    "alt": "An avocado toast plate photographed in Melbourne",
+    "link": "oceania-breakies.html",
+    "file": "images/gallery/oceania.jpg",
+    "author": "Finbar.concaig",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Avo_toast_melbourne.jpg",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Avo_toast_melbourne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "changes": "Wikimedia-generated thumbnail; displayed cropped in the gallery grid. Enlarged view preserves the image proportions."
+  }
+]

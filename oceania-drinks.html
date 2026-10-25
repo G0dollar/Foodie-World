@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Foodie World: explore drinks, breakfasts and meals across six food regions.">
+        <title>Oceania Drinks | Foodie World</title>
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/extras.css">
+        <link rel="stylesheet" href="css/photos.css">
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <a class="skip" href="#main">Skip to content</a>
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="index.html"><span class="brand-icon">✳</span> Foodie World<span class="brand-dot">.</span></a>
+                <nav class="main-nav" aria-label="Main navigation">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#regions">Explore regions</a>
+                    <a href="suggest.html">Suggest a dish</a>
+                    <a href="credits.html">Credits</a>
+                </nav>
+            </div>
+        </header>
+        <div class="features-bar">
+            <nav class="wrap" aria-label="Foodie World activities">
+                <a href="compare.html">Compare cuisines</a>
+                <a href="quiz.html">Cuisine quiz</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="converter.html">Kitchen converter</a>
+            </nav>
+        </div>
+        <main id="main">
+            <div class="region-nav">
+                <nav class="wrap" aria-label="Food regions">
+                    <a  href="asia-drinks.html">Asia</a>
+                    <a  href="europe-drinks.html">Europe</a>
+                    <a  href="africa-drinks.html">Africa</a>
+                    <a  href="americas-drinks.html">Americas</a>
+                    <a  href="middle-east-drinks.html">Middle East</a>
+                    <a aria-current="page" href="oceania-drinks.html">Oceania</a>
+                </nav>
+            </div>
+            <section class="category-head wrap">
+                <p class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    / Oceania / Drinks
+                </p>
+                <p class="eyebrow">
+                    SOMETHING TO SIP
+                </p>
+                <h1>
+                    Oceania
+                    <em>drinks.</em>
+                </h1>
+                <p class="lede">
+                    Discover warm brews, cool refreshments and café favourites. Explore familiar café breakfasts, island flavours and a few Australian and New Zealand favourites.
+                </p>
+                <nav class="category-tabs" aria-label="Oceania food categories">
+                    <a aria-current="page" href="oceania-drinks.html">Drinks</a>
+                    <a  href="oceania-breakies.html">Breakies</a>
+                    <a  href="oceania-fullies.html">Fullies</a>
+                </nav>
+            </section>
+            <div class="wrap region-photo-banner">
+                <a class="region-banner-collage" href="gallery.html?region=oceania" aria-label="Open the Oceania collage of 12 food photographs">
+                    <img src="images/food/oceania/flat-white.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/oceania/feijoa-smoothie.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/oceania/coconut-water.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/oceania/avocado-toast.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/oceania/weet-bix-with-fruit.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/oceania/eggs-on-sourdough.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/oceania/kumara-soup.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/oceania/vegetable-barbecue.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/oceania/meat-pie.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/oceania/lamingtons.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/oceania/anzac-biscuits.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/oceania/pavlova.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <span class="banner-collage-label">Oceania on a plate <small>Explore all 12 photographs ↗</small></span>
+                </a>
+            </div>
+            <section class="wrap food-section" aria-label="Food listings">
+                <div class="toolbar">
+                    <div class="search-field">
+                        <label for="search">Find a favourite</label>
+                        <input id="search" type="search" placeholder="Search by name…" autocomplete="off">
+                    </div>
+                    <label class="check-label"><input id="veg-only" type="checkbox"> Vegetarian only</label>
+                    <button type="button" id="surprise" class="button">Surprise me ✦</button>
+                </div>
+                <p class="filter-note">
+                    Vegetarian here excludes eggs, meat and fish; dairy is allowed. Labels apply to the versions listed. Photos show example servings; toppings may differ.
+                </p>
+                <p class="kitchen-help">
+                    <a href="converter.html">Need help with measurements? Open the kitchen converter →</a>
+                </p>
+                <p id="result-count" class="results" aria-live="polite">
+                    3 dishes to explore
+                </p>
+                <p id="pick-message" class="pick-message" role="status">
+                </p>
+                <div class="food-grid">
+                    <article class="food-card" data-name="Flat White" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=oceania#photo-oceania-flat-white" aria-label="View photo for Flat White"><img src="images/food/oceania/flat-white.jpg" alt="Flat White" width="720" height="540" loading="lazy" decoding="async"><small>01 / DRINKS</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: Ashley Van Haeften ·
+                                <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Flat_white.jpg">Source</a>
+                            </p>
+                            <div class="food-meta">
+                                <span>Australia and New Zealand</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Flat White
+                            </h2>
+                            <p>
+                                Prepare espresso and top with steamed milk with a thin layer of fine foam..
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Espresso, milk.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Prepare espresso and top with steamed milk with a thin layer of fine foam.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="food-card" data-name="Feijoa Smoothie" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=oceania#photo-oceania-feijoa-smoothie" aria-label="View photo for Feijoa Smoothie"><img src="images/food/oceania/feijoa-smoothie.jpg" alt="Feijoa fruit — the main ingredient in this smoothie (ingredient photo)" width="720" height="540" loading="lazy" decoding="async"><small>02 / DRINKS</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: HortResearch photographer (uploaded by ACurrie) ·
+                                <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Feijoa_HortResearch.jpg">Source</a>
+                            </p>
+                            <p class="food-photo-caption">
+                                Feijoa fruit — the main ingredient in this smoothie (ingredient photo)
+                            </p>
+                            <div class="food-meta">
+                                <span>New Zealand-inspired</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Feijoa Smoothie
+                            </h2>
+                            <p>
+                                Scoop feijoa pulp and blend with banana, yogurt and a splash of milk until smooth..
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Feijoa pulp, banana, yogurt, milk.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Scoop feijoa pulp and blend with banana, yogurt and a splash of milk until smooth.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="food-card" data-name="Coconut Water" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=oceania#photo-oceania-coconut-water" aria-label="View photo for Coconut Water"><img src="images/food/oceania/coconut-water.jpg" alt="Coconut Water" width="720" height="540" loading="lazy" decoding="async"><small>03 / DRINKS</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: Miansari66 ·
+                                <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Fresh_Coconut_with_Coconut_Water.JPG">Source</a>
+                            </p>
+                            <div class="food-meta">
+                                <span>Pacific Islands and other tropical regions</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Coconut Water
+                            </h2>
+                            <p>
+                                Serve coconut water chilled.
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Fresh or packaged coconut water, optional lime.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Serve coconut water chilled. Add a squeeze of lime if desired.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                </div>
+                <p id="empty" class="empty" hidden>
+                    No matches found. Try another name or turn off the vegetarian filter.
+                </p>
+                <noscript>
+                    <p>
+                        Enable JavaScript to use search, filters and Surprise Me. All food entries and recipe details are available below.
+                    </p>
+                </noscript>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-inner">
+                <a class="brand" href="index.html">Foodie World.</a>
+                <p>
+                    A little curiosity. A world of flavour.
+                </p>
+                <p>
+                    WDL mini-project · HTML / CSS / JavaScript
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

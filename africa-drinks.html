@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Foodie World: explore drinks, breakfasts and meals across six food regions.">
+        <title>Africa Drinks | Foodie World</title>
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/extras.css">
+        <link rel="stylesheet" href="css/photos.css">
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <a class="skip" href="#main">Skip to content</a>
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="index.html"><span class="brand-icon">✳</span> Foodie World<span class="brand-dot">.</span></a>
+                <nav class="main-nav" aria-label="Main navigation">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#regions">Explore regions</a>
+                    <a href="suggest.html">Suggest a dish</a>
+                    <a href="credits.html">Credits</a>
+                </nav>
+            </div>
+        </header>
+        <div class="features-bar">
+            <nav class="wrap" aria-label="Foodie World activities">
+                <a href="compare.html">Compare cuisines</a>
+                <a href="quiz.html">Cuisine quiz</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="converter.html">Kitchen converter</a>
+            </nav>
+        </div>
+        <main id="main">
+            <div class="region-nav">
+                <nav class="wrap" aria-label="Food regions">
+                    <a  href="asia-drinks.html">Asia</a>
+                    <a  href="europe-drinks.html">Europe</a>
+                    <a aria-current="page" href="africa-drinks.html">Africa</a>
+                    <a  href="americas-drinks.html">Americas</a>
+                    <a  href="middle-east-drinks.html">Middle East</a>
+                    <a  href="oceania-drinks.html">Oceania</a>
+                </nav>
+            </div>
+            <section class="category-head wrap">
+                <p class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    / Africa / Drinks
+                </p>
+                <p class="eyebrow">
+                    SOMETHING TO SIP
+                </p>
+                <h1>
+                    Africa
+                    <em>drinks.</em>
+                </h1>
+                <p class="lede">
+                    Discover warm brews, cool refreshments and café favourites. Meet fragrant teas, hearty grains and warming stews from a few of Africa’s many food traditions.
+                </p>
+                <nav class="category-tabs" aria-label="Africa food categories">
+                    <a aria-current="page" href="africa-drinks.html">Drinks</a>
+                    <a  href="africa-breakies.html">Breakies</a>
+                    <a  href="africa-fullies.html">Fullies</a>
+                </nav>
+            </section>
+            <div class="wrap region-photo-banner">
+                <a class="region-banner-collage" href="gallery.html?region=africa" aria-label="Open the Africa collage of 12 food photographs">
+                    <img src="images/food/africa/mint-tea.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/bissap.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/rooibos-tea.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/ful-medames.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/mandazi.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/vegetable-couscous.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/bunny-chow.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/uji.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/vegetable-jollof-rice.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/doro-wat.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/bobotie.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/africa/injera.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <span class="banner-collage-label">Africa on a plate <small>Explore all 12 photographs ↗</small></span>
+                </a>
+            </div>
+            <section class="wrap food-section" aria-label="Food listings">
+                <div class="toolbar">
+                    <div class="search-field">
+                        <label for="search">Find a favourite</label>
+                        <input id="search" type="search" placeholder="Search by name…" autocomplete="off">
+                    </div>
+                    <label class="check-label"><input id="veg-only" type="checkbox"> Vegetarian only</label>
+                    <button type="button" id="surprise" class="button">Surprise me ✦</button>
+                </div>
+                <p class="filter-note">
+                    Vegetarian here excludes eggs, meat and fish; dairy is allowed. Labels apply to the versions listed. Photos show example servings; toppings may differ.
+                </p>
+                <p class="kitchen-help">
+                    <a href="converter.html">Need help with measurements? Open the kitchen converter →</a>
+                </p>
+                <p id="result-count" class="results" aria-live="polite">
+                    3 dishes to explore
+                </p>
+                <p id="pick-message" class="pick-message" role="status">
+                </p>
+                <div class="food-grid">
+                    <article class="food-card" data-name="Mint Tea" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=africa#photo-africa-mint-tea" aria-label="View photo for Mint Tea"><img src="images/food/africa/mint-tea.jpg" alt="Mint Tea" width="720" height="540" loading="lazy" decoding="async"><small>01 / DRINKS</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: Adam Harangozó ·
+                                <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Mint_tea%2C_Marrakesh.jpg">Source</a>
+                            </p>
+                            <div class="food-meta">
+                                <span>Morocco</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Mint Tea
+                            </h2>
+                            <p>
+                                Steep green tea in hot water, add fresh mint and sugar to taste, and pour into small glasses..
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Green tea, fresh mint, water, sugar.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Steep green tea in hot water, add fresh mint and sugar to taste, and pour into small glasses.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="food-card" data-name="Bissap" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=africa#photo-africa-bissap" aria-label="View photo for Bissap"><img src="images/food/africa/bissap.jpg" alt="Bissap" width="720" height="540" loading="lazy" decoding="async"><small>02 / DRINKS</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: Jnjungei (Joshua Njung&#x27;ei Ngugi) ·
+                                <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Bissap_(Kenya_Style).jpg">Source</a>
+                            </p>
+                            <div class="food-meta">
+                                <span>Senegal</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Bissap
+                            </h2>
+                            <p>
+                                Simmer food-grade hibiscus petals in water, strain, and sweeten to taste.
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Dried hibiscus petals, water, sugar, mint.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Simmer food-grade hibiscus petals in water, strain, and sweeten to taste. Cool and serve over ice with mint.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="food-card" data-name="Rooibos Tea" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=africa#photo-africa-rooibos-tea" aria-label="View photo for Rooibos Tea"><img src="images/food/africa/rooibos-tea.jpg" alt="Rooibos Tea" width="720" height="540" loading="lazy" decoding="async"><small>03 / DRINKS</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: StockyPics ·
+                                <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Cup_of_rooibos_tea_(23427608102).jpg">Source</a>
+                            </p>
+                            <div class="food-meta">
+                                <span>South Africa</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Rooibos Tea
+                            </h2>
+                            <p>
+                                Steep rooibos in freshly boiled water, strain and serve plain or with milk..
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Rooibos tea, water, optional milk.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Steep rooibos in freshly boiled water, strain and serve plain or with milk.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                </div>
+                <p id="empty" class="empty" hidden>
+                    No matches found. Try another name or turn off the vegetarian filter.
+                </p>
+                <noscript>
+                    <p>
+                        Enable JavaScript to use search, filters and Surprise Me. All food entries and recipe details are available below.
+                    </p>
+                </noscript>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-inner">
+                <a class="brand" href="index.html">Foodie World.</a>
+                <p>
+                    A little curiosity. A world of flavour.
+                </p>
+                <p>
+                    WDL mini-project · HTML / CSS / JavaScript
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

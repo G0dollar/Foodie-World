@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Foodie World: explore drinks, breakfasts and meals across six food regions.">
+        <title>Europe Drinks | Foodie World</title>
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/extras.css">
+        <link rel="stylesheet" href="css/photos.css">
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <a class="skip" href="#main">Skip to content</a>
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="index.html"><span class="brand-icon">✳</span> Foodie World<span class="brand-dot">.</span></a>
+                <nav class="main-nav" aria-label="Main navigation">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#regions">Explore regions</a>
+                    <a href="suggest.html">Suggest a dish</a>
+                    <a href="credits.html">Credits</a>
+                </nav>
+            </div>
+        </header>
+        <div class="features-bar">
+            <nav class="wrap" aria-label="Foodie World activities">
+                <a href="compare.html">Compare cuisines</a>
+                <a href="quiz.html">Cuisine quiz</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="converter.html">Kitchen converter</a>
+            </nav>
+        </div>
+        <main id="main">
+            <div class="region-nav">
+                <nav class="wrap" aria-label="Food regions">
+                    <a  href="asia-drinks.html">Asia</a>
+                    <a aria-current="page" href="europe-drinks.html">Europe</a>
+                    <a  href="africa-drinks.html">Africa</a>
+                    <a  href="americas-drinks.html">Americas</a>
+                    <a  href="middle-east-drinks.html">Middle East</a>
+                    <a  href="oceania-drinks.html">Oceania</a>
+                </nav>
+            </div>
+            <section class="category-head wrap">
+                <p class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    / Europe / Drinks
+                </p>
+                <p class="eyebrow">
+                    SOMETHING TO SIP
+                </p>
+                <h1>
+                    Europe
+                    <em>drinks.</em>
+                </h1>
+                <p class="lede">
+                    Discover warm brews, cool refreshments and café favourites. Explore café drinks, comforting breakfasts and familiar meals from European kitchens.
+                </p>
+                <nav class="category-tabs" aria-label="Europe food categories">
+                    <a aria-current="page" href="europe-drinks.html">Drinks</a>
+                    <a  href="europe-breakies.html">Breakies</a>
+                    <a  href="europe-fullies.html">Fullies</a>
+                </nav>
+            </section>
+            <div class="wrap region-photo-banner">
+                <a class="region-banner-collage" href="gallery.html?region=europe" aria-label="Open the Europe collage of 12 food photographs">
+                    <img src="images/food/europe/espresso.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/spanish-hot-chocolate.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/lemon-granita.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/porridge.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/tostada-con-tomate.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/scrambled-eggs-on-toast.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/ratatouille.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/fish-and-chips.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/croissant.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/paella.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/greek-salad.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/pasta-al-pomodoro.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <span class="banner-collage-label">Europe on a plate <small>Explore all 12 photographs ↗</small></span>
+                </a>
+            </div>
+            <section class="wrap food-section" aria-label="Food listings">
+                <div class="toolbar">
+                    <div class="search-field">
+                        <label for="search">Find a favourite</label>
+                        <input id="search" type="search" placeholder="Search by name…" autocomplete="off">
+                    </div>
+                    <label class="check-label"><input id="veg-only" type="checkbox"> Vegetarian only</label>
+                    <button type="button" id="surprise" class="button">Surprise me ✦</button>
+                </div>
+                <p class="filter-note">
+                    Vegetarian here excludes eggs, meat and fish; dairy is allowed. Labels apply to the versions listed. Photos show example servings; toppings may differ.
+                </p>
+                <p class="kitchen-help">
+                    <a href="converter.html">Need help with measurements? Open the kitchen converter →</a>
+                </p>
+                <p id="result-count" class="results" aria-live="polite">
+                    3 dishes to explore
+                </p>
+                <p id="pick-message" class="pick-message" role="status">
+                </p>
+                <div class="food-grid">
+                    <article class="food-card" data-name="Espresso" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=europe#photo-europe-espresso" aria-label="View photo for Espresso"><img src="images/food/europe/espresso.jpg" alt="Espresso" width="720" height="540" loading="lazy" decoding="async"><small>01 / DRINKS</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: Jubair1985 ·
+                                <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Espresso_Coffee_01.jpg">Source</a>
+                            </p>
+                            <div class="food-meta">
+                                <span>Italy</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Espresso
+                            </h2>
+                            <p>
+                                Use an espresso machine to extract a small, concentrated coffee from finely ground beans.
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Finely ground coffee, water.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Use an espresso machine to extract a small, concentrated coffee from finely ground beans. Serve immediately.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="food-card" data-name="Spanish Hot Chocolate" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=europe#photo-europe-spanish-hot-chocolate" aria-label="View photo for Spanish Hot Chocolate"><img src="images/food/europe/spanish-hot-chocolate.jpg" alt="Spanish Hot Chocolate" width="720" height="540" loading="lazy" decoding="async"><small>02 / DRINKS</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: LWY from Pasadena, USA ·
+                                <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Chocolate_con_churros_de_lazo.jpg">Source</a>
+                            </p>
+                            <div class="food-meta">
+                                <span>Spain</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Spanish Hot Chocolate
+                            </h2>
+                            <p>
+                                Warm milk with chopped chocolate.
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Milk, dark chocolate, cornflour, sugar.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Warm milk with chopped chocolate. Whisk in a small cornflour slurry and simmer gently until thick and smooth.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="food-card" data-name="Lemon Granita" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=europe#photo-europe-lemon-granita" aria-label="View photo for Lemon Granita"><img src="images/food/europe/lemon-granita.jpg" alt="Lemon Granita" width="720" height="540" loading="lazy" decoding="async"><small>03 / DRINKS</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: DinaBenedettoFerrandina ·
+                                <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Granita_al_Limone.jpg">Source</a>
+                            </p>
+                            <div class="food-meta">
+                                <span>Italy</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Lemon Granita
+                            </h2>
+                            <p>
+                                Dissolve sugar in warm water and cool.
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Lemon juice, water, sugar.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Dissolve sugar in warm water and cool. Mix with lemon juice, freeze in a shallow tray, and scrape regularly with a fork.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                </div>
+                <p id="empty" class="empty" hidden>
+                    No matches found. Try another name or turn off the vegetarian filter.
+                </p>
+                <noscript>
+                    <p>
+                        Enable JavaScript to use search, filters and Surprise Me. All food entries and recipe details are available below.
+                    </p>
+                </noscript>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-inner">
+                <a class="brand" href="index.html">Foodie World.</a>
+                <p>
+                    A little curiosity. A world of flavour.
+                </p>
+                <p>
+                    WDL mini-project · HTML / CSS / JavaScript
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

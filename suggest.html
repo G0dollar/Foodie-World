@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Foodie World: explore drinks, breakfasts and meals across six food regions.">
+        <title>Suggest a Dish | Foodie World</title>
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/extras.css">
+        <link rel="stylesheet" href="css/photos.css">
+        <script src="js/script.js" defer></script>
+        <script src="js/form.js" defer></script>
+    </head>
+    <body>
+        <a class="skip" href="#main">Skip to content</a>
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="index.html"><span class="brand-icon">✳</span> Foodie World<span class="brand-dot">.</span></a>
+                <nav class="main-nav" aria-label="Main navigation">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#regions">Explore regions</a>
+                    <a href="suggest.html">Suggest a dish</a>
+                    <a href="credits.html">Credits</a>
+                </nav>
+            </div>
+        </header>
+        <div class="features-bar">
+            <nav class="wrap" aria-label="Foodie World activities">
+                <a href="compare.html">Compare cuisines</a>
+                <a href="quiz.html">Cuisine quiz</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="converter.html">Kitchen converter</a>
+            </nav>
+        </div>
+        <main id="main">
+            <section class="wrap narrow">
+                <p class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    / Suggest a dish
+                </p>
+                <p class="eyebrow">
+                    FROM YOUR KITCHEN TO OUR NOTEBOOK
+                </p>
+                <h1>
+                    Bring something
+                    <br>
+                    <em>to the table.</em>
+                </h1>
+                <p class="lede">
+                    Tell us about a dish you love. Your suggestions are saved only in this browser; they are not sent to a server or added to the menu.
+                </p>
+                <form id="suggest-form" novalidate>
+                    <h2>
+                        Suggest a dish
+                    </h2>
+                    <p>
+                        All fields are required except the vegetarian checkbox.
+                    </p>
+                    <div class="form-grid">
+                        <div class="field">
+                            <label for="your-name">Your name</label>
+                            <input id="your-name" name="yourName" required minlength="2" maxlength="60" autocomplete="name" aria-describedby="your-name-error">
+                            <small class="error" id="your-name-error"></small>
+                        </div>
+                        <div class="field">
+                            <label for="dish-name">Dish name</label>
+                            <input id="dish-name" name="dishName" required minlength="2" maxlength="100" aria-describedby="dish-name-error">
+                            <small class="error" id="dish-name-error"></small>
+                        </div>
+                        <div class="field">
+                            <label for="region">Food region</label>
+                            <select id="region" name="region" required aria-describedby="region-error">
+                                <option value="">Choose a region</option>
+                                <option value="Asia">Asia</option>
+                                <option value="Europe">Europe</option>
+                                <option value="Africa">Africa</option>
+                                <option value="Americas">Americas</option>
+                                <option value="Middle East">Middle East</option>
+                                <option value="Oceania">Oceania</option>
+                            </select>
+                            <small class="error" id="region-error"></small>
+                        </div>
+                        <div class="field">
+                            <label for="category">Category</label>
+                            <select id="category" name="category" required aria-describedby="category-error">
+                                <option value="">Choose a category</option>
+                                <option>Drinks</option>
+                                <option>Breakies</option>
+                                <option>Fullies</option>
+                            </select>
+                            <small class="error" id="category-error"></small>
+                        </div>
+                        <div class="field full">
+                            <label for="origin">Country or place associated with the dish</label>
+                            <input id="origin" name="origin" required minlength="2" maxlength="100" aria-describedby="origin-error">
+                            <small class="error" id="origin-error"></small>
+                        </div>
+                        <div class="field full">
+                            <label for="ingredients">Main ingredients</label>
+                            <textarea id="ingredients" name="ingredients" rows="4" required minlength="10" maxlength="1000" placeholder="For example: rice, lentils, cumin, onion…" aria-describedby="ingredients-error"></textarea>
+                            <small class="error" id="ingredients-error"></small>
+                        </div>
+                    </div>
+                    <label class="check-label"><input id="vegetarian" type="checkbox" name="vegetarian"> This version is vegetarian (no eggs, meat or fish)</label>
+                    <div class="form-actions">
+                        <button class="button" type="submit">Save suggestion ↗</button>
+                        <button class="text-button" type="reset">Clear form</button>
+                    </div>
+                    <p id="form-status" role="status">
+                    </p>
+                    <noscript>JavaScript is required to validate and save this form.</noscript>
+                </form>
+                <section class="saved-section" aria-labelledby="saved-heading">
+                    <div class="section-heading">
+                        <h2 id="saved-heading">
+                            Your saved suggestions
+                        </h2>
+                        <button class="text-button" id="clear-suggestions" type="button">Delete saved suggestions</button>
+                    </div>
+                    <p>
+                        Stored on this browser and device. Shared devices can expose saved names; use a nickname if preferred.
+                    </p>
+                    <ul id="saved-list" class="saved-list">
+                    </ul>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-inner">
+                <a class="brand" href="index.html">Foodie World.</a>
+                <p>
+                    A little curiosity. A world of flavour.
+                </p>
+                <p>
+                    WDL mini-project · HTML / CSS / JavaScript
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

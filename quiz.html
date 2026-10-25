@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Foodie World: explore drinks, breakfasts and meals across six food regions.">
+        <title>Guess the cuisine | Foodie World</title>
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/extras.css">
+        <link rel="stylesheet" href="css/photos.css">
+        <script src="js/script.js" defer></script>
+        <script src="js/extras-data.js" defer></script>
+        <script src="js/conversions.js" defer></script>
+        <script src="js/extras.js" defer></script>
+    </head>
+    <body>
+        <a class="skip" href="#main">Skip to content</a>
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="index.html"><span class="brand-icon">✳</span> Foodie World<span class="brand-dot">.</span></a>
+                <nav class="main-nav" aria-label="Main navigation">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#regions">Explore regions</a>
+                    <a href="suggest.html">Suggest a dish</a>
+                    <a href="credits.html">Credits</a>
+                </nav>
+            </div>
+        </header>
+        <div class="features-bar">
+            <nav class="wrap" aria-label="Foodie World activities">
+                <a href="compare.html">Compare cuisines</a>
+                <a href="quiz.html" aria-current="page">Cuisine quiz</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="converter.html">Kitchen converter</a>
+            </nav>
+        </div>
+        <main id="main">
+            <section class="wrap extras-heading">
+                <p class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    / Guess the cuisine
+                </p>
+                <p class="eyebrow">
+                    A LITTLE FOOD FOR THOUGHT
+                </p>
+                <h1>
+                    Guess the cuisine
+                    <span class="brand-dot">.</span>
+                </h1>
+                <p class="lede">
+                    Five dishes. Four choices each. Which food region lists each dish on Foodie World? Explore the menu first or jump straight in.
+                </p>
+            </section>
+            <section class="wrap extras-content quiz-width">
+                <div class="tool-panel quiz-panel">
+                    <div class="quiz-meta">
+                        <p id="quiz-count">
+                            Question 1 of 5
+                        </p>
+                        <p id="quiz-score">
+                            Score: 0
+                        </p>
+                    </div>
+                    <label class="visually-hidden" for="quiz-progress">Quiz progress</label>
+                    <progress id="quiz-progress" max="5" value="0"></progress>
+                    <section id="quiz-round" aria-labelledby="quiz-question">
+                        <p class="eyebrow">
+                            WHERE WOULD YOU FIND…
+                        </p>
+                        <h2 id="quiz-question" tabindex="-1">
+                        </h2>
+                        <p>
+                            Choose the region where this dish appears on our website.
+                        </p>
+                        <div id="quiz-options" class="quiz-options">
+                        </div>
+                        <p id="quiz-feedback" class="quiz-feedback" role="status">
+                        </p>
+                        <button id="quiz-next" class="button" type="button" hidden>Next question →</button>
+                    </section>
+                    <section id="quiz-finish" hidden aria-labelledby="quiz-final-heading">
+                        <p class="eyebrow">
+                            THAT’S A WRAP
+                        </p>
+                        <h2 id="quiz-final-heading" tabindex="-1">
+                            Quiz complete!
+                        </h2>
+                        <p id="quiz-final-score" class="final-score">
+                        </p>
+                        <p id="quiz-best">
+                        </p>
+                        <h3>
+                            Your food trail
+                        </h3>
+                        <ol id="quiz-review" class="quiz-review">
+                        </ol>
+                        <button id="quiz-restart" class="button" type="button">Play again ↻</button>
+                    </section>
+                    <noscript>
+                        <p>
+                            Enable JavaScript to play this quiz.
+                        </p>
+                    </noscript>
+                </div>
+                <p class="filter-note">
+                    A dish can be enjoyed across many regions. Questions test our website’s organisation, not an exclusive claim about a dish’s origin.
+                </p>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-inner">
+                <a class="brand" href="index.html">Foodie World.</a>
+                <p>
+                    A little curiosity. A world of flavour.
+                </p>
+                <p>
+                    WDL mini-project · HTML / CSS / JavaScript
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

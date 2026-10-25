@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Foodie World: explore drinks, breakfasts and meals across six food regions.">
+        <title>Europe Breakies | Foodie World</title>
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/extras.css">
+        <link rel="stylesheet" href="css/photos.css">
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <a class="skip" href="#main">Skip to content</a>
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="index.html"><span class="brand-icon">✳</span> Foodie World<span class="brand-dot">.</span></a>
+                <nav class="main-nav" aria-label="Main navigation">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#regions">Explore regions</a>
+                    <a href="suggest.html">Suggest a dish</a>
+                    <a href="credits.html">Credits</a>
+                </nav>
+            </div>
+        </header>
+        <div class="features-bar">
+            <nav class="wrap" aria-label="Foodie World activities">
+                <a href="compare.html">Compare cuisines</a>
+                <a href="quiz.html">Cuisine quiz</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="converter.html">Kitchen converter</a>
+            </nav>
+        </div>
+        <main id="main">
+            <div class="region-nav">
+                <nav class="wrap" aria-label="Food regions">
+                    <a  href="asia-breakies.html">Asia</a>
+                    <a aria-current="page" href="europe-breakies.html">Europe</a>
+                    <a  href="africa-breakies.html">Africa</a>
+                    <a  href="americas-breakies.html">Americas</a>
+                    <a  href="middle-east-breakies.html">Middle East</a>
+                    <a  href="oceania-breakies.html">Oceania</a>
+                </nav>
+            </div>
+            <section class="category-head wrap">
+                <p class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    / Europe / Breakies
+                </p>
+                <p class="eyebrow">
+                    A GOOD MORNING STARTS HERE
+                </p>
+                <h1>
+                    Europe
+                    <em>breakies.</em>
+                </h1>
+                <p class="lede">
+                    Breakfast ideas to start your day with a little curiosity. Explore café drinks, comforting breakfasts and familiar meals from European kitchens.
+                </p>
+                <nav class="category-tabs" aria-label="Europe food categories">
+                    <a  href="europe-drinks.html">Drinks</a>
+                    <a aria-current="page" href="europe-breakies.html">Breakies</a>
+                    <a  href="europe-fullies.html">Fullies</a>
+                </nav>
+            </section>
+            <div class="wrap region-photo-banner">
+                <a class="region-banner-collage" href="gallery.html?region=europe" aria-label="Open the Europe collage of 12 food photographs">
+                    <img src="images/food/europe/espresso.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/spanish-hot-chocolate.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/lemon-granita.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/porridge.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/tostada-con-tomate.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/scrambled-eggs-on-toast.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/ratatouille.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/fish-and-chips.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/croissant.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/paella.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/greek-salad.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/europe/pasta-al-pomodoro.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <span class="banner-collage-label">Europe on a plate <small>Explore all 12 photographs ↗</small></span>
+                </a>
+            </div>
+            <section class="wrap food-section" aria-label="Food listings">
+                <div class="toolbar">
+                    <div class="search-field">
+                        <label for="search">Find a favourite</label>
+                        <input id="search" type="search" placeholder="Search by name…" autocomplete="off">
+                    </div>
+                    <label class="check-label"><input id="veg-only" type="checkbox"> Vegetarian only</label>
+                    <button type="button" id="surprise" class="button">Surprise me ✦</button>
+                </div>
+                <p class="filter-note">
+                    Vegetarian here excludes eggs, meat and fish; dairy is allowed. Labels apply to the versions listed. Photos show example servings; toppings may differ.
+                </p>
+                <p class="kitchen-help">
+                    <a href="converter.html">Need help with measurements? Open the kitchen converter →</a>
+                </p>
+                <p id="result-count" class="results" aria-live="polite">
+                    3 dishes to explore
+                </p>
+                <p id="pick-message" class="pick-message" role="status">
+                </p>
+                <div class="food-grid">
+                    <article class="food-card" data-name="Porridge" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=europe#photo-europe-porridge" aria-label="View photo for Porridge"><img src="images/food/europe/porridge.jpg" alt="Porridge" width="720" height="540" loading="lazy" decoding="async"><small>01 / BREAKIES</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: Denna Jones from London, England, United Kingdon ·
+                                <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Breakfast_porridge.jpg">Source</a>
+                            </p>
+                            <div class="food-meta">
+                                <span>Scotland</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Porridge
+                            </h2>
+                            <p>
+                                Simmer oats with water or milk and a pinch of salt, stirring until creamy.
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Rolled oats, water or milk, salt, fruit.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Simmer oats with water or milk and a pinch of salt, stirring until creamy. Top with fruit.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="food-card" data-name="Tostada con Tomate" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=europe#photo-europe-tostada-con-tomate" aria-label="View photo for Tostada con Tomate"><img src="images/food/europe/tostada-con-tomate.jpg" alt="Tostada con Tomate" width="720" height="540" loading="lazy" decoding="async"><small>02 / BREAKIES</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: Urci dream ·
+                                <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Tostada_de_tomate.jpg">Source</a>
+                            </p>
+                            <div class="food-meta">
+                                <span>Spain</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Tostada con Tomate
+                            </h2>
+                            <p>
+                                Toast bread and rub lightly with garlic.
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Bread, ripe tomato, olive oil, garlic, salt.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Toast bread and rub lightly with garlic. Spoon over grated tomato and finish with olive oil and salt.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="food-card" data-name="Scrambled Eggs on Toast" data-veg="false">
+                        <a class="food-art food-photo" href="gallery.html?region=europe#photo-europe-scrambled-eggs-on-toast" aria-label="View photo for Scrambled Eggs on Toast"><img src="images/food/europe/scrambled-eggs-on-toast.jpg" alt="Scrambled Eggs on Toast" width="720" height="540" loading="lazy" decoding="async"><small>03 / BREAKIES</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: Kolforn (Wikimedia) ·
+                                <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:-2012-12-05_Scrambled_eggs_on_toast,_Trimingham,_Norfolk.JPG">Source</a>
+                            </p>
+                            <div class="food-meta">
+                                <span>United Kingdom</span>
+                                <span class="badge nonveg">Non-vegetarian</span>
+                            </div>
+                            <h2>
+                                Scrambled Eggs on Toast
+                            </h2>
+                            <p>
+                                Toast the bread.
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Eggs, butter, bread, salt, pepper.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Toast the bread. Stir beaten eggs gently in melted butter over low heat until cooked; serve on toast.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                </div>
+                <p id="empty" class="empty" hidden>
+                    No matches found. Try another name or turn off the vegetarian filter.
+                </p>
+                <noscript>
+                    <p>
+                        Enable JavaScript to use search, filters and Surprise Me. All food entries and recipe details are available below.
+                    </p>
+                </noscript>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-inner">
+                <a class="brand" href="index.html">Foodie World.</a>
+                <p>
+                    A little curiosity. A world of flavour.
+                </p>
+                <p>
+                    WDL mini-project · HTML / CSS / JavaScript
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

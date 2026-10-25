@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Foodie World: explore drinks, breakfasts and meals across six food regions.">
+        <title>Middle East Drinks | Foodie World</title>
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/extras.css">
+        <link rel="stylesheet" href="css/photos.css">
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <a class="skip" href="#main">Skip to content</a>
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="index.html"><span class="brand-icon">✳</span> Foodie World<span class="brand-dot">.</span></a>
+                <nav class="main-nav" aria-label="Main navigation">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#regions">Explore regions</a>
+                    <a href="suggest.html">Suggest a dish</a>
+                    <a href="credits.html">Credits</a>
+                </nav>
+            </div>
+        </header>
+        <div class="features-bar">
+            <nav class="wrap" aria-label="Foodie World activities">
+                <a href="compare.html">Compare cuisines</a>
+                <a href="quiz.html">Cuisine quiz</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="converter.html">Kitchen converter</a>
+            </nav>
+        </div>
+        <main id="main">
+            <div class="region-nav">
+                <nav class="wrap" aria-label="Food regions">
+                    <a  href="asia-drinks.html">Asia</a>
+                    <a  href="europe-drinks.html">Europe</a>
+                    <a  href="africa-drinks.html">Africa</a>
+                    <a  href="americas-drinks.html">Americas</a>
+                    <a aria-current="page" href="middle-east-drinks.html">Middle East</a>
+                    <a  href="oceania-drinks.html">Oceania</a>
+                </nav>
+            </div>
+            <section class="category-head wrap">
+                <p class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    / Middle East / Drinks
+                </p>
+                <p class="eyebrow">
+                    SOMETHING TO SIP
+                </p>
+                <h1>
+                    Middle East
+                    <em>drinks.</em>
+                </h1>
+                <p class="lede">
+                    Discover warm brews, cool refreshments and café favourites. Discover cardamom-scented coffee, fresh breads and meals built around herbs and pulses.
+                </p>
+                <nav class="category-tabs" aria-label="Middle East food categories">
+                    <a aria-current="page" href="middle-east-drinks.html">Drinks</a>
+                    <a  href="middle-east-breakies.html">Breakies</a>
+                    <a  href="middle-east-fullies.html">Fullies</a>
+                </nav>
+            </section>
+            <div class="wrap region-photo-banner">
+                <a class="region-banner-collage" href="gallery.html?region=middle-east" aria-label="Open the Middle East collage of 12 food photographs">
+                    <img src="images/food/middle-east/arabic-coffee.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/middle-east/ayran.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/middle-east/lemon-mint-drink.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/middle-east/manakish-with-zaatar.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/middle-east/labneh-plate.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/middle-east/shakshuka.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/middle-east/mujadara.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/middle-east/falafel-wrap.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/middle-east/chicken-shawarma-bowl.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/middle-east/baklava.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/middle-east/tabbouleh.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <img src="images/food/middle-east/hummus.jpg" alt="" width="240" height="180" loading="lazy" decoding="async">
+                    <span class="banner-collage-label">Middle East on a plate <small>Explore all 12 photographs ↗</small></span>
+                </a>
+            </div>
+            <section class="wrap food-section" aria-label="Food listings">
+                <div class="toolbar">
+                    <div class="search-field">
+                        <label for="search">Find a favourite</label>
+                        <input id="search" type="search" placeholder="Search by name…" autocomplete="off">
+                    </div>
+                    <label class="check-label"><input id="veg-only" type="checkbox"> Vegetarian only</label>
+                    <button type="button" id="surprise" class="button">Surprise me ✦</button>
+                </div>
+                <p class="filter-note">
+                    Vegetarian here excludes eggs, meat and fish; dairy is allowed. Labels apply to the versions listed. Photos show example servings; toppings may differ.
+                </p>
+                <p class="kitchen-help">
+                    <a href="converter.html">Need help with measurements? Open the kitchen converter →</a>
+                </p>
+                <p id="result-count" class="results" aria-live="polite">
+                    3 dishes to explore
+                </p>
+                <p id="pick-message" class="pick-message" role="status">
+                </p>
+                <div class="food-grid">
+                    <article class="food-card" data-name="Arabic Coffee" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=middle-east#photo-middle-east-arabic-coffee" aria-label="View photo for Arabic Coffee"><img src="images/food/middle-east/arabic-coffee.jpg" alt="Arabic coffee serving pots and cups" width="720" height="540" loading="lazy" decoding="async"><small>01 / DRINKS</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: Cloud Consciousness ·
+                                <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Arabian_Coffee.jpg">Source</a>
+                            </p>
+                            <p class="food-photo-caption">
+                                Arabic coffee serving pots and cups
+                            </p>
+                            <div class="food-meta">
+                                <span>Arabian Peninsula</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Arabic Coffee
+                            </h2>
+                            <p>
+                                Simmer coffee in water, add cardamom and allow grounds to settle.
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Light-roasted ground coffee, water, cardamom.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Simmer coffee in water, add cardamom and allow grounds to settle. Pour gently into small cups.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="food-card" data-name="Ayran" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=middle-east#photo-middle-east-ayran" aria-label="View photo for Ayran"><img src="images/food/middle-east/ayran.jpg" alt="Ayran" width="720" height="540" loading="lazy" decoding="async"><small>02 / DRINKS</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: E4024 ·
+                                <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Ayran_(large_glass).jpg">Source</a>
+                            </p>
+                            <div class="food-meta">
+                                <span>Türkiye and neighbouring regions</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Ayran
+                            </h2>
+                            <p>
+                                Whisk yogurt with cold water and a pinch of salt until frothy.
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Plain yogurt, cold water, salt.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Whisk yogurt with cold water and a pinch of salt until frothy. Serve chilled.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="food-card" data-name="Lemon Mint Drink" data-veg="true">
+                        <a class="food-art food-photo" href="gallery.html?region=middle-east#photo-middle-east-lemon-mint-drink" aria-label="View photo for Lemon Mint Drink"><img src="images/food/middle-east/lemon-mint-drink.jpg" alt="Lemon Mint Drink" width="720" height="540" loading="lazy" decoding="async"><small>03 / DRINKS</small></a>
+                        <div class="food-body">
+                            <p class="food-photo-credit">
+                                Photo: Sadiikul ·
+                                <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+                                ·
+                                <a href="https://commons.wikimedia.org/wiki/File:Mint_lemonade_(Homemade).jpg">Source</a>
+                            </p>
+                            <div class="food-meta">
+                                <span>Middle East</span>
+                                <span class="badge veg">Vegetarian</span>
+                            </div>
+                            <h2>
+                                Lemon Mint Drink
+                            </h2>
+                            <p>
+                                Blend lemon juice, fresh mint, water, sugar and ice.
+                            </p>
+                            <details>
+                                <summary>
+                                    Ingredients &amp; preparation
+                                </summary>
+                                <h3>
+                                    Ingredients
+                                </h3>
+                                <p>
+                                    Lemon juice, mint, water, sugar, ice.
+                                </p>
+                                <h3>
+                                    Simple preparation
+                                </h3>
+                                <p>
+                                    Blend lemon juice, fresh mint, water, sugar and ice. Adjust sweetness and serve immediately.
+                                </p>
+                                <p class="recipe-note">
+                                    A simplified overview; ingredients and methods vary by household.
+                                </p>
+                            </details>
+                        </div>
+                    </article>
+                </div>
+                <p id="empty" class="empty" hidden>
+                    No matches found. Try another name or turn off the vegetarian filter.
+                </p>
+                <noscript>
+                    <p>
+                        Enable JavaScript to use search, filters and Surprise Me. All food entries and recipe details are available below.
+                    </p>
+                </noscript>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-inner">
+                <a class="brand" href="index.html">Foodie World.</a>
+                <p>
+                    A little curiosity. A world of flavour.
+                </p>
+                <p>
+                    WDL mini-project · HTML / CSS / JavaScript
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

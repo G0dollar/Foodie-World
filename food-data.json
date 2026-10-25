@@ -1,0 +1,500 @@
+{
+  "asia": {
+    "name": "Asia",
+    "intro": "From warming cups of chai to colourful rice bowls, discover a few favourites from across Asia.",
+    "icon": "🍜",
+    "drinks": [
+      [
+        "Masala Chai",
+        "India",
+        true,
+        "Black tea, milk, water, ginger, cardamom, sugar",
+        "Simmer ginger and cardamom in water. Add tea, then milk and sugar; bring to a gentle simmer and strain.",
+        "☕"
+      ],
+      [
+        "Matcha Latte",
+        "Japan-inspired",
+        true,
+        "Matcha powder, warm water, milk",
+        "Whisk sifted matcha with a little warm water until smooth. Top with warmed, frothed milk.",
+        "🍵"
+      ],
+      [
+        "Mango Lassi",
+        "India",
+        true,
+        "Ripe mango, plain yogurt, milk, cardamom",
+        "Blend mango and yogurt with a splash of milk. Add cardamom and serve chilled.",
+        "🥭"
+      ]
+    ],
+    "breakies": [
+      [
+        "Poha",
+        "India",
+        true,
+        "Flattened rice, onion, mustard seeds, turmeric, peanuts, lemon",
+        "Rinse flattened rice briefly. Temper mustard seeds, cook onion and peanuts, then gently fold in rice and turmeric. Finish with lemon.",
+        "🥣"
+      ],
+      [
+        "Idli",
+        "India",
+        true,
+        "Fermented rice-and-urad-dal batter, water, oil for greasing",
+        "Grease idli moulds, fill with prepared fermented batter, and steam until set. Serve with coconut chutney or sambar.",
+        "🍚"
+      ],
+      [
+        "Tamagoyaki",
+        "Japan",
+        false,
+        "Eggs, soy sauce, sugar, oil",
+        "Beat eggs with soy sauce and a little sugar. Cook thin layers in an oiled pan, rolling each layer into the next; cook through and slice.",
+        "🍳"
+      ]
+    ],
+    "fullies": [
+      [
+        "Chana Masala",
+        "India",
+        true,
+        "Cooked chickpeas, onion, tomato, ginger, garlic, cumin, garam masala",
+        "Cook onion, ginger and garlic with spices. Add tomatoes, then cooked chickpeas and water; simmer until the sauce thickens.",
+        "🍛"
+      ],
+      [
+        "Vegetable Sushi Rolls",
+        "Japan-inspired",
+        true,
+        "Sushi rice, nori, rice vinegar, cucumber, carrot, avocado",
+        "Season cooked sushi rice with rice vinegar. Spread on nori, add sliced vegetables, roll tightly and cut into pieces.",
+        "🍣"
+      ],
+      [
+        "Chicken Biryani",
+        "South Asia",
+        false,
+        "Chicken, basmati rice, yogurt, onion, ginger, garlic, biryani spices",
+        "Marinate chicken in yogurt and spices. Cook the chicken, layer with partially cooked rice and browned onions, and steam covered until chicken and rice are fully cooked.",
+        "🍗"
+      ]
+    ]
+  },
+  "europe": {
+    "name": "Europe",
+    "intro": "Explore café drinks, comforting breakfasts and familiar meals from European kitchens.",
+    "icon": "🥐",
+    "drinks": [
+      [
+        "Espresso",
+        "Italy",
+        true,
+        "Finely ground coffee, water",
+        "Use an espresso machine to extract a small, concentrated coffee from finely ground beans. Serve immediately.",
+        "☕"
+      ],
+      [
+        "Spanish Hot Chocolate",
+        "Spain",
+        true,
+        "Milk, dark chocolate, cornflour, sugar",
+        "Warm milk with chopped chocolate. Whisk in a small cornflour slurry and simmer gently until thick and smooth.",
+        "🍫"
+      ],
+      [
+        "Lemon Granita",
+        "Italy",
+        true,
+        "Lemon juice, water, sugar",
+        "Dissolve sugar in warm water and cool. Mix with lemon juice, freeze in a shallow tray, and scrape regularly with a fork.",
+        "🍋"
+      ]
+    ],
+    "breakies": [
+      [
+        "Porridge",
+        "Scotland",
+        true,
+        "Rolled oats, water or milk, salt, fruit",
+        "Simmer oats with water or milk and a pinch of salt, stirring until creamy. Top with fruit.",
+        "🥣"
+      ],
+      [
+        "Tostada con Tomate",
+        "Spain",
+        true,
+        "Bread, ripe tomato, olive oil, garlic, salt",
+        "Toast bread and rub lightly with garlic. Spoon over grated tomato and finish with olive oil and salt.",
+        "🍞"
+      ],
+      [
+        "Scrambled Eggs on Toast",
+        "United Kingdom",
+        false,
+        "Eggs, butter, bread, salt, pepper",
+        "Toast the bread. Stir beaten eggs gently in melted butter over low heat until cooked; serve on toast.",
+        "🍳"
+      ]
+    ],
+    "fullies": [
+      [
+        "Pasta al Pomodoro",
+        "Italy",
+        true,
+        "Pasta without egg, tomato, garlic, basil, olive oil",
+        "Simmer garlic and tomatoes in olive oil. Toss with cooked pasta and a little pasta water; finish with basil.",
+        "🍝"
+      ],
+      [
+        "Ratatouille",
+        "France",
+        true,
+        "Aubergine, courgette, pepper, tomato, onion, olive oil",
+        "Chop the vegetables. Sauté onion in olive oil, add remaining vegetables and simmer gently until tender.",
+        "🍆"
+      ],
+      [
+        "Fish and Chips",
+        "United Kingdom",
+        false,
+        "White fish, potato, flour, sparkling water, oil",
+        "Cut and cook potato chips. Coat fish in a flour-and-sparkling-water batter, then fry carefully until crisp and cooked through.",
+        "🐟"
+      ]
+    ]
+  },
+  "africa": {
+    "name": "Africa",
+    "intro": "Meet fragrant teas, hearty grains and warming stews from a few of Africa’s many food traditions.",
+    "icon": "🥘",
+    "drinks": [
+      [
+        "Mint Tea",
+        "Morocco",
+        true,
+        "Green tea, fresh mint, water, sugar",
+        "Steep green tea in hot water, add fresh mint and sugar to taste, and pour into small glasses.",
+        "🍵"
+      ],
+      [
+        "Bissap",
+        "Senegal",
+        true,
+        "Dried hibiscus petals, water, sugar, mint",
+        "Simmer food-grade hibiscus petals in water, strain, and sweeten to taste. Cool and serve over ice with mint.",
+        "🌺"
+      ],
+      [
+        "Rooibos Tea",
+        "South Africa",
+        true,
+        "Rooibos tea, water, optional milk",
+        "Steep rooibos in freshly boiled water, strain and serve plain or with milk.",
+        "🫖"
+      ]
+    ],
+    "breakies": [
+      [
+        "Ful Medames",
+        "Egypt",
+        true,
+        "Cooked fava beans, lemon, garlic, cumin, olive oil",
+        "Warm cooked fava beans with a little water. Mash lightly and season with garlic, cumin, lemon and olive oil.",
+        "🫘"
+      ],
+      [
+        "Uji",
+        "East Africa",
+        true,
+        "Millet or sorghum flour, water, milk or sugar if desired",
+        "Mix flour with cold water to form a slurry. Stir into simmering water and cook, stirring, until smooth and fully cooked.",
+        "🥣"
+      ],
+      [
+        "Mandazi",
+        "East Africa",
+        true,
+        "Flour, coconut milk, sugar, baking powder, cardamom, oil",
+        "Mix an egg-free dough with the flour, coconut milk, sugar, baking powder and cardamom. Rest, roll, cut and fry carefully until cooked and golden.",
+        "🍩"
+      ]
+    ],
+    "fullies": [
+      [
+        "Vegetable Couscous",
+        "North Africa",
+        true,
+        "Couscous, vegetable stock, carrot, courgette, chickpeas, spices",
+        "Cook vegetables and chickpeas in spiced vegetable stock. Prepare couscous separately according to its packet and serve with the vegetables.",
+        "🥕"
+      ],
+      [
+        "Vegetable Jollof Rice",
+        "West Africa",
+        true,
+        "Rice, tomato, red pepper, onion, vegetable stock, thyme",
+        "Blend tomatoes, peppers and onion. Cook the mixture down, add washed rice and vegetable stock, then cover and cook until tender.",
+        "🍚"
+      ],
+      [
+        "Doro Wat",
+        "Ethiopia",
+        false,
+        "Chicken, onion, berbere spice, butter, garlic, ginger",
+        "Slowly cook chopped onion, then add butter, ginger, garlic and berbere. Add chicken and water and simmer until the chicken is fully cooked.",
+        "🍲"
+      ]
+    ]
+  },
+  "americas": {
+    "name": "Americas",
+    "intro": "Travel from bright fruit drinks to corn-based breakfasts and comforting bean bowls.",
+    "icon": "🌮",
+    "drinks": [
+      [
+        "Agua de Jamaica",
+        "Mexico",
+        true,
+        "Dried hibiscus petals, water, sugar",
+        "Steep food-grade hibiscus petals in hot water, strain and sweeten. Dilute to taste and serve chilled.",
+        "🌺"
+      ],
+      [
+        "Limonada",
+        "Latin America",
+        true,
+        "Lime juice, water, sugar, ice",
+        "Stir fresh lime juice with water and sugar until dissolved. Adjust to taste and serve over ice.",
+        "🍋"
+      ],
+      [
+        "Hot Cocoa",
+        "Americas",
+        true,
+        "Cocoa powder, milk, sugar, vanilla",
+        "Mix cocoa and sugar with a splash of milk to form a paste. Whisk in remaining milk, warm gently and add vanilla.",
+        "☕"
+      ]
+    ],
+    "breakies": [
+      [
+        "Arepas",
+        "Colombia and Venezuela",
+        true,
+        "Precooked maize flour, water, salt, oil, optional cheese",
+        "Mix precooked maize flour with water and salt. Shape into discs and cook on a lightly oiled griddle until cooked through; add filling.",
+        "🫓"
+      ],
+      [
+        "Gallo Pinto",
+        "Costa Rica and Nicaragua",
+        true,
+        "Cooked rice, cooked black beans, onion, pepper, coriander",
+        "Sauté onion and pepper. Add cooked beans and rice, stir until hot, and finish with chopped coriander.",
+        "🫘"
+      ],
+      [
+        "Breakfast Burrito",
+        "United States",
+        false,
+        "Tortilla, eggs, cooked beans, potato, salsa",
+        "Cook diced potato until tender and scramble the eggs until cooked. Wrap with hot beans and salsa in a warm tortilla.",
+        "🌯"
+      ]
+    ],
+    "fullies": [
+      [
+        "Vegetarian Tacos",
+        "Mexico-inspired",
+        true,
+        "Corn tortillas, cooked beans, cabbage, tomato, avocado, lime",
+        "Warm tortillas and beans. Fill with beans, shredded cabbage, tomato and avocado, then squeeze lime over the top.",
+        "🌮"
+      ],
+      [
+        "Vegetarian Chili",
+        "United States",
+        true,
+        "Kidney beans, tomato, onion, pepper, cumin, chili powder",
+        "Sauté onion and pepper with spices. Add tomatoes and cooked beans, then simmer until rich and thick.",
+        "🍲"
+      ],
+      [
+        "Beef Empanadas",
+        "Argentina",
+        false,
+        "Egg-free pastry, minced beef, onion, paprika, olives",
+        "Cook beef and onion with paprika, drain and cool. Fill pastry rounds, add olives, seal and bake until pastry is golden and filling is hot.",
+        "🥟"
+      ]
+    ]
+  },
+  "middle-east": {
+    "name": "Middle East",
+    "intro": "Discover cardamom-scented coffee, fresh breads and meals built around herbs and pulses.",
+    "icon": "🧆",
+    "drinks": [
+      [
+        "Arabic Coffee",
+        "Arabian Peninsula",
+        true,
+        "Light-roasted ground coffee, water, cardamom",
+        "Simmer coffee in water, add cardamom and allow grounds to settle. Pour gently into small cups.",
+        "☕"
+      ],
+      [
+        "Ayran",
+        "Türkiye and neighbouring regions",
+        true,
+        "Plain yogurt, cold water, salt",
+        "Whisk yogurt with cold water and a pinch of salt until frothy. Serve chilled.",
+        "🥛"
+      ],
+      [
+        "Lemon Mint Drink",
+        "Middle East",
+        true,
+        "Lemon juice, mint, water, sugar, ice",
+        "Blend lemon juice, fresh mint, water, sugar and ice. Adjust sweetness and serve immediately.",
+        "🍋"
+      ]
+    ],
+    "breakies": [
+      [
+        "Manakish with Zaatar",
+        "Levant",
+        true,
+        "Flatbread dough, zaatar, olive oil",
+        "Shape dough into small flatbreads. Mix zaatar with olive oil, spread over the dough and bake until cooked and lightly golden.",
+        "🫓"
+      ],
+      [
+        "Labneh Plate",
+        "Levant",
+        true,
+        "Labneh, cucumber, tomato, olive oil, pita",
+        "Spread labneh on a plate, drizzle with olive oil and serve with sliced vegetables and pita bread.",
+        "🥒"
+      ],
+      [
+        "Shakshuka",
+        "North Africa and Middle East",
+        false,
+        "Eggs, tomato, pepper, onion, cumin",
+        "Simmer onion, pepper and tomato with cumin. Make wells, crack in eggs and cover until eggs are cooked.",
+        "🍳"
+      ]
+    ],
+    "fullies": [
+      [
+        "Mujadara",
+        "Levant",
+        true,
+        "Lentils, rice, onion, olive oil, cumin",
+        "Brown sliced onions slowly. Cook lentils and rice with cumin until tender and serve topped with the browned onions.",
+        "🍚"
+      ],
+      [
+        "Falafel Wrap",
+        "Middle East",
+        true,
+        "Prepared falafel, pita, tomato, cucumber, tahini, lemon",
+        "Warm fully cooked falafel and pita. Fill with sliced vegetables and drizzle with tahini mixed with lemon and water.",
+        "🧆"
+      ],
+      [
+        "Chicken Shawarma Bowl",
+        "Middle East",
+        false,
+        "Chicken, yogurt, shawarma spices, rice, salad",
+        "Marinate chicken in yogurt and spices, then cook thoroughly and slice. Serve over cooked rice with salad.",
+        "🍗"
+      ]
+    ]
+  },
+  "oceania": {
+    "name": "Oceania",
+    "intro": "Explore familiar café breakfasts, island flavours and a few Australian and New Zealand favourites.",
+    "icon": "🥝",
+    "drinks": [
+      [
+        "Flat White",
+        "Australia and New Zealand",
+        true,
+        "Espresso, milk",
+        "Prepare espresso and top with steamed milk with a thin layer of fine foam.",
+        "☕"
+      ],
+      [
+        "Feijoa Smoothie",
+        "New Zealand-inspired",
+        true,
+        "Feijoa pulp, banana, yogurt, milk",
+        "Scoop feijoa pulp and blend with banana, yogurt and a splash of milk until smooth.",
+        "🥤"
+      ],
+      [
+        "Coconut Water",
+        "Pacific Islands and other tropical regions",
+        true,
+        "Fresh or packaged coconut water, optional lime",
+        "Serve coconut water chilled. Add a squeeze of lime if desired.",
+        "🥥"
+      ]
+    ],
+    "breakies": [
+      [
+        "Avocado Toast",
+        "Australia-associated café food",
+        true,
+        "Bread, avocado, lemon, salt, pepper",
+        "Toast bread, mash avocado with lemon and seasoning, then spread over the toast.",
+        "🥑"
+      ],
+      [
+        "Weet-Bix with Fruit",
+        "Australia and New Zealand",
+        true,
+        "Weet-Bix, milk, banana or berries",
+        "Place cereal biscuits in a bowl, add milk and top with sliced banana or berries.",
+        "🥣"
+      ],
+      [
+        "Eggs on Sourdough",
+        "Australia and New Zealand café food",
+        false,
+        "Eggs, sourdough bread, butter, seasoning",
+        "Toast and butter sourdough. Cook eggs to your preference until cooked and serve over the toast.",
+        "🍳"
+      ]
+    ],
+    "fullies": [
+      [
+        "Kumara Soup",
+        "New Zealand-inspired",
+        true,
+        "Kumara (sweet potato), onion, vegetable stock, coconut milk",
+        "Sauté onion, add chopped kumara and vegetable stock, and simmer until soft. Blend and stir in coconut milk.",
+        "🍠"
+      ],
+      [
+        "Vegetable Barbecue",
+        "Australia-inspired",
+        true,
+        "Courgette, pepper, corn, mushroom, olive oil, herbs",
+        "Cut vegetables into suitable pieces, coat with oil and herbs, and grill, turning, until tender.",
+        "🌽"
+      ],
+      [
+        "Meat Pie",
+        "Australia and New Zealand",
+        false,
+        "Pastry, minced beef, onion, flour, beef stock",
+        "Cook beef and onion, stir in flour and stock and simmer until thick. Cool, enclose in pastry and bake until golden and thoroughly heated.",
+        "🥧"
+      ]
+    ]
+  }
+}

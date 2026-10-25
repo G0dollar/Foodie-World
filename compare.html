@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Foodie World: explore drinks, breakfasts and meals across six food regions.">
+        <title>Compare cuisines | Foodie World</title>
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/extras.css">
+        <link rel="stylesheet" href="css/photos.css">
+        <script src="js/script.js" defer></script>
+        <script src="js/extras-data.js" defer></script>
+        <script src="js/conversions.js" defer></script>
+        <script src="js/extras.js" defer></script>
+    </head>
+    <body>
+        <a class="skip" href="#main">Skip to content</a>
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="index.html"><span class="brand-icon">✳</span> Foodie World<span class="brand-dot">.</span></a>
+                <nav class="main-nav" aria-label="Main navigation">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#regions">Explore regions</a>
+                    <a href="suggest.html">Suggest a dish</a>
+                    <a href="credits.html">Credits</a>
+                </nav>
+            </div>
+        </header>
+        <div class="features-bar">
+            <nav class="wrap" aria-label="Foodie World activities">
+                <a href="compare.html" aria-current="page">Compare cuisines</a>
+                <a href="quiz.html">Cuisine quiz</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="converter.html">Kitchen converter</a>
+            </nav>
+        </div>
+        <main id="main">
+            <section class="wrap extras-heading">
+                <p class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    / Compare cuisines
+                </p>
+                <p class="eyebrow">
+                    SAME TABLE. DIFFERENT FLAVOURS.
+                </p>
+                <h1>
+                    Compare cuisines
+                    <span class="brand-dot">.</span>
+                </h1>
+                <p class="lede">
+                    Pick two food regions and explore examples from our menu side by side. These snapshots reflect the dishes on this website, not every cuisine in a region.
+                </p>
+            </section>
+            <section class="wrap extras-content">
+                <div class="tool-panel">
+                    <div class="compare-controls">
+                        <div class="field">
+                            <label for="compare-left">First region</label>
+                            <select id="compare-left">
+                                <option value="asia">Asia</option>
+                                <option value="europe">Europe</option>
+                                <option value="africa">Africa</option>
+                                <option value="americas">Americas</option>
+                                <option value="middle-east">Middle East</option>
+                                <option value="oceania">Oceania</option>
+                            </select>
+                        </div>
+                        <button id="swap-regions" class="button secondary" type="button">Swap ↔</button>
+                        <div class="field">
+                            <label for="compare-right">Second region</label>
+                            <select id="compare-right">
+                                <option value="asia">Asia</option>
+                                <option value="europe">Europe</option>
+                                <option value="africa">Africa</option>
+                                <option value="americas">Americas</option>
+                                <option value="middle-east">Middle East</option>
+                                <option value="oceania">Oceania</option>
+                            </select>
+                        </div>
+                    </div>
+                    <p id="compare-status" class="tool-status" role="status">
+                    </p>
+                    <div id="compare-results">
+                    </div>
+                    <noscript>
+                        <p>
+                            Enable JavaScript to generate a comparison. You can still explore every region from the homepage.
+                        </p>
+                    </noscript>
+                </div>
+                <aside class="mini-note">
+                    <h2>
+                        Food crosses borders.
+                    </h2>
+                    <p>
+                        Shared ingredients are part of the story. Try Asia and the Middle East for rice and pulses, or Europe and Oceania for café breakfasts. Use the linked pages to see the actual dishes.
+                    </p>
+                </aside>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-inner">
+                <a class="brand" href="index.html">Foodie World.</a>
+                <p>
+                    A little curiosity. A world of flavour.
+                </p>
+                <p>
+                    WDL mini-project · HTML / CSS / JavaScript
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

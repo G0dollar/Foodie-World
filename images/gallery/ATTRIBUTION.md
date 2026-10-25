@@ -1,0 +1,10 @@
+# Gallery photo attribution
+
+- images/gallery/asia.jpg: Ganesh Mohan T, CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Masala_Chai.jpg; license: https://creativecommons.org/licenses/by-sa/4.0. Wikimedia-generated thumbnail; displayed cropped in the gallery grid. Enlarged view preserves the image proportions.
+- images/gallery/europe.jpg: 10Rosso, CC BY 2.0; https://commons.wikimedia.org/wiki/File:Pasta_al_pomodoro_1-1.jpg; license: https://creativecommons.org/licenses/by/2.0. Wikimedia-generated thumbnail; displayed cropped in the gallery grid. Enlarged view preserves the image proportions.
+- images/gallery/africa.jpg: Miansari66, CC0; https://commons.wikimedia.org/wiki/File:Couscous_with_Chicken_and_Vegetable_Stew.JPG; license: http://creativecommons.org/publicdomain/zero/1.0/deed.en. Wikimedia-generated thumbnail; displayed cropped in the gallery grid. Enlarged view preserves the image proportions.
+- images/gallery/americas.jpg: Kurt Kaiser, CC0; https://commons.wikimedia.org/wiki/File:Tacos_in_a_soft_tortilla.jpg; license: http://creativecommons.org/publicdomain/zero/1.0/deed.en. Wikimedia-generated thumbnail; displayed cropped in the gallery grid. Enlarged view preserves the image proportions.
+- images/gallery/middle-east.jpg: Popo le Chien, CC0; https://commons.wikimedia.org/wiki/File:Houmous.jpg; license: http://creativecommons.org/publicdomain/zero/1.0/deed.en. Wikimedia-generated thumbnail; displayed cropped in the gallery grid. Enlarged view preserves the image proportions.
+- images/gallery/oceania.jpg: Finbar.concaig, CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Avo_toast_melbourne.jpg; license: https://creativecommons.org/licenses/by-sa/4.0. Wikimedia-generated thumbnail; displayed cropped in the gallery grid. Enlarged view preserves the image proportions.
+
+Original photographs remain under their stated licences. Source files include full attribution metadata in sources.json. Cropping is performed by CSS in the grid; the enlarged image shows the full frame.
