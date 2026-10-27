@@ -10,17 +10,52 @@ const FOODIE_REGIONS = [
     "drinks": [
       "Masala Chai",
       "Matcha Latte",
-      "Mango Lassi"
+      "Mango Lassi",
+      "Thai iced tea",
+      "Bubble tea",
+      "Cà phê sữa đá (Vietnamese iced coffee)",
+      "Teh tarik",
+      "Cendol",
+      "Sikhye",
+      "Bandung",
+      "Barley tea (boricha/mugicha)",
+      "Falooda",
+      "Kopi tubruk",
+      "Soy milk (doujiang)",
+      "Sugarcane juice (nước mía)"
     ],
     "breakies": [
       "Poha",
       "Idli",
-      "Tamagoyaki"
+      "Tamagoyaki",
+      "Kaya toast",
+      "Jianbing",
+      "Dosa",
+      "Upma",
+      "Appam",
+      "Puttu",
+      "Chinese rice congee",
+      "Champorado",
+      "Youtiao",
+      "Paratha",
+      "Natto over rice"
     ],
     "fullies": [
       "Chana Masala",
       "Vegetable Sushi Rolls",
-      "Chicken Biryani"
+      "Chicken Biryani",
+      "Dolsot bibimbap",
+      "Pad thai with prawns",
+      "Mapo tofu",
+      "Nasi goreng kampung",
+      "Gado-gado",
+      "Dal makhani",
+      "Shoyu ramen",
+      "Meatball phở",
+      "Nyonya laksa",
+      "Aloo gobi",
+      "Beef rendang",
+      "Bulgogi"
     ]
   },
   {
@@ -33,17 +68,53 @@ const FOODIE_REGIONS = [
     "drinks": [
       "Espresso",
       "Spanish Hot Chocolate",
-      "Lemon Granita"
+      "Lemon Granita",
+      "Glühwein (mulled wine)",
+      "Cappuccino",
+      "Sangria",
+      "Turkish coffee",
+      "Irish coffee",
+      "Apple cider (fermented cider)",
+      "Latte macchiato",
+      "Greek frappé coffee",
+      "Ouzo",
+      "Port wine",
+      "French dry vermouth",
+      "Sherry"
     ],
     "breakies": [
       "Porridge",
       "Tostada con Tomate",
-      "Scrambled Eggs on Toast"
+      "Scrambled Eggs on Toast",
+      "Karelian pasty (karjalanpiirakka)",
+      "Muesli",
+      "Crêpes",
+      "Croissant",
+      "Kaiserschmarrn",
+      "Swedish pancakes (pannkakor)",
+      "Semla",
+      "Full English breakfast",
+      "Welsh rarebit",
+      "Belgian waffle",
+      "Brioche",
+      "Pain perdu"
     ],
     "fullies": [
       "Pasta al Pomodoro",
       "Ratatouille",
-      "Fish and Chips"
+      "Fish and Chips",
+      "Goulash",
+      "Pierogi (potato-and-cheese filling)",
+      "Moussaka",
+      "Vegetarian borscht",
+      "Wiener Schnitzel",
+      "Lasagna (meat ragù)",
+      "Mushroom risotto",
+      "Pizza Margherita",
+      "Spaghetti carbonara",
+      "Stuffed cabbage rolls",
+      "Beef Wellington",
+      "Steak and kidney pie"
     ]
   },
   {
@@ -56,17 +127,53 @@ const FOODIE_REGIONS = [
     "drinks": [
       "Mint Tea",
       "Bissap",
-      "Rooibos Tea"
+      "Rooibos Tea",
+      "Kunu (kunu zaki)",
+      "Café Touba",
+      "Oshikundu (ontaku)",
+      "Palm wine",
+      "Madafu (fresh coconut water)",
+      "Mageu",
+      "Pito",
+      "Tej",
+      "Ataya",
+      "Habesha coffee ceremony",
+      "Umqombothi",
+      "Baobab juice (bouye)"
     ],
     "breakies": [
       "Ful Medames",
       "Uji",
-      "Mandazi"
+      "Mandazi",
+      "Msemmen (msamman)",
+      "Baghrir",
+      "Akara (àkàrà)",
+      "East African chapati",
+      "Kocho",
+      "Mhadjeb",
+      "Genfo (ga'at)",
+      "Malawah (malawax)",
+      "Mofo gasy",
+      "Feteer",
+      "Akamu (pap)",
+      "Sfenj"
     ],
     "fullies": [
       "Vegetable Couscous",
       "Vegetable Jollof Rice",
-      "Doro Wat"
+      "Doro Wat",
+      "Koshary (kushari)",
+      "Thiéboudienne (tiep)",
+      "Ndolé",
+      "Bunny chow",
+      "Jollof rice",
+      "Mafé (tigadèguèna)",
+      "Chakhchoukha",
+      "Potjiekos",
+      "Beyaynetu (vegetable fasting platter)",
+      "Waakye",
+      "Fufu",
+      "Bobotie"
     ]
   },
   {
@@ -79,17 +186,53 @@ const FOODIE_REGIONS = [
     "drinks": [
       "Agua de Jamaica",
       "Limonada",
-      "Hot Cocoa"
+      "Hot Cocoa",
+      "Atole de guayaba",
+      "Champurrado",
+      "Mexican horchata",
+      "Coquito",
+      "Chicha morada",
+      "Mate",
+      "Tereré",
+      "Tepache",
+      "Café de olla",
+      "Colada morada",
+      "Tejuino",
+      "Canelazo"
     ],
     "breakies": [
       "Arepas",
       "Gallo Pinto",
-      "Breakfast Burrito"
+      "Breakfast Burrito",
+      "Cachapa",
+      "Changua",
+      "Pão de queijo",
+      "Chilaquiles",
+      "Tamales de elote",
+      "Pupusas",
+      "Enfrijoladas",
+      "Pandebono",
+      "Arepa de chocolo",
+      "Bolón de verde",
+      "Huevos rancheros",
+      "Mangú"
     ],
     "fullies": [
       "Vegetarian Tacos",
       "Vegetarian Chili",
-      "Beef Empanadas"
+      "Beef Empanadas",
+      "Vegan moqueca",
+      "Pizza de provoleta",
+      "Enchiladas verdes",
+      "Arroz con gandules",
+      "Chiles rellenos",
+      "Poutine",
+      "Mofongo",
+      "Lomo saltado",
+      "Bandeja paisa",
+      "Peruvian ceviche",
+      "Asado",
+      "Pastel de choclo"
     ]
   },
   {
@@ -102,17 +245,48 @@ const FOODIE_REGIONS = [
     "drinks": [
       "Arabic Coffee",
       "Ayran",
-      "Lemon Mint Drink"
+      "Lemon Mint Drink",
+      "Jallab",
+      "Qamar al-din",
+      "Turkish coffee",
+      "Persian tea",
+      "Karak tea",
+      "Salep (sahlab)",
+      "Sekanjabin"
     ],
     "breakies": [
       "Manakish with Zaatar",
       "Labneh Plate",
-      "Shakshuka"
+      "Shakshuka",
+      "Ful medames",
+      "Feteer meshaltet",
+      "Kubaneh",
+      "Jachnun",
+      "Malawach",
+      "Gözleme",
+      "Menemen",
+      "Lahoh",
+      "Kahi",
+      "Ka'ak bread",
+      "Balaleet",
+      "Çılbır (Turkish eggs)"
     ],
     "fullies": [
       "Mujadara",
       "Falafel Wrap",
-      "Chicken Shawarma Bowl"
+      "Chicken Shawarma Bowl",
+      "Machboos (Kabsa/Makboos)",
+      "Hummus with pita",
+      "Maqluba",
+      "Sabich",
+      "Mansaf",
+      "Koshari",
+      "Molokhia with rice",
+      "Musakhan",
+      "Adana kebab",
+      "Ash reshteh",
+      "Saltah",
+      "Ghormeh sabzi"
     ]
   },
   {
@@ -125,17 +299,49 @@ const FOODIE_REGIONS = [
     "drinks": [
       "Flat White",
       "Feijoa Smoothie",
-      "Coconut Water"
+      "Coconut Water",
+      "Lemon, lime and bitters",
+      "ʻOtai",
+      "Lemon myrtle tea",
+      "Bundaberg ginger beer",
+      "Milo",
+      "Lemon & Paeroa (L&P)",
+      "Long black",
+      "Iced coffee",
+      "Melbourne café milkshake"
     ],
     "breakies": [
       "Avocado Toast",
       "Weet-Bix with Fruit",
-      "Eggs on Sourdough"
+      "Eggs on Sourdough",
+      "Wattleseed damper",
+      "Rēwena bread",
+      "Vegemite on toast",
+      "Bacon-and-egg roll",
+      "Australian bacon-and-eggs breakfast",
+      "Smoked-salmon pikelets",
+      "Oatmeal porridge with raisins",
+      "Scones with jam and cream",
+      "Modified English breakfast",
+      "Buttered crumpet",
+      "French toast with bacon"
     ],
     "fullies": [
       "Kumara Soup",
       "Vegetable Barbecue",
-      "Meat Pie"
+      "Meat Pie",
+      "Hāngī dinner",
+      "Māori boil-up",
+      "Mumu",
+      "Fish and chips (Wellington serving)",
+      "Barramundi and chips",
+      "Australian-style meat pie",
+      "Kokoda",
+      "New Zealand fish pie with greens",
+      "Fijian lovo",
+      "Green-lipped mussels",
+      "Sausage sizzle",
+      "Whitebait fritter"
     ]
   }
 ];

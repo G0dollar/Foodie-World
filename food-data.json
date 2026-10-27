@@ -27,6 +27,102 @@
         "Ripe mango, plain yogurt, milk, cardamom",
         "Blend mango and yogurt with a splash of milk. Add cardamom and serve chilled.",
         "🥭"
+      ],
+      [
+        "Thai iced tea",
+        "Thailand",
+        true,
+        "black tea, sugar, condensed or evaporated milk",
+        "Brew strong tea, sweeten, pour over ice and finish with milk.",
+        "☕"
+      ],
+      [
+        "Bubble tea",
+        "Taiwan",
+        true,
+        "tea, tapioca pearls, sugar, milk or non-dairy alternative",
+        "Cook pearls, brew tea, mix or shake with sweetener and serve cold.",
+        "☕"
+      ],
+      [
+        "Cà phê sữa đá (Vietnamese iced coffee)",
+        "Vietnam",
+        true,
+        "coffee, sweetened condensed milk, ice",
+        "Brew concentrated coffee, stir with condensed milk and pour over ice.",
+        "☕"
+      ],
+      [
+        "Teh tarik",
+        "Malaysia; popular in Singapore and Brunei",
+        true,
+        "black tea, condensed milk, evaporated milk",
+        "Brew tea, sweeten with milk and pour between vessels until foamy.",
+        "☕"
+      ],
+      [
+        "Cendol",
+        "Southeast Asia; Malaysia/Indonesia associations, origin disputed",
+        true,
+        "rice-flour jelly, coconut milk, palm sugar, shaved ice",
+        "Cook and press the jelly; serve with palm-sugar syrup, coconut milk and ice.",
+        "☕"
+      ],
+      [
+        "Sikhye",
+        "Korea",
+        true,
+        "cooked rice, malted barley, water, sugar",
+        "Steep barley malt, use the sweetened liquid to ferment rice lightly, then strain and chill.",
+        "☕"
+      ],
+      [
+        "Bandung",
+        "Singapore; popular in Malaysia and Brunei",
+        true,
+        "rose cordial or syrup, milk, ice",
+        "Stir rose syrup into chilled milk and serve cold.",
+        "☕"
+      ],
+      [
+        "Barley tea (boricha/mugicha)",
+        "Korea and Japan",
+        true,
+        "roasted barley, water",
+        "Simmer or steep roasted barley, strain and serve hot or chilled.",
+        "☕"
+      ],
+      [
+        "Falooda",
+        "South Asia, especially India",
+        true,
+        "milk, rose syrup, vermicelli, basil seeds, ice cream",
+        "Soak basil seeds, cook noodles, then layer with syrup and chilled milk; use ice cream without gelatin.",
+        "☕"
+      ],
+      [
+        "Kopi tubruk",
+        "Java, Indonesia",
+        true,
+        "fine coffee grounds, hot water, optional sugar",
+        "Steep coffee grounds directly in a cup and let them settle before drinking.",
+        "☕"
+      ],
+      [
+        "Soy milk (doujiang)",
+        "China",
+        true,
+        "soybeans, water, optional sweetener",
+        "Soak and grind soybeans with water, cook the mixture and strain.",
+        "☕"
+      ],
+      [
+        "Sugarcane juice (nước mía)",
+        "Widespread in South and Southeast Asia; no single origin asserted",
+        true,
+        "fresh sugarcane, optional lime",
+        "Clean and press peeled sugarcane, strain the juice and serve cold.",
+        "☕"
       ]
     ],
     "breakies": [
@@ -53,6 +149,94 @@
         "Eggs, soy sauce, sugar, oil",
         "Beat eggs with soy sauce and a little sugar. Cook thin layers in an oiled pan, rolling each layer into the next; cook through and slice.",
         "🍳"
+      ],
+      [
+        "Kaya toast",
+        "Singapore and Malaysia",
+        false,
+        "toast, kaya coconut jam, butter",
+        "Toast bread and spread with kaya and butter; kaya commonly contains eggs.",
+        "🥣"
+      ],
+      [
+        "Jianbing",
+        "Tianjin, China",
+        false,
+        "wheat or mung-bean batter, egg, scallion, sauces, crisp wafer",
+        "Spread batter on a hot griddle, add egg and toppings, then fold around a crisp wafer.",
+        "🥣"
+      ],
+      [
+        "Dosa",
+        "Southern India",
+        true,
+        "rice, urad dal, water",
+        "Soak, grind and ferment the grains; spread batter thinly on a hot griddle and cook until crisp.",
+        "🥣"
+      ],
+      [
+        "Upma",
+        "Southern India",
+        true,
+        "semolina, water, onion, mustard seeds, curry leaves, optional peanuts",
+        "Roast semolina, temper aromatics, add water and cook until soft.",
+        "🥣"
+      ],
+      [
+        "Appam",
+        "Kerala, India",
+        true,
+        "fermented rice batter, coconut milk",
+        "Ferment the batter, swirl it in a small deep pan and cook until the center sets and edges crisp.",
+        "🥣"
+      ],
+      [
+        "Puttu",
+        "Kerala, India",
+        true,
+        "rice flour, water, grated coconut",
+        "Moisten rice flour, layer with coconut and steam in a cylindrical mould.",
+        "🥣"
+      ],
+      [
+        "Chinese rice congee",
+        "China",
+        false,
+        "rice, water or stock, pork floss, pickled mustard greens",
+        "Simmer rice until porridge-like and add the toppings.",
+        "🥣"
+      ],
+      [
+        "Champorado",
+        "Philippines",
+        true,
+        "sticky rice, tablea or cocoa, sugar, milk",
+        "Simmer rice with chocolate and sugar until thick, then serve with milk.",
+        "🥣"
+      ],
+      [
+        "Youtiao",
+        "China",
+        true,
+        "wheat flour, leavening, salt, oil",
+        "Rest the dough, stretch paired strips and deep-fry until puffed and golden.",
+        "🥣"
+      ],
+      [
+        "Paratha",
+        "Indian subcontinent",
+        true,
+        "wheat flour, water, oil or ghee",
+        "Knead, fold and roll the dough, then cook on a griddle.",
+        "🥣"
+      ],
+      [
+        "Natto over rice",
+        "Japan",
+        true,
+        "fermented soybeans, rice, soy sauce, mustard",
+        "Stir natto until sticky and serve over warm rice with fish-free seasoning.",
+        "🥣"
       ]
     ],
     "fullies": [
@@ -79,6 +263,102 @@
         "Chicken, basmati rice, yogurt, onion, ginger, garlic, biryani spices",
         "Marinate chicken in yogurt and spices. Cook the chicken, layer with partially cooked rice and browned onions, and steam covered until chicken and rice are fully cooked.",
         "🍗"
+      ],
+      [
+        "Dolsot bibimbap",
+        "Korea",
+        false,
+        "rice, seasoned vegetables, gochujang, sesame oil, egg",
+        "Arrange toppings over rice in a hot stone bowl and serve sizzling.",
+        "🍽️"
+      ],
+      [
+        "Pad thai with prawns",
+        "Thailand",
+        false,
+        "rice noodles, tamarind, fish sauce, egg, tofu, prawns, peanuts, bean sprouts",
+        "Stir-fry noodles with sauce, prawns, egg and other toppings.",
+        "🍽️"
+      ],
+      [
+        "Mapo tofu",
+        "Sichuan, China",
+        false,
+        "tofu, ground pork, doubanjiang, chili oil, garlic, Sichuan pepper",
+        "Fry aromatics and pork, simmer with tofu and thicken lightly.",
+        "🍽️"
+      ],
+      [
+        "Nasi goreng kampung",
+        "Indonesia",
+        false,
+        "rice, garlic, shallots, chili, sweet soy, egg, commonly shrimp paste",
+        "Stir-fry cooked rice with aromatics and serve with accompaniments.",
+        "🍽️"
+      ],
+      [
+        "Gado-gado",
+        "Indonesia",
+        true,
+        "blanched vegetables, tofu or tempeh, peanut sauce",
+        "Cook the vegetables, prepare peanut sauce and combine; this version omits egg and shrimp paste.",
+        "🍽️"
+      ],
+      [
+        "Dal makhani",
+        "Punjab, India",
+        true,
+        "whole black gram, kidney beans, tomatoes, spices, butter, cream",
+        "Slow-cook legumes in spiced tomato gravy and finish with dairy; use no meat stock.",
+        "🍽️"
+      ],
+      [
+        "Shoyu ramen",
+        "Japan",
+        false,
+        "noodles, soy-seasoned broth, pork or chicken stock, chashu, commonly egg",
+        "Prepare broth, cook noodles and assemble with toppings.",
+        "🍽️"
+      ],
+      [
+        "Meatball phở",
+        "Vietnam",
+        false,
+        "rice noodles, beef broth, beef meatballs, herbs, fish sauce",
+        "Simmer broth, cook noodles and serve with meatballs and herbs.",
+        "🍽️"
+      ],
+      [
+        "Nyonya laksa",
+        "Melaka, Malaysia; Peranakan cuisine",
+        false,
+        "coconut broth, noodles, laksa paste, tofu puffs, cockles, hard-boiled egg",
+        "Simmer spiced broth, add noodles and toppings; commonly includes shrimp paste.",
+        "🍽️"
+      ],
+      [
+        "Aloo gobi",
+        "North India",
+        true,
+        "potatoes, cauliflower, onion, tomato, ginger, spices",
+        "Temper spices, add vegetables and cook until tender.",
+        "🍽️"
+      ],
+      [
+        "Beef rendang",
+        "Minangkabau, West Sumatra, Indonesia",
+        false,
+        "beef, coconut milk, chilies, lemongrass, galangal, aromatics",
+        "Slowly simmer until the meat is tender and the sauce reduces.",
+        "🍽️"
+      ],
+      [
+        "Bulgogi",
+        "Korea",
+        false,
+        "thinly sliced beef, soy sauce, garlic, sugar or pear, sesame",
+        "Marinate the beef, then grill or stir-fry.",
+        "🍽️"
       ]
     ]
   },
@@ -110,6 +390,102 @@
         "Lemon juice, water, sugar",
         "Dissolve sugar in warm water and cool. Mix with lemon juice, freeze in a shallow tray, and scrape regularly with a fork.",
         "🍋"
+      ],
+      [
+        "Glühwein (mulled wine)",
+        "German-speaking Central Europe",
+        true,
+        "Red wine, citrus, cinnamon, cloves, optional sugar",
+        "Gently warm the wine with spices and citrus to infuse; do not boil.",
+        "☕"
+      ],
+      [
+        "Cappuccino",
+        "Italy",
+        true,
+        "Espresso coffee, milk",
+        "Pull espresso, steam and foam milk, then pour over the espresso.",
+        "☕"
+      ],
+      [
+        "Sangria",
+        "Spain",
+        true,
+        "Red wine, orange, lemon, other fruit, optional sugar or brandy",
+        "Combine fruit and wine, chill to infuse, and serve cold.",
+        "☕"
+      ],
+      [
+        "Turkish coffee",
+        "Turkey",
+        true,
+        "Very finely ground coffee, water, optional sugar",
+        "Slowly heat coffee and water in a cezve until foamy; let grounds settle before serving.",
+        "☕"
+      ],
+      [
+        "Irish coffee",
+        "Ireland",
+        true,
+        "Coffee, Irish whiskey, sugar, cream",
+        "Dissolve sugar in coffee and whiskey; float lightly whipped cream on top.",
+        "☕"
+      ],
+      [
+        "Apple cider (fermented cider)",
+        "Britain and other European cider regions",
+        true,
+        "Pressed apple juice, yeast",
+        "Ferment pressed juice, mature, then serve chilled or at room temperature.",
+        "☕"
+      ],
+      [
+        "Latte macchiato",
+        "Italy",
+        true,
+        "Espresso, milk",
+        "Pour espresso into steamed milk to create distinct layers.",
+        "☕"
+      ],
+      [
+        "Greek frappé coffee",
+        "Greece",
+        true,
+        "Instant coffee, cold water, ice, optional sugar and milk",
+        "Shake or froth instant coffee with a little water and optional sugar; pour over ice and top with water or milk.",
+        "☕"
+      ],
+      [
+        "Ouzo",
+        "Greece",
+        true,
+        "Anise-flavoured distilled spirit",
+        "Serve chilled, neat or diluted with cold water; dilution turns it cloudy.",
+        "☕"
+      ],
+      [
+        "Port wine",
+        "Douro Valley, Portugal",
+        true,
+        "Grapes, yeast, grape spirit",
+        "Ferment grape must, fortify with grape spirit, then mature before serving.",
+        "☕"
+      ],
+      [
+        "French dry vermouth",
+        "France",
+        true,
+        "Wine, botanicals, fortifying spirit",
+        "Aromatize wine with botanicals and fortify; serve chilled or as a cocktail ingredient.",
+        "☕"
+      ],
+      [
+        "Sherry",
+        "Jerez, Andalusia, Spain",
+        true,
+        "White wine grapes, yeast, grape spirit",
+        "Ferment the wine, fortify, and mature using the sherry ageing process.",
+        "☕"
       ]
     ],
     "breakies": [
@@ -136,6 +512,102 @@
         "Eggs, butter, bread, salt, pepper",
         "Toast the bread. Stir beaten eggs gently in melted butter over low heat until cooked; serve on toast.",
         "🍳"
+      ],
+      [
+        "Karelian pasty (karjalanpiirakka)",
+        "Karelia, Finland",
+        true,
+        "Rye flour, rice, milk or water, butter, salt",
+        "Cook the rice, shape and fill the dough, pleat the edges, bake, and brush with butter. Serve plain without egg-butter topping.",
+        "🥣"
+      ],
+      [
+        "Muesli",
+        "Switzerland",
+        true,
+        "Rolled oats, fruit, nuts or seeds, milk or yogurt",
+        "Combine the ingredients; serve directly or soak briefly for a softer texture.",
+        "🥣"
+      ],
+      [
+        "Crêpes",
+        "France",
+        false,
+        "Flour, eggs, milk, butter, optional sugar",
+        "Whisk a thin batter, rest briefly, then cook in a lightly buttered pan.",
+        "🥣"
+      ],
+      [
+        "Croissant",
+        "France-associated; image-page description says origin is uncertain",
+        true,
+        "Flour, butter, yeast, milk, sugar, salt",
+        "Laminate yeasted dough with butter, shape, proof, and bake until layered and golden.",
+        "🥣"
+      ],
+      [
+        "Kaiserschmarrn",
+        "Austria",
+        false,
+        "Eggs, flour, milk, sugar, butter, optional raisins",
+        "Cook a thick pancake in butter, tear into pieces, finish browning, and dust with sugar.",
+        "🥣"
+      ],
+      [
+        "Swedish pancakes (pannkakor)",
+        "Sweden",
+        false,
+        "Flour, eggs, milk, butter",
+        "Whisk a thin batter and cook small, thin pancakes in a buttered pan; serve with jam.",
+        "🥣"
+      ],
+      [
+        "Semla",
+        "Sweden",
+        true,
+        "Flour, milk, butter, yeast, cardamom, almond paste, cream, sugar",
+        "Bake sweet buns, split or hollow them, and fill with almond paste and cream. This preparation omits egg wash.",
+        "🥣"
+      ],
+      [
+        "Full English breakfast",
+        "England, United Kingdom",
+        false,
+        "Bacon, sausage, egg, baked beans, tomato, mushrooms, bread",
+        "Fry or grill the meat, egg, tomato, and mushrooms; heat the beans and serve with bread.",
+        "🥣"
+      ],
+      [
+        "Welsh rarebit",
+        "Wales",
+        true,
+        "Bread, cheese, ale, mustard",
+        "Make a melted cheese-and-ale mixture with mustard, spread over toast, and grill until bubbling.",
+        "🥣"
+      ],
+      [
+        "Belgian waffle",
+        "Belgium",
+        false,
+        "Flour, eggs, milk, butter, sugar, leavening",
+        "Mix the batter and cook it in a heated waffle iron until crisp and golden.",
+        "🥣"
+      ],
+      [
+        "Brioche",
+        "France",
+        false,
+        "Flour, eggs, butter, milk, yeast, sugar, salt",
+        "Knead an enriched yeasted dough, let it rise, shape, proof, and bake.",
+        "🥣"
+      ],
+      [
+        "Pain perdu",
+        "France",
+        false,
+        "Bread, egg, milk, butter, optional sugar",
+        "Dip bread in egg and milk, then fry in butter until golden.",
+        "🥣"
       ]
     ],
     "fullies": [
@@ -162,6 +634,102 @@
         "White fish, potato, flour, sparkling water, oil",
         "Cut and cook potato chips. Coat fish in a flour-and-sparkling-water batter, then fry carefully until crisp and cooked through.",
         "🐟"
+      ],
+      [
+        "Goulash",
+        "Hungary / Central Europe",
+        false,
+        "Beef, onion, paprika, garlic, stock, optional caraway",
+        "Brown beef and onion, add seasoning and stock, then simmer until tender.",
+        "🍽️"
+      ],
+      [
+        "Pierogi (potato-and-cheese filling)",
+        "Poland",
+        true,
+        "Flour, water, potato, farmer’s cheese, onion; egg-free dough",
+        "Fill and seal dough rounds, boil until tender, and optionally pan-fry with onion.",
+        "🍽️"
+      ],
+      [
+        "Moussaka",
+        "Greece",
+        false,
+        "Aubergine, lamb or beef, tomato, onion, milk, butter, flour",
+        "Cook the meat sauce, layer with aubergine, top with béchamel, and bake.",
+        "🍽️"
+      ],
+      [
+        "Vegetarian borscht",
+        "Eastern Europe",
+        true,
+        "Beetroot, cabbage, potato, onion, garlic, vegetable stock",
+        "Simmer vegetables in stock until tender; serve with optional sour cream.",
+        "🍽️"
+      ],
+      [
+        "Wiener Schnitzel",
+        "Austria",
+        false,
+        "Veal, flour, egg, breadcrumbs, oil or clarified butter",
+        "Pound the cutlet thin, coat in flour, egg, and breadcrumbs, then shallow-fry until crisp.",
+        "🍽️"
+      ],
+      [
+        "Lasagna (meat ragù)",
+        "Italy",
+        false,
+        "Lasagna sheets, beef ragù, tomato, milk, butter, flour, cheese",
+        "Layer ragù, pasta, and béchamel; bake until bubbling and browned.",
+        "🍽️"
+      ],
+      [
+        "Mushroom risotto",
+        "Italy",
+        true,
+        "Risotto rice, mushrooms, onion, vegetable stock, butter, Parmesan",
+        "Sauté onion and mushrooms, add rice, then stir in warm stock gradually; finish with butter and Parmesan.",
+        "🍽️"
+      ],
+      [
+        "Pizza Margherita",
+        "Italy",
+        true,
+        "Wheat dough, tomato, mozzarella, basil, olive oil",
+        "Top stretched dough with tomato and cheese, bake hot, then finish with basil and oil.",
+        "🍽️"
+      ],
+      [
+        "Spaghetti carbonara",
+        "Italy",
+        false,
+        "Spaghetti, guanciale, eggs, Pecorino Romano, black pepper",
+        "Cook pasta and pork; toss off the heat with egg-and-cheese mixture and pasta water.",
+        "🍽️"
+      ],
+      [
+        "Stuffed cabbage rolls",
+        "Eastern Europe",
+        false,
+        "Cabbage, ground meat, rice, onion, tomato",
+        "Soften cabbage leaves, wrap the filling, and simmer the rolls in tomato sauce until cooked.",
+        "🍽️"
+      ],
+      [
+        "Beef Wellington",
+        "United Kingdom",
+        false,
+        "Beef fillet, mushrooms, puff pastry, mustard, optional prosciutto and egg wash",
+        "Sear the beef, wrap it with mushroom duxelles and pastry, then bake until the pastry is golden and the beef reaches the desired doneness.",
+        "🍽️"
+      ],
+      [
+        "Steak and kidney pie",
+        "United Kingdom",
+        false,
+        "Beef steak, kidney, onion, stock, pastry",
+        "Cook steak and kidney with onion and stock until tender, place in a pastry case, cover with pastry, and bake.",
+        "🍽️"
       ]
     ]
   },
@@ -193,6 +761,102 @@
         "Rooibos tea, water, optional milk",
         "Steep rooibos in freshly boiled water, strain and serve plain or with milk.",
         "🫖"
+      ],
+      [
+        "Kunu (kunu zaki)",
+        "Northern Nigeria",
+        true,
+        "Millet or sorghum (sometimes maize), ginger, sweet potato, water",
+        "Soak and blend the grain with ginger and sweet potato; mix part with boiling water, combine with the rest, allow to settle or ferment, then strain.",
+        "☕"
+      ],
+      [
+        "Café Touba",
+        "Senegal",
+        true,
+        "Coffee, grains of Selim (djar), sometimes cloves; optional sugar",
+        "Roast coffee with the spices, grind, then prepare by filtering or drip brewing.",
+        "☕"
+      ],
+      [
+        "Oshikundu (ontaku)",
+        "Namibia, especially northern Namibia",
+        true,
+        "mahangu pearl millet, bran, malted sorghum flour, water",
+        "Mix the millet, bran and malted sorghum flour with water and let the mixture ferment for several hours.",
+        "☕"
+      ],
+      [
+        "Palm wine",
+        "Nigeria; the verified image is from Offa, Kwara State",
+        true,
+        "fresh palm sap",
+        "Collect the sap from a palm tree and serve fresh or allow it to ferment naturally.",
+        "☕"
+      ],
+      [
+        "Madafu (fresh coconut water)",
+        "Kenya",
+        true,
+        "water from a young coconut",
+        "Open a young coconut and serve its water fresh.",
+        "☕"
+      ],
+      [
+        "Mageu",
+        "Botswana and Southern Africa; the image page confirms it was made in Botswana",
+        true,
+        "maize meal, water, fermentation starter",
+        "Cook maize porridge, cool it and ferment it with a starter until pleasantly tart.",
+        "☕"
+      ],
+      [
+        "Pito",
+        "Ghana; the verified image is from a pito bar in Navrongo, Upper East Region",
+        true,
+        "fermented grain beer; the source photo page does not specify ingredients",
+        "A traditional fermented grain drink; the Commons photo page confirms the drink and location but does not state its ingredients.",
+        "☕"
+      ],
+      [
+        "Tej",
+        "Ethiopia",
+        true,
+        "Honey, water, gesho",
+        "Combine honey and water, add gesho, and ferment to make a traditional honey wine.",
+        "☕"
+      ],
+      [
+        "Ataya",
+        "The Gambia",
+        true,
+        "Green tea, water, sugar",
+        "Brew green tea with water and sugar; traditionally pour between glasses as it is served.",
+        "☕"
+      ],
+      [
+        "Habesha coffee ceremony",
+        "Ethiopia and Eritrea",
+        true,
+        "Coffee beans, water; optional sugar",
+        "Roast and grind the beans, then brew with water in a jebena and serve.",
+        "☕"
+      ],
+      [
+        "Umqombothi",
+        "South Africa",
+        true,
+        "Maize, maize malt, sorghum malt, yeast, water",
+        "Combine and ferment the grains and malt with yeast and water to make a traditional beer.",
+        "☕"
+      ],
+      [
+        "Baobab juice (bouye)",
+        "Senegal and West Africa",
+        true,
+        "Dried baobab fruit pulp, clean water, sugar or other sweetener to taste",
+        "Dissolve dried baobab pulp in clean water, sieve out seeds and fibers, and sweeten to taste.",
+        "☕"
       ]
     ],
     "breakies": [
@@ -219,6 +883,102 @@
         "Flour, coconut milk, sugar, baking powder, cardamom, oil",
         "Mix an egg-free dough with the flour, coconut milk, sugar, baking powder and cardamom. Rest, roll, cut and fry carefully until cooked and golden.",
         "🍩"
+      ],
+      [
+        "Msemmen (msamman)",
+        "Maghreb, especially Morocco and Algeria",
+        true,
+        "Flour, durum semolina, water, salt, yeast, sugar; butter is common",
+        "Make and rest the dough, fold into layered squares, then cook on a griddle.",
+        "🥣"
+      ],
+      [
+        "Baghrir",
+        "Maghreb: Algeria, Morocco and Tunisia",
+        true,
+        "Semolina or flour, yeast, water, salt; often served with honey and butter",
+        "Mix and ferment an egg-free batter; pour onto a hot pan and cook on one side until holes form.",
+        "🥣"
+      ],
+      [
+        "Akara (àkàrà)",
+        "Yoruba cuisine, Nigeria and neighboring West Africa",
+        true,
+        "Peeled beans, onion, pepper, vegetable or palm oil",
+        "Blend the beans with aromatics, then fry spoonfuls until cooked and golden.",
+        "🥣"
+      ],
+      [
+        "East African chapati",
+        "East Africa, including Kenya; an Indian-origin flatbread adopted into regional foodways",
+        true,
+        "Wheat flour, water, salt, oil",
+        "Knead and rest the dough, roll it thin, then cook on a hot pan with a little oil.",
+        "🥣"
+      ],
+      [
+        "Kocho",
+        "Gurage cuisine, Ethiopia",
+        true,
+        "Enset (false-banana) pulp",
+        "Extract and ferment the enset pulp, then cook it as a dense bread; it is commonly served with greens or stews.",
+        "🥣"
+      ],
+      [
+        "Mhadjeb",
+        "Algeria",
+        true,
+        "Semolina, flour, onion, tomato, pepper, garlic, oil, spices",
+        "Make a semolina-based dough, fill with cooked vegetables, fold into a thin parcel, and griddle.",
+        "🥣"
+      ],
+      [
+        "Genfo (ga'at)",
+        "Ethiopia and Eritrea",
+        true,
+        "Barley or wheat flour, water, butter or clarified butter, berbere",
+        "Cook flour with water into a thick porridge, shape it, and serve with spiced butter in the center.",
+        "🥣"
+      ],
+      [
+        "Malawah (malawax)",
+        "Somalia",
+        false,
+        "Flour, eggs, corn flour, milk, butter or ghee, sugar, cardamom",
+        "Mix the ingredients into a sweet batter, then cook as a thin pancake on a hot pan.",
+        "🥣"
+      ],
+      [
+        "Mofo gasy",
+        "Madagascar",
+        true,
+        "Rice flour, sugar, water; optional coconut milk or vanilla",
+        "Mix into a batter and cook in a greased round mold until set and browned.",
+        "🥣"
+      ],
+      [
+        "Feteer",
+        "Egypt",
+        true,
+        "Flour, water, salt, ghee; the pictured breakfast serving includes sugar-cane honey, white cheese, and cucumber",
+        "Layer and fold dough with ghee, bake until golden, and serve with desired sweet or savory accompaniments.",
+        "🥣"
+      ],
+      [
+        "Akamu (pap)",
+        "Nigeria",
+        true,
+        "Fermented maize, water",
+        "Mix the fermented maize with water and cook with hot water, stirring until it thickens.",
+        "🥣"
+      ],
+      [
+        "Sfenj",
+        "Morocco",
+        true,
+        "Flour, water, sugar, yeast, salt, oil",
+        "Make and proof a soft dough, shape into rings, then deep-fry until golden.",
+        "🥣"
       ]
     ],
     "fullies": [
@@ -245,6 +1005,102 @@
         "Chicken, onion, berbere spice, butter, garlic, ginger",
         "Slowly cook chopped onion, then add butter, ginger, garlic and berbere. Add chicken and water and simmer until the chicken is fully cooked.",
         "🍲"
+      ],
+      [
+        "Koshary (kushari)",
+        "Egypt",
+        true,
+        "Rice, lentils, egg-free pasta, chickpeas, tomato sauce, onions, oil and seasoning",
+        "Cook rice, lentils and pasta; serve layered with tomato sauce, chickpeas and crisp onions.",
+        "🍽️"
+      ],
+      [
+        "Thiéboudienne (tiep)",
+        "Senegal; associated with Saint-Louis",
+        false,
+        "Fish, rice, vegetables, tomato and seasoning",
+        "Season and cook the fish; prepare rice with a tomato-and-vegetable cooking liquid, then serve with the vegetables and fish.",
+        "🍽️"
+      ],
+      [
+        "Ndolé",
+        "Cameroon",
+        false,
+        "Ndoleh leaves, peanuts, onion, garlic, meat, cod and shrimp in the pictured version",
+        "Cook and soften the leaves; prepare a peanut-and-aromatics base, add the chosen protein and simmer together.",
+        "🍽️"
+      ],
+      [
+        "Bunny chow",
+        "Durban, South Africa; associated with Indian South African cuisine",
+        false,
+        "Bread and curry; the verified image depicts mutton curry",
+        "Hollow out a loaf, prepare a curry, and serve it in the bread.",
+        "🍽️"
+      ],
+      [
+        "Jollof rice",
+        "West Africa; the Commons image is tagged to Ghana",
+        true,
+        "Rice, tomato, tomato paste, onion, pepper and seasoning; use vegetable stock",
+        "Cook down the tomato-pepper base, add rice and vegetable stock, then cover and cook until tender.",
+        "🍽️"
+      ],
+      [
+        "Mafé (tigadèguèna)",
+        "Mali and West Africa",
+        false,
+        "Peanuts, beef, tomato, onion and vegetables",
+        "Brown the meat and aromatics, add peanut sauce and liquid, then simmer until tender.",
+        "🍽️"
+      ],
+      [
+        "Chakhchoukha",
+        "Algeria",
+        false,
+        "Torn or shredded flatbread, chickpeas, tomato and lamb in common versions",
+        "Prepare the stew and combine it with or serve it over the bread pieces.",
+        "🍽️"
+      ],
+      [
+        "Potjiekos",
+        "South Africa",
+        false,
+        "Meat, potatoes or other vegetables, liquid and seasoning",
+        "Layer ingredients in a three-legged cast-iron pot and cook slowly over a fire.",
+        "🍽️"
+      ],
+      [
+        "Beyaynetu (vegetable fasting platter)",
+        "Ethiopia and Eritrea",
+        true,
+        "Injera, lentils, greens, legumes, and assorted vegetable stews",
+        "Arrange injera with several vegetable-only stews and sides on top.",
+        "🍽️"
+      ],
+      [
+        "Waakye",
+        "Ghana",
+        false,
+        "Rice, beans; the pictured serving includes fish and egg with vegetables and ripe plantains",
+        "Cook rice and beans together, then serve with chosen accompaniments; the pictured version includes fish and egg.",
+        "🍽️"
+      ],
+      [
+        "Fufu",
+        "West Africa",
+        true,
+        "Cassava, plantains, or cocoyams",
+        "Cook the chosen starchy ingredient and pound or mash it into a smooth, elastic dough; serve with soup or stew.",
+        "🍽️"
+      ],
+      [
+        "Bobotie",
+        "South Africa",
+        false,
+        "Minced meat, onion, bread, milk, curry spices, egg",
+        "Cook the spiced minced-meat mixture, top with an egg custard, and bake until set.",
+        "🍽️"
       ]
     ]
   },
@@ -276,6 +1132,102 @@
         "Cocoa powder, milk, sugar, vanilla",
         "Mix cocoa and sugar with a splash of milk to form a paste. Whisk in remaining milk, warm gently and add vanilla.",
         "☕"
+      ],
+      [
+        "Atole de guayaba",
+        "Mexico",
+        true,
+        "Guava, masa, water or milk, sugar, cinnamon",
+        "Blend guava; whisk masa into liquid and simmer with sweetener until thick.",
+        "☕"
+      ],
+      [
+        "Champurrado",
+        "Mexico",
+        true,
+        "Corn masa, chocolate, piloncillo, cinnamon, water or milk",
+        "Whisk masa into liquid; add chocolate and spices and simmer, stirring until smooth.",
+        "☕"
+      ],
+      [
+        "Mexican horchata",
+        "Mexico",
+        true,
+        "Rice, water, cinnamon, sugar; milk optional",
+        "Soak rice and cinnamon, blend, strain, sweeten, and chill.",
+        "☕"
+      ],
+      [
+        "Coquito",
+        "Puerto Rico",
+        true,
+        "Coconut milk and cream, evaporated and condensed milk, rum, vanilla, cinnamon",
+        "Blend, chill, and serve. This is the egg-free version.",
+        "☕"
+      ],
+      [
+        "Chicha morada",
+        "Peru",
+        true,
+        "Purple corn, pineapple, apple, cinnamon, cloves, lime, sugar",
+        "Simmer corn and fruit with spices, strain, sweeten, and chill.",
+        "☕"
+      ],
+      [
+        "Mate",
+        "Uruguay and Southern Cone",
+        true,
+        "Yerba mate, hot water",
+        "Add hot—not boiling—water to yerba in a gourd and sip through a bombilla.",
+        "☕"
+      ],
+      [
+        "Tereré",
+        "Paraguay",
+        true,
+        "Yerba mate, ice water, optional citrus or herbs",
+        "Pour chilled water over yerba in a guampa and sip through a bombilla.",
+        "☕"
+      ],
+      [
+        "Tepache",
+        "Mexico",
+        true,
+        "Pineapple rind, water, piloncillo, optional cinnamon",
+        "Ferment the sweetened mixture briefly, strain, and serve chilled.",
+        "☕"
+      ],
+      [
+        "Café de olla",
+        "Mexico",
+        true,
+        "Coffee, cinnamon, piloncillo, water; cloves optional",
+        "Simmer cinnamon and piloncillo, brew with coffee, and strain.",
+        "☕"
+      ],
+      [
+        "Colada morada",
+        "Ecuador",
+        true,
+        "Purple corn flour, berries or other fruit, naranjilla, herbs, spices, sugar",
+        "Simmer fruit and spices; strain, thicken with corn flour, and serve warm or chilled.",
+        "☕"
+      ],
+      [
+        "Tejuino",
+        "Mexico, especially Jalisco",
+        true,
+        "Masa or corn dough, piloncillo, lime, salt, ice",
+        "Cook a masa-and-piloncillo mixture, ferment briefly, then serve over ice with lime.",
+        "☕"
+      ],
+      [
+        "Canelazo",
+        "Andean Colombia and Ecuador",
+        true,
+        "Panela, cinnamon, water, citrus, optional aguardiente",
+        "Simmer the spices and panela, then add spirit if using.",
+        "☕"
       ]
     ],
     "breakies": [
@@ -302,6 +1254,102 @@
         "Tortilla, eggs, cooked beans, potato, salsa",
         "Cook diced potato until tender and scramble the eggs until cooked. Wrap with hot beans and salsa in a warm tortilla.",
         "🌯"
+      ],
+      [
+        "Cachapa",
+        "Venezuela",
+        true,
+        "Fresh corn, salt, butter or oil, optional cheese",
+        "Blend corn into a coarse batter and cook on a griddle; fold around cheese if desired.",
+        "🥣"
+      ],
+      [
+        "Changua",
+        "Colombia",
+        false,
+        "Milk, water, scallion, cilantro, bread, egg",
+        "Simmer the liquid with herbs and serve with bread; the customary egg makes this version non-vegetarian under the site rule.",
+        "🥣"
+      ],
+      [
+        "Pão de queijo",
+        "Brazil",
+        false,
+        "Tapioca starch, cheese, milk, oil, eggs",
+        "Scald starch with hot milk and oil, mix with cheese and eggs, shape, and bake.",
+        "🥣"
+      ],
+      [
+        "Chilaquiles",
+        "Mexico",
+        true,
+        "Corn tortillas, salsa verde or roja, onion, crema or cheese; egg optional",
+        "Fry or bake tortilla pieces, toss briefly with hot salsa, and add toppings.",
+        "🥣"
+      ],
+      [
+        "Tamales de elote",
+        "Mexico and Central America",
+        true,
+        "Fresh corn, masa, butter, cinnamon, sugar, corn husks",
+        "Mix the corn batter, wrap in husks, and steam until set.",
+        "🥣"
+      ],
+      [
+        "Pupusas",
+        "El Salvador",
+        true,
+        "Masa harina, water, cheese and/or refried beans; curtido to serve",
+        "Enclose filling in masa, flatten, and griddle until cooked.",
+        "🥣"
+      ],
+      [
+        "Enfrijoladas",
+        "Mexico",
+        true,
+        "Tortillas, cooked beans, broth or water, onion, crema, cheese",
+        "Blend beans into sauce, warm tortillas, coat or fold them in the sauce, and add toppings.",
+        "🥣"
+      ],
+      [
+        "Pandebono",
+        "Colombia",
+        false,
+        "Cassava starch, corn flour, cheese, eggs, milk",
+        "Mix, shape into rolls, and bake.",
+        "🥣"
+      ],
+      [
+        "Arepa de chocolo",
+        "Colombia",
+        true,
+        "Fresh corn, cornmeal, salt, butter, cheese",
+        "Blend or grind corn with the other ingredients, shape into cakes, and griddle until browned.",
+        "🥣"
+      ],
+      [
+        "Bolón de verde",
+        "Ecuador",
+        true,
+        "Green plantain, cheese, salt, oil or butter",
+        "Cook and mash plantain, mix with cheese, form balls, and fry or bake.",
+        "🥣"
+      ],
+      [
+        "Huevos rancheros",
+        "Mexico",
+        false,
+        "Eggs, corn tortillas, tomato, chilli, onion",
+        "Fry eggs, warm tortillas, and serve with salsa.",
+        "🥣"
+      ],
+      [
+        "Mangú",
+        "Dominican Republic",
+        false,
+        "Green plantains, salt, butter or oil, salami, queso blanco",
+        "Boil and mash plantains with cooking liquid and butter; serve with the accompaniments.",
+        "🥣"
       ]
     ],
     "fullies": [
@@ -328,6 +1376,102 @@
         "Egg-free pastry, minced beef, onion, paprika, olives",
         "Cook beef and onion with paprika, drain and cool. Fill pastry rounds, add olives, seal and bake until pastry is golden and filling is hot.",
         "🥟"
+      ],
+      [
+        "Vegan moqueca",
+        "Brazil",
+        true,
+        "Coconut milk, tomato, onion, bell pepper, herbs, palm oil, vegetables",
+        "Sauté aromatics, add vegetables and coconut milk, and simmer until tender.",
+        "🍽️"
+      ],
+      [
+        "Pizza de provoleta",
+        "Argentina",
+        true,
+        "Pizza dough, tomato, provoleta, oregano, optional chilli",
+        "Top and bake until the base is cooked and cheese melted.",
+        "🍽️"
+      ],
+      [
+        "Enchiladas verdes",
+        "Mexico",
+        false,
+        "Corn tortillas, chicken, tomatillos, green chilli, onion, crema or cheese",
+        "Cook and shred chicken, make salsa, fill tortillas, cover with sauce, and bake or warm.",
+        "🍽️"
+      ],
+      [
+        "Arroz con gandules",
+        "Puerto Rico",
+        false,
+        "Rice, pigeon peas, sofrito, seasoning, pork or ham",
+        "Brown the pork, cook sofrito and peas, add rice and liquid, cover, and simmer.",
+        "🍽️"
+      ],
+      [
+        "Chiles rellenos",
+        "Mexico",
+        false,
+        "Poblanos, cheese, eggs, flour, tomato sauce",
+        "Roast and peel peppers, stuff with cheese, coat in egg batter, fry, and serve with sauce.",
+        "🍽️"
+      ],
+      [
+        "Poutine",
+        "Quebec, Canada",
+        false,
+        "Potatoes, cheese curds, gravy",
+        "Fry or roast potatoes, add curds, and ladle over hot gravy.",
+        "🍽️"
+      ],
+      [
+        "Mofongo",
+        "Puerto Rico",
+        false,
+        "Plantains, garlic, olive oil, chicharrón, broth",
+        "Fry plantain, mash with garlic and cracklings, and serve with broth or meat.",
+        "🍽️"
+      ],
+      [
+        "Lomo saltado",
+        "Peru",
+        false,
+        "Beef, tomato, onion, soy sauce, potatoes, rice",
+        "Sear beef, stir-fry with vegetables and soy sauce, and serve with fries and rice.",
+        "🍽️"
+      ],
+      [
+        "Bandeja paisa",
+        "Colombia",
+        false,
+        "Beans, rice, chicharrón, sausage, beef, plantain, avocado, egg",
+        "Cook components separately and arrange on a large plate.",
+        "🍽️"
+      ],
+      [
+        "Peruvian ceviche",
+        "Peru",
+        false,
+        "Raw fish, lime, red onion, chilli, cilantro; often corn and sweet potato",
+        "Cut fish, briefly marinate in citrus, and serve chilled.",
+        "🍽️"
+      ],
+      [
+        "Asado",
+        "Argentina and Uruguay",
+        false,
+        "Beef or other meat, salt; chimichurri optional",
+        "Season and grill over embers, turning until cooked to preference.",
+        "🍽️"
+      ],
+      [
+        "Pastel de choclo",
+        "Chile",
+        false,
+        "Corn, beef, onion, chicken, olives, raisins, egg",
+        "Prepare a seasoned meat filling, top with corn purée, and bake until browned.",
+        "🍽️"
       ]
     ]
   },
@@ -359,6 +1503,62 @@
         "Lemon juice, mint, water, sugar, ice",
         "Blend lemon juice, fresh mint, water, sugar and ice. Adjust sweetness and serve immediately.",
         "🍋"
+      ],
+      [
+        "Jallab",
+        "Levant, especially Lebanon, Palestine, and Syria",
+        true,
+        "carob, dates, grape molasses, rose water",
+        "Dilute the syrup with cold water, pour over crushed ice, and optionally garnish with pine nuts and raisins.",
+        "☕"
+      ],
+      [
+        "Qamar al-din",
+        "Ghouta, Syria; also common in Levantine and Egyptian cuisines",
+        true,
+        "apricot paste or leather, water, sugar, orange-blossom water",
+        "Dissolve or soak the apricot paste in water, sweeten and flavor, then chill.",
+        "☕"
+      ],
+      [
+        "Turkish coffee",
+        "Ottoman Empire; associated with Turkish coffee culture",
+        true,
+        "finely ground coffee, water, sugar (optional)",
+        "Simmer very finely ground coffee with water in a cezve; add sugar if desired and serve unfiltered.",
+        "☕"
+      ],
+      [
+        "Persian tea",
+        "Iran; the verified photograph depicts tea drinking in Mashhad",
+        true,
+        "black tea leaves, water, sugar (optional)",
+        "Steep black tea in hot water; serve plain or sweetened.",
+        "☕"
+      ],
+      [
+        "Karak tea",
+        "Gulf region, including the UAE; a South Asian masala-chai-influenced tea",
+        true,
+        "black tea, milk, sugar, cardamom",
+        "Simmer tea with water, milk, sugar, and cardamom; strain and serve hot.",
+        "☕"
+      ],
+      [
+        "Salep (sahlab)",
+        "Ottoman Middle East, especially Turkey and the Levant",
+        true,
+        "Salep flour, hot milk",
+        "Heat salep flour with milk until thickened; serve hot.",
+        "☕"
+      ],
+      [
+        "Sekanjabin",
+        "Iran",
+        true,
+        "Honey, vinegar, water; optional mint",
+        "Combine honey and vinegar into a syrup, dilute with water, and optionally flavor with mint; serve cold.",
+        "☕"
       ]
     ],
     "breakies": [
@@ -385,6 +1585,102 @@
         "Eggs, tomato, pepper, onion, cumin",
         "Simmer onion, pepper and tomato with cumin. Make wells, crack in eggs and cover until eggs are cooked.",
         "🍳"
+      ],
+      [
+        "Ful medames",
+        "Egypt",
+        true,
+        "fava beans, olive oil, cumin, lemon juice, onion, garlic, parsley",
+        "Cook the beans until tender, season, and serve warm with olive oil and optional garnishes.",
+        "🥣"
+      ],
+      [
+        "Feteer meshaltet",
+        "Egypt",
+        true,
+        "flour, ghee, water, salt",
+        "Stretch thin layers of dough, brush and fold with ghee, then bake until flaky.",
+        "🥣"
+      ],
+      [
+        "Kubaneh",
+        "Yemen; Yemenite Jewish cuisine",
+        true,
+        "flour, yeast, sugar, salt, water, butter or margarine, vegetable oil",
+        "Make a yeast dough, portion and shape it with fat, then bake slowly until tender and browned.",
+        "🥣"
+      ],
+      [
+        "Jachnun",
+        "Yemenite Jewish cuisine, originating with Adeni Jews",
+        false,
+        "flour, water, salt, sugar, butter or margarine",
+        "Roll and layer the dough with fat, shape into cylinders, and slow-bake overnight; it is traditionally served with hard-boiled eggs.",
+        "🥣"
+      ],
+      [
+        "Malawach",
+        "Yemenite Jewish cuisine; Yemen",
+        true,
+        "laminated dough, clarified butter or butter or cooking oil, Nigella seeds (optional)",
+        "Layer the dough with fat, roll it up, flatten, and fry or griddle until browned.",
+        "🥣"
+      ],
+      [
+        "Gözleme",
+        "Turkey",
+        true,
+        "flour, salt, water, spinach, feta or Turkish white cheese, butter or oil",
+        "Roll unleavened dough thin, fill with spinach and cheese, fold, and cook on a griddle.",
+        "🥣"
+      ],
+      [
+        "Menemen",
+        "Turkey, associated with Menemen in İzmir Province",
+        false,
+        "eggs, tomatoes, peppers, onion, olive oil",
+        "Cook peppers and tomatoes in oil, add eggs, and stir gently until just set.",
+        "🥣"
+      ],
+      [
+        "Lahoh",
+        "Yemen and the Horn of Africa",
+        true,
+        "flour, often including sorghum, water, yeast, salt",
+        "Ferment a thin batter, then cook it on a hot pan, typically on one side.",
+        "🥣"
+      ],
+      [
+        "Kahi",
+        "Iraq",
+        true,
+        "Filo-style dough, oil or butter, geymar (clotted cream), syrup or honey",
+        "Layer and bake the flaky pastry; serve with geymar and, optionally, syrup or honey.",
+        "🥣"
+      ],
+      [
+        "Ka'ak bread",
+        "Middle East (Levantine/Middle Eastern variety)",
+        true,
+        "Wheat flour, vegetable oil, eggs, sugar, black cumin or sesame seeds, water, salt",
+        "Form the seasoned dough into bread shapes, coat or top with seeds, and bake.",
+        "🥣"
+      ],
+      [
+        "Balaleet",
+        "Eastern Arabia / Persian Gulf, including Kuwait, Oman, and the UAE",
+        true,
+        "Vermicelli, sugar, cardamom, rose water, saffron, eggs",
+        "Cook vermicelli with sugar and spices; serve topped with an omelette.",
+        "🥣"
+      ],
+      [
+        "Çılbır (Turkish eggs)",
+        "Turkey",
+        false,
+        "Poached eggs, yogurt, garlic, butter, Aleppo pepper or paprika, fresh herbs",
+        "Serve poached eggs over garlic yogurt, topped with melted pepper-infused butter and herbs.",
+        "🥣"
       ]
     ],
     "fullies": [
@@ -411,6 +1707,102 @@
         "Chicken, yogurt, shawarma spices, rice, salad",
         "Marinate chicken in yogurt and spices, then cook thoroughly and slice. Serve over cooked rice with salad.",
         "🍗"
+      ],
+      [
+        "Machboos (Kabsa/Makboos)",
+        "Arabian Gulf; popular in Kuwait, Bahrain, the UAE, and Qatar",
+        false,
+        "long-grain rice, chicken, vegetables, cardamom, saffron, cinnamon, dried lime",
+        "Cook the chicken and spices in broth, cook the rice in the seasoned liquid, and serve together.",
+        "🍽️"
+      ],
+      [
+        "Hummus with pita",
+        "Levant",
+        true,
+        "chickpeas, tahini, lemon juice, garlic, olive oil, pita",
+        "Blend cooked chickpeas with tahini, lemon, and garlic until smooth; serve with olive oil and pita as a meal.",
+        "🍽️"
+      ],
+      [
+        "Maqluba",
+        "Levant, especially Jordan and Palestine",
+        true,
+        "rice, eggplant, potato, tomato, spices, vegetable stock",
+        "Layer vegetables and seasoned rice in a pot, cook until tender, then invert onto a serving dish.",
+        "🍽️"
+      ],
+      [
+        "Sabich",
+        "Iraqi-Jewish cuisine; popular in Israel",
+        false,
+        "pita, fried eggplant, hard-boiled eggs, onion, Israeli salad, hummus, tahini",
+        "Fill pita with fried eggplant, sliced egg, salad, hummus, and tahini.",
+        "🍽️"
+      ],
+      [
+        "Mansaf",
+        "Jordan",
+        false,
+        "lamb, rice, jameed (dried yogurt), flatbread, almonds or pine nuts",
+        "Cook lamb in reconstituted jameed sauce; serve it over rice and flatbread, topped with nuts.",
+        "🍽️"
+      ],
+      [
+        "Koshari",
+        "Egypt",
+        true,
+        "rice, lentils, macaroni, chickpeas, tomato sauce, onions, vinegar",
+        "Cook rice, lentils, pasta, and chickpeas; layer them and top with tomato sauce and crisp fried onions.",
+        "🍽️"
+      ],
+      [
+        "Molokhia with rice",
+        "Egypt and the Levant",
+        false,
+        "molokhia (jute leaves), chicken, chicken broth, garlic, coriander, rice",
+        "Cook molokhia in seasoned broth; add garlic and coriander and serve with chicken and rice.",
+        "🍽️"
+      ],
+      [
+        "Musakhan",
+        "Palestine",
+        false,
+        "chicken, taboon or flatbread, onions, sumac, olive oil, pine nuts",
+        "Slow-cook onions with olive oil and sumac, roast the chicken, then serve them over bread with toasted pine nuts.",
+        "🍽️"
+      ],
+      [
+        "Adana kebab",
+        "Adana, Turkey",
+        false,
+        "minced lamb or beef, red pepper, salt, spices, flatbread",
+        "Season minced meat, shape it around wide skewers, grill, and serve with flatbread and accompaniments.",
+        "🍽️"
+      ],
+      [
+        "Ash reshteh",
+        "Iran",
+        true,
+        "noodles, beans, chickpeas, lentils, herbs, kashk",
+        "Simmer legumes and herbs, add noodles until tender, and finish with kashk; use vegetable stock and omit meat.",
+        "🍽️"
+      ],
+      [
+        "Saltah",
+        "Yemen",
+        false,
+        "meat, broth, vegetables, fenugreek, spices, rice or bread",
+        "Simmer meat and vegetables in broth, finish with a whipped fenugreek mixture, and serve hot with rice or bread.",
+        "🍽️"
+      ],
+      [
+        "Ghormeh sabzi",
+        "Iran",
+        false,
+        "lamb, kidney beans, parsley, cilantro, chives or fenugreek leaves, dried lime, onion, oil",
+        "Brown the lamb and onion, then simmer with herbs, beans, and dried lime until tender. Serve with rice.",
+        "🍽️"
       ]
     ]
   },
@@ -442,6 +1834,78 @@
         "Fresh or packaged coconut water, optional lime",
         "Serve coconut water chilled. Add a squeeze of lime if desired.",
         "🥥"
+      ],
+      [
+        "Lemon, lime and bitters",
+        "Australia",
+        true,
+        "Lemonade, lime cordial or juice, aromatic bitters, citrus garnish",
+        "Build over ice, add bitters and citrus, then top with lemonade.",
+        "☕"
+      ],
+      [
+        "ʻOtai",
+        "Tonga / Western Polynesia",
+        true,
+        "Fruit, coconut meat, coconut milk or water",
+        "Grate or mash fruit, mix with coconut and liquid, then chill.",
+        "☕"
+      ],
+      [
+        "Lemon myrtle tea",
+        "Australia; uses native lemon myrtle",
+        true,
+        "Lemon myrtle leaves, water, optional honey",
+        "Steep leaves in hot water and strain.",
+        "☕"
+      ],
+      [
+        "Bundaberg ginger beer",
+        "Australia; Bundaberg-made ginger beer",
+        true,
+        "Ginger, sugar, water, yeast",
+        "Brew or ferment the ginger-and-sugar mixture, then serve chilled.",
+        "☕"
+      ],
+      [
+        "Milo",
+        "Australia (Australian product; launched 1934)",
+        true,
+        "Milo powder, milk or water",
+        "Stir powder into hot or cold milk or water.",
+        "☕"
+      ],
+      [
+        "Lemon & Paeroa (L&P)",
+        "New Zealand",
+        true,
+        "Fizzy water, sugar, lemon flavour",
+        "Serve chilled; the commercial formula is proprietary.",
+        "☕"
+      ],
+      [
+        "Long black",
+        "Australia and New Zealand",
+        true,
+        "Espresso, hot water",
+        "Pour a double shot of espresso into hot water.",
+        "☕"
+      ],
+      [
+        "Iced coffee",
+        "Australia (Commons photo is tagged as part of an Australian tour; the drink itself is not uniquely Australian)",
+        true,
+        "Coffee, milk, ice; optional sugar or ice cream",
+        "Chill brewed coffee, pour over ice, and add milk and optional sweetener.",
+        "☕"
+      ],
+      [
+        "Melbourne café milkshake",
+        "Melbourne, Australia (local photographed serving; milkshakes are not uniquely Australian)",
+        true,
+        "Milk, ice cream, flavouring or syrup",
+        "Blend milk, ice cream, and flavouring until smooth.",
+        "☕"
       ]
     ],
     "breakies": [
@@ -468,6 +1932,94 @@
         "Eggs, sourdough bread, butter, seasoning",
         "Toast and butter sourdough. Cook eggs to your preference until cooked and serve over the toast.",
         "🍳"
+      ],
+      [
+        "Wattleseed damper",
+        "Australia; settler-era bush bread, with wattleseed added here",
+        true,
+        "Flour, water, salt, wattleseed",
+        "Mix into a firm dough and bake in an oven or camp oven.",
+        "🥣"
+      ],
+      [
+        "Rēwena bread",
+        "Māori, Aotearoa New Zealand",
+        true,
+        "Flour, fermented potato starter, water, sugar, salt",
+        "Ferment the starter, make and proof the dough, then bake.",
+        "🥣"
+      ],
+      [
+        "Vegemite on toast",
+        "Australia",
+        true,
+        "Bread, Vegemite, optional butter",
+        "Toast bread, add butter if desired, and spread Vegemite thinly.",
+        "🥣"
+      ],
+      [
+        "Bacon-and-egg roll",
+        "Australia",
+        false,
+        "Bread roll, bacon, egg, optional sauce",
+        "Fry bacon and egg, then place them in the roll.",
+        "🥣"
+      ],
+      [
+        "Australian bacon-and-eggs breakfast",
+        "Australia",
+        false,
+        "Bacon, fried eggs, toast",
+        "Fry bacon and eggs; serve with toast.",
+        "🥣"
+      ],
+      [
+        "Smoked-salmon pikelets",
+        "Australia; pikelets are also common in New Zealand",
+        false,
+        "Pikelet batter (commonly flour, milk and egg), smoked salmon, crème fraîche, capers",
+        "Cook small pancakes on a griddle, then add the salmon and toppings.",
+        "🥣"
+      ],
+      [
+        "Oatmeal porridge with raisins",
+        "A broadly common breakfast, also eaten in Oceania; no unique Oceanian origin verified",
+        true,
+        "Rolled oats, water, raisins",
+        "Cook oats with water until soft, then top with raisins.",
+        "🥣"
+      ],
+      [
+        "Scones with jam and cream",
+        "Melbourne, Australia (photographed café serving; scones are common across regions)",
+        true,
+        "Scones, jam, cream",
+        "Bake scones, split, and serve with jam and cream.",
+        "🥣"
+      ],
+      [
+        "Modified English breakfast",
+        "Perth, Australia (photographed household breakfast)",
+        true,
+        "Baked beans, crumpet, bacon, sausage, mushroom omelette",
+        "Warm the beans, cook the bacon and sausage, prepare the mushroom omelette, and serve with the crumpet.",
+        "🥣"
+      ],
+      [
+        "Buttered crumpet",
+        "Common in Australian and New Zealand breakfasts; the photographed dish location is not specified",
+        true,
+        "Crumpet, butter",
+        "Toast the crumpet and spread with butter.",
+        "🥣"
+      ],
+      [
+        "French toast with bacon",
+        "Auckland, New Zealand (photographed café serving; not claimed as uniquely New Zealand in origin)",
+        false,
+        "Bread, egg, milk, bacon, butter or oil",
+        "Dip bread in beaten egg and milk, fry until golden, cook bacon, and serve together.",
+        "🥣"
       ]
     ],
     "fullies": [
@@ -494,6 +2046,102 @@
         "Pastry, minced beef, onion, flour, beef stock",
         "Cook beef and onion, stir in flour and stock and simmer until thick. Cool, enclose in pastry and bake until golden and thoroughly heated.",
         "🥧"
+      ],
+      [
+        "Hāngī dinner",
+        "Māori, Aotearoa New Zealand",
+        false,
+        "Commonly meat with kūmara, potatoes and other vegetables",
+        "Cook food in baskets over heated stones in a covered pit.",
+        "🍽️"
+      ],
+      [
+        "Māori boil-up",
+        "Māori, New Zealand",
+        false,
+        "Pork or pork bones, greens, potatoes or kūmara, flour dumplings",
+        "Simmer meat and vegetables; add dumplings to cook through.",
+        "🍽️"
+      ],
+      [
+        "Mumu",
+        "Papua New Guinea",
+        false,
+        "Commonly meat, tubers and greens",
+        "Layer ingredients in an earth oven and cook using heated stones.",
+        "🍽️"
+      ],
+      [
+        "Fish and chips (Wellington serving)",
+        "New Zealand local serving; the dish has British roots",
+        false,
+        "Fish, potato chips",
+        "Coat and fry the fish; fry potatoes and serve together.",
+        "🍽️"
+      ],
+      [
+        "Barramundi and chips",
+        "Australia; photo is from Noosaville, Queensland",
+        false,
+        "Barramundi, chips",
+        "Cook the fish and serve with fried potatoes.",
+        "🍽️"
+      ],
+      [
+        "Australian-style meat pie",
+        "Australia / New Zealand local style",
+        false,
+        "Beef, onion, stock or gravy, pastry",
+        "Cook the filling until thick, enclose in pastry and bake.",
+        "🍽️"
+      ],
+      [
+        "Kokoda",
+        "Fiji",
+        false,
+        "Raw fish, coconut milk, citrus juice, onion",
+        "Marinate fish in citrus juice, then combine with coconut milk and aromatics.",
+        "🍽️"
+      ],
+      [
+        "New Zealand fish pie with greens",
+        "Auckland, New Zealand (photographed serving)",
+        true,
+        "Fish, potato topping or pastry, greens, milk, butter",
+        "Cook fish in a creamy filling, top with potato or pastry, bake, and serve with greens.",
+        "🍽️"
+      ],
+      [
+        "Fijian lovo",
+        "Fiji",
+        true,
+        "Root vegetables and other staples; meat may also be included",
+        "Cook food in baskets over heated stones in a covered earth oven.",
+        "🍽️"
+      ],
+      [
+        "Green-lipped mussels",
+        "Picton, New Zealand (photographed serving)",
+        true,
+        "Green-lipped mussels; optional garlic, herbs, or lemon",
+        "Steam mussels until they open; discard unopened shells and serve.",
+        "🍽️"
+      ],
+      [
+        "Sausage sizzle",
+        "Australia and New Zealand",
+        true,
+        "Sausages, sliced bread, onion, tomato sauce",
+        "Grill sausages, place in bread, and add onion and sauce.",
+        "🍽️"
+      ],
+      [
+        "Whitebait fritter",
+        "New Zealand",
+        true,
+        "Whitebait, egg, salt, pepper, oil or butter",
+        "Fold whitebait into beaten egg, season, and fry in small fritters until set.",
+        "🍽️"
       ]
     ]
   }

@@ -1,0 +1,112 @@
+:root {
+    --paper: #f5f2e9;
+    --ink: #34342b;
+    --muted: #716f63;
+    --accent: #66704f;
+    --line: #ded9cc;
+    --green: #5b6a4d;
+    --white: #fffefa;
+}
+
+body {
+    background: var(--paper);
+    color: var(--ink);
+}
+
+.brand-icon {
+    display: none;
+}
+
+.button:hover {
+    background: #505c3d;
+}
+
+.secondary:hover {
+    background: #e9e5d9;
+}
+
+.region-nav,
+.toolbar,
+.features-bar {
+    background: #efeee5;
+}
+
+.note-strip {
+    background: #e8ebe1;
+}
+
+.note-strip p {
+    color: #56614c;
+}
+
+.art-asia {
+    background: #dddfcf;
+}
+
+.art-europe {
+    background: #e7e2d4;
+}
+
+.art-africa {
+    background: #e7d9c8;
+}
+
+.art-americas {
+    background: #e4dccb;
+}
+
+.art-middle-east {
+    background: #dce1d5;
+}
+
+.art-oceania {
+    background: #d9e2dd;
+}
+
+.veg,
+.quiz-option.answer-correct {
+    background: #e5e9dd;
+    color: #43533c;
+}
+
+.nonveg,
+.quiz-option.answer-wrong {
+    background: #eee3da;
+    color: #79513f;
+}
+
+.correct-feedback,
+.conversion-result {
+    color: #526347;
+}
+
+.wrong-feedback,
+.error,
+.tool-status {
+    color: #8a5845;
+}
+
+.edit-note {
+    background: #f0ecdf;
+}
+
+.shared-ingredients,
+.mini-note {
+    background: #e8ebe1;
+}
+
+.quiz-option.answer-correct {
+    border-color: #9da98f;
+}
+
+.quiz-option.answer-wrong {
+    border-color: #cbb2a2;
+}
+
+.photo-label {
+    color: var(--muted);
+}
+
+.hero-collage-label {
+    color: #526047;
+}
