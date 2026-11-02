@@ -471,7 +471,7 @@
   {
     "dish": "Long black",
     "region": "oceania",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Long_Black_1.jpg/500px-Long_Black_1.jpg",
+    "file": "images/food/oceania/long-black.jpg",
     "title": "File:Long Black 1.jpg",
     "author": "책읽는달팽",
     "license": "CC BY-SA 3.0",
@@ -481,13 +481,13 @@
     "description": "Pour a double shot of espresso into hot water.",
     "caption": "Long black",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Long_black"
   },
   {
     "dish": "Oatmeal porridge with raisins",
     "region": "oceania",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Oatmeal_porridge_1-minute_with_additional_ingredients.jpg/960px-Oatmeal_porridge_1-minute_with_additional_ingredients.jpg",
+    "file": "images/food/oceania/oatmeal-porridge-with-raisins.jpg",
     "title": "File:Oatmeal porridge 1-minute with additional ingredients.jpg",
     "author": "UserTwoSix",
     "license": "CC BY-SA 4.0",
@@ -497,13 +497,13 @@
     "description": "Cook oats with water until soft, then top with raisins.",
     "caption": "Oatmeal porridge with raisins",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "Kokoda",
     "region": "oceania",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Kokodafood.jpg/960px-Kokodafood.jpg",
+    "file": "images/food/oceania/kokoda.jpg",
     "title": "File:Kokodafood.jpg",
     "author": "yuko_ppp2501",
     "license": "CC BY 2.0",
@@ -513,13 +513,13 @@
     "description": "Marinate fish in citrus juice, then combine with coconut milk and aromatics.",
     "caption": "Kokoda",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Kokoda_(food)"
   },
   {
     "dish": "Iced coffee",
     "region": "oceania",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Drinking_iced_coffee_while_waiting_for_the_rain_to_stop_%281757674819%29.jpg/500px-Drinking_iced_coffee_while_waiting_for_the_rain_to_stop_%281757674819%29.jpg",
+    "file": "images/food/oceania/iced-coffee.jpg",
     "title": "File:Drinking iced coffee while waiting for the rain to stop (1757674819).jpg",
     "author": "cogdogblog",
     "license": "CC0 1.0 Universal Public Domain Dedication",
@@ -529,13 +529,13 @@
     "description": "Chill brewed coffee, pour over ice, and add milk and optional sweetener.",
     "caption": "Iced coffee",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "Melbourne café milkshake",
     "region": "oceania",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Milkshake_Five_Guys_QV_Melbourne_CBD_May_17%2C_2025_202505171957_IMG_8954.jpg/500px-Milkshake_Five_Guys_QV_Melbourne_CBD_May_17%2C_2025_202505171957_IMG_8954.jpg",
+    "file": "images/food/oceania/melbourne-cafe-milkshake.jpg",
     "title": "File:Milkshake Five Guys QV Melbourne CBD May 17, 2025 202505171957 IMG 8954.jpg",
     "author": "ウィ貴公子",
     "license": "CC BY-SA 4.0",
@@ -545,13 +545,13 @@
     "description": "Blend milk, ice cream, and flavouring until smooth.",
     "caption": "Melbourne café milkshake",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "Scones with jam and cream",
     "region": "oceania",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Scone_Jam_Cream_Tea.jpg/960px-Scone_Jam_Cream_Tea.jpg",
+    "file": "images/food/oceania/scones-with-jam-and-cream.jpg",
     "title": "File:Scone Jam Cream Tea.jpg",
     "author": "Alpha",
     "license": "CC BY-SA 2.0",
@@ -561,13 +561,13 @@
     "description": "Bake scones, split, and serve with jam and cream.",
     "caption": "Scones with jam and cream",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "Modified English breakfast",
     "region": "oceania",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Modified_English_breakfast_Perth_AU.jpg/960px-Modified_English_breakfast_Perth_AU.jpg",
+    "file": "images/food/oceania/modified-english-breakfast.jpg",
     "title": "File:Modified English breakfast Perth AU.jpg",
     "author": "Orderinchaos",
     "license": "CC BY-SA 3.0",
@@ -577,13 +577,13 @@
     "description": "Warm the beans, cook the bacon and sausage, prepare the mushroom omelette, and serve with the crumpet.",
     "caption": "Modified English breakfast",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "Buttered crumpet",
     "region": "oceania",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Buttered_crumpet.jpg/960px-Buttered_crumpet.jpg",
+    "file": "images/food/oceania/buttered-crumpet.jpg",
     "title": "File:Buttered crumpet.jpg",
     "author": "LoopZilla",
     "license": "CC BY-SA 3.0",
@@ -593,13 +593,13 @@
     "description": "Toast the crumpet and spread with butter.",
     "caption": "Buttered crumpet",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "New Zealand fish pie with greens",
     "region": "oceania",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Fish_pie_and_greens_-_Auckland,_New_Zealand.jpg/960px-Fish_pie_and_greens_-_Auckland,_New_Zealand.jpg",
+    "file": "images/food/oceania/new-zealand-fish-pie-with-greens.jpg",
     "title": "File:Fish pie and greens - Auckland, New Zealand.jpg",
     "author": "Daderot",
     "license": "CC0 1.0 Universal Public Domain Dedication",
@@ -609,13 +609,13 @@
     "description": "Cook fish in a creamy filling, top with potato or pastry, bake, and serve with greens.",
     "caption": "New Zealand fish pie with greens",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "Fijian lovo",
     "region": "oceania",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Lovo.jpg/960px-Lovo.jpg",
+    "file": "images/food/oceania/fijian-lovo.jpg",
     "title": "File:Lovo.jpg",
     "author": "Jaejay77",
     "license": "CC BY-SA 4.0",
@@ -625,13 +625,13 @@
     "description": "Cook food in baskets over heated stones in a covered earth oven.",
     "caption": "Fijian lovo",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "Green-lipped mussels",
     "region": "oceania",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Green-lipped_mussels_-_Picton%2C_NZ_-_DSC00240.jpg/960px-Green-lipped_mussels_-_Picton%2C_NZ_-_DSC00240.jpg",
+    "file": "images/food/oceania/green-lipped-mussels.jpg",
     "title": "File:Green-lipped mussels - Picton, NZ - DSC00240.jpg",
     "author": "Daderot",
     "license": "CC0 1.0 Universal Public Domain Dedication",
@@ -641,13 +641,13 @@
     "description": "Steam mussels until they open; discard unopened shells and serve.",
     "caption": "Green-lipped mussels",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "Sausage sizzle",
     "region": "oceania",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Sausage_Sizzle_-_Snowy_Valley_Resort_AUD3.50.jpg/960px-Sausage_Sizzle_-_Snowy_Valley_Resort_AUD3.50.jpg",
+    "file": "images/food/oceania/sausage-sizzle.jpg",
     "title": "File:Sausage Sizzle - Snowy Valley Resort AUD3.50.jpg",
     "author": "Alpha",
     "license": "CC BY-SA 2.0",
@@ -657,13 +657,13 @@
     "description": "Grill sausages, place in bread, and add onion and sauce.",
     "caption": "Sausage sizzle",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Sausage_sizzle"
   },
   {
     "dish": "Whitebait fritter",
     "region": "oceania",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Whitebait_Fritter.JPG/960px-Whitebait_Fritter.JPG",
+    "file": "images/food/oceania/whitebait-fritter.jpg",
     "title": "File:Whitebait Fritter.JPG",
     "author": "Inanga",
     "license": "Public domain (author release)",
@@ -673,13 +673,13 @@
     "description": "Fold whitebait into beaten egg, season, and fry in small fritters until set.",
     "caption": "Whitebait fritter",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "French toast with bacon",
     "region": "oceania",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/French_toast_and_bacon_served_at_a_cafe_in_Auckland%2C_New_Zealand_%2852370230473%29.jpg/500px-French_toast_and_bacon_served_at_a_cafe_in_Auckland%2C_New_Zealand_%2852370230473%29.jpg",
+    "file": "images/food/oceania/french-toast-with-bacon.jpg",
     "title": "File:French toast and bacon served at a cafe in Auckland, New Zealand (52370230473).jpg",
     "author": "Carlos Pacheco",
     "license": "CC BY 2.0",
@@ -689,7 +689,7 @@
     "description": "Dip bread in beaten egg and milk, fry until golden, cook bacon, and serve together.",
     "caption": "French toast with bacon",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   }
 ]

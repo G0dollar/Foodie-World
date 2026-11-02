@@ -182,7 +182,7 @@
   {
     "dish": "Atole de guayaba",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Atole_de_guayaba.jpg/500px-Atole_de_guayaba.jpg",
+    "file": "images/food/americas/atole-de-guayaba.jpg",
     "title": "File:Atole de guayaba.jpg",
     "author": "Pequeño mar",
     "license": "CC BY-SA 4.0",
@@ -192,13 +192,13 @@
     "description": "Blend guava; whisk masa into liquid and simmer with sweetener until thick.",
     "caption": "Atole de guayaba",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Atole"
   },
   {
     "dish": "Champurrado",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Champurrado.jpg/500px-Champurrado.jpg",
+    "file": "images/food/americas/champurrado.jpg",
     "title": "File:Champurrado.jpg",
     "author": "Kimberly Vardeman",
     "license": "CC BY 2.0",
@@ -208,13 +208,13 @@
     "description": "Whisk masa into liquid; add chocolate and spices and simmer, stirring until smooth.",
     "caption": "Champurrado",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Champurrado"
   },
   {
     "dish": "Mexican horchata",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Horchata%2C_my_drink_of_choice_in_Mexico_-_Merida_Yucatan_21_March_2021.jpg/500px-Horchata%2C_my_drink_of_choice_in_Mexico_-_Merida_Yucatan_21_March_2021.jpg",
+    "file": "images/food/americas/mexican-horchata.jpg",
     "title": "File:Horchata, my drink of choice in Mexico - Merida Yucatan 21 March 2021.jpg",
     "author": "Sharon Hahn Darlin",
     "license": "CC BY 2.0",
@@ -224,7 +224,7 @@
     "description": "Soak rice and cinnamon, blend, strain, sweeten, and chill.",
     "caption": "Mexican horchata",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Horchata"
   },
   {
@@ -246,7 +246,7 @@
   {
     "dish": "Chicha morada",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Chicha_morada.jpg/500px-Chicha_morada.jpg",
+    "file": "images/food/americas/chicha-morada.jpg",
     "title": "File:Chicha morada.jpg",
     "author": "August Dominus",
     "license": "CC0 1.0",
@@ -256,13 +256,13 @@
     "description": "Simmer corn and fruit with spices, strain, sweeten, and chill.",
     "caption": "Chicha morada",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Chicha_morada"
   },
   {
     "dish": "Mate",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Mate.jpg/500px-Mate.jpg",
+    "file": "images/food/americas/mate.jpg",
     "title": "File:Mate.jpg",
     "author": "Kevintya",
     "license": "CC BY-SA 4.0",
@@ -272,13 +272,13 @@
     "description": "Add hot—not boiling—water to yerba in a gourd and sip through a bombilla.",
     "caption": "Mate",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Mate_(drink)"
   },
   {
     "dish": "Tereré",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Terer%C3%A9.jpg/500px-Terer%C3%A9.jpg",
+    "file": "images/food/americas/terere.jpg",
     "title": "File:Tereré.jpg",
     "author": "Overkill53",
     "license": "CC BY-SA 4.0",
@@ -288,13 +288,13 @@
     "description": "Pour chilled water over yerba in a guampa and sip through a bombilla.",
     "caption": "Tereré",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Terer%C3%A9"
   },
   {
     "dish": "Tepache",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Tepache.jpg/500px-Tepache.jpg",
+    "file": "images/food/americas/tepache.jpg",
     "title": "File:Tepache.jpg",
     "author": "XXMaxusXx",
     "license": "CC BY-SA 4.0",
@@ -304,13 +304,13 @@
     "description": "Ferment the sweetened mixture briefly, strain, and serve chilled.",
     "caption": "Tepache",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Tepache"
   },
   {
     "dish": "Café de olla",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Caf%C3%A9_de_olla.jpg/500px-Caf%C3%A9_de_olla.jpg",
+    "file": "images/food/americas/cafe-de-olla.jpg",
     "title": "File:Café de olla.jpg",
     "author": "Luisalvaz",
     "license": "CC BY-SA 3.0",
@@ -320,13 +320,13 @@
     "description": "Simmer cinnamon and piloncillo, brew with coffee, and strain.",
     "caption": "Café de olla",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Caf%C3%A9_de_olla"
   },
   {
     "dish": "Colada morada",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Colada_morada.jpg/500px-Colada_morada.jpg",
+    "file": "images/food/americas/colada-morada.jpg",
     "title": "File:Colada morada.jpg",
     "author": "Juan Jorge Arellano",
     "license": "CC BY-SA 2.0",
@@ -336,13 +336,13 @@
     "description": "Simmer fruit and spices; strain, thicken with corn flour, and serve warm or chilled.",
     "caption": "Colada morada",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Colada_morada"
   },
   {
     "dish": "Tejuino",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Tejuino.jpg/500px-Tejuino.jpg",
+    "file": "images/food/americas/tejuino.jpg",
     "title": "File:Tejuino.jpg",
     "author": "Linkleo1987",
     "license": "CC BY-SA 3.0",
@@ -352,13 +352,13 @@
     "description": "Cook a masa-and-piloncillo mixture, ferment briefly, then serve over ice with lime.",
     "caption": "Tejuino",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Tejuino"
   },
   {
     "dish": "Canelazo",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Canelazo.jpg/500px-Canelazo.jpg",
+    "file": "images/food/americas/canelazo.jpg",
     "title": "File:Canelazo.jpg",
     "author": "momentcaptured1 (cropped by David C. S.)",
     "license": "CC BY 2.0",
@@ -368,13 +368,13 @@
     "description": "Simmer the spices and panela, then add spirit if using.",
     "caption": "Canelazo",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Canelazo"
   },
   {
     "dish": "Cachapa",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Cachapa.jpg/500px-Cachapa.jpg",
+    "file": "images/food/americas/cachapa.jpg",
     "title": "File:Cachapa.jpg",
     "author": "daniablr",
     "license": "CC BY-SA 3.0",
@@ -384,13 +384,13 @@
     "description": "Blend corn into a coarse batter and cook on a griddle; fold around cheese if desired.",
     "caption": "Cachapa",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Cachapa"
   },
   {
     "dish": "Changua",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Changua.jpg/500px-Changua.jpg",
+    "file": "images/food/americas/changua.jpg",
     "title": "File:Changua.jpg",
     "author": "Gatograma",
     "license": "CC BY-SA 4.0",
@@ -400,13 +400,13 @@
     "description": "Simmer the liquid with herbs and serve with bread; the customary egg makes this version non-vegetarian under the site rule.",
     "caption": "Changua",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Changua"
   },
   {
     "dish": "Pão de queijo",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/P%C3%A3o_de_queijo.jpg/500px-P%C3%A3o_de_queijo.jpg",
+    "file": "images/food/americas/pao-de-queijo.jpg",
     "title": "File:Pão de queijo.jpg",
     "author": "Sitenl / Samory Santos",
     "license": "CC BY-SA 2.5",
@@ -416,13 +416,13 @@
     "description": "Scald starch with hot milk and oil, mix with cheese and eggs, shape, and bake.",
     "caption": "Pão de queijo",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/P%C3%A3o_de_queijo"
   },
   {
     "dish": "Chilaquiles",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Chilaquiles.jpg/500px-Chilaquiles.jpg",
+    "file": "images/food/americas/chilaquiles.jpg",
     "title": "File:Chilaquiles.jpg",
     "author": "Wotancito",
     "license": "CC BY-SA 4.0",
@@ -432,13 +432,13 @@
     "description": "Fry or bake tortilla pieces, toss briefly with hot salsa, and add toppings.",
     "caption": "Chilaquiles",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Chilaquiles"
   },
   {
     "dish": "Tamales de elote",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Tamales_de_elote.jpg/500px-Tamales_de_elote.jpg",
+    "file": "images/food/americas/tamales-de-elote.jpg",
     "title": "File:Tamales de elote.jpg",
     "author": "German matus",
     "license": "CC BY-SA 4.0",
@@ -448,13 +448,13 @@
     "description": "Mix the corn batter, wrap in husks, and steam until set.",
     "caption": "Tamales de elote",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Tamal"
   },
   {
     "dish": "Pupusas",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Pupusas.jpg/500px-Pupusas.jpg",
+    "file": "images/food/americas/pupusas.jpg",
     "title": "File:Pupusas.jpg",
     "author": "Renee Comet",
     "license": "Public domain (PD-USGov-HHS-NIH)",
@@ -464,13 +464,13 @@
     "description": "Enclose filling in masa, flatten, and griddle until cooked.",
     "caption": "Pupusas",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Pupusa"
   },
   {
     "dish": "Enfrijoladas",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Enfrijoladas.jpg/500px-Enfrijoladas.jpg",
+    "file": "images/food/americas/enfrijoladas.jpg",
     "title": "File:Enfrijoladas.jpg",
     "author": "German matus",
     "license": "CC BY-SA 4.0",
@@ -480,7 +480,7 @@
     "description": "Blend beans into sauce, warm tortillas, coat or fold them in the sauce, and add toppings.",
     "caption": "Enfrijoladas",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Enfrijolada"
   },
   {
@@ -502,7 +502,7 @@
   {
     "dish": "Arepa de chocolo",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Arepa_de_chocolo.jpg/500px-Arepa_de_chocolo.jpg",
+    "file": "images/food/americas/arepa-de-chocolo.jpg",
     "title": "File:Arepa de chocolo.jpg",
     "author": "Nelson Fernando Sotelo Castro",
     "license": "CC BY 2.0",
@@ -512,13 +512,13 @@
     "description": "Blend or grind corn with the other ingredients, shape into cakes, and griddle until browned.",
     "caption": "Arepa de chocolo",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Arepa"
   },
   {
     "dish": "Bolón de verde",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Bol%C3%B3n_de_verde_Santa_cruz_2021-11-14.jpg/500px-Bol%C3%B3n_de_verde_Santa_cruz_2021-11-14.jpg",
+    "file": "images/food/americas/bolon-de-verde.jpg",
     "title": "File:Bolón de verde Santa cruz 2021-11-14.jpg",
     "author": "Z thomas",
     "license": "CC BY-SA 4.0",
@@ -528,13 +528,13 @@
     "description": "Cook and mash plantain, mix with cheese, form balls, and fry or bake.",
     "caption": "Bolón de verde",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Bol%C3%B3n_de_verde"
   },
   {
     "dish": "Huevos rancheros",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Huevos_rancheros.jpg/500px-Huevos_rancheros.jpg",
+    "file": "images/food/americas/huevos-rancheros.jpg",
     "title": "File:Huevos rancheros.jpg",
     "author": "1000b",
     "license": "CC BY-SA 4.0",
@@ -544,13 +544,13 @@
     "description": "Fry eggs, warm tortillas, and serve with salsa.",
     "caption": "Huevos rancheros",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Huevos_rancheros"
   },
   {
     "dish": "Mangú",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Mangu_dominicano_--Contenido-_-Lonjas_de_salami_fritas_-Lonjas_de_queso_blanco_-Mangu_o_pur%C3%A9_de_pl%C3%A1tano_verde_-Mantequilla_--Este_es_un_plato_t%C3%ADpico_en_el_desayuno_dominicano_--Rep%C3%BAblica_Dominicana_-_2013-10-08_14-28.jpg/500px-Mangu_dominicano_--Contenido-_-Lonjas_de_salami_fritas_-Lonjas_de_queso_blanco_-Mangu_o_pur%C3%A9_de_pl%C3%A1tano_verde_-Mantequilla_--Este_es_un_plato_t%C3%ADpico_en_el_desayuno_dominicano_--Rep%C3%BAblica_Dominicana_-_2013-10-08_14-28.jpg",
+    "file": "images/food/americas/mangu.jpg",
     "title": "File:Mangu dominicano --Contenido- -Lonjas de salami fritas -Lonjas de queso blanco -Mangu o puré de plátano verde -Mantequilla --Este es un plato típico en el desayuno dominicano --República Dominicana - 2013-10-08 14-28.jpg",
     "author": "Dominicanoventura",
     "license": "CC BY-SA 3.0",
@@ -560,13 +560,13 @@
     "description": "Boil and mash plantains with cooking liquid and butter; serve with the accompaniments.",
     "caption": "Mangú",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Mang%C3%BA"
   },
   {
     "dish": "Vegan moqueca",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Moqueca_vegana.jpg/500px-Moqueca_vegana.jpg",
+    "file": "images/food/americas/vegan-moqueca.jpg",
     "title": "File:Moqueca vegana.jpg",
     "author": "Melsj",
     "license": "CC BY-SA 4.0",
@@ -576,13 +576,13 @@
     "description": "Sauté aromatics, add vegetables and coconut milk, and simmer until tender.",
     "caption": "Vegan moqueca",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Moqueca"
   },
   {
     "dish": "Pizza de provoleta",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Pizza_de_provoleta_argentina.jpg/500px-Pizza_de_provoleta_argentina.jpg",
+    "file": "images/food/americas/pizza-de-provoleta.jpg",
     "title": "File:Pizza de provoleta argentina.jpg",
     "author": "Horacio Cambeiro",
     "license": "CC BY-SA 4.0",
@@ -592,13 +592,13 @@
     "description": "Top and bake until the base is cooked and cheese melted.",
     "caption": "Pizza de provoleta",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Provoleta"
   },
   {
     "dish": "Enchiladas verdes",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Enchiladas_verdes.jpg/500px-Enchiladas_verdes.jpg",
+    "file": "images/food/americas/enchiladas-verdes.jpg",
     "title": "File:Enchiladas verdes.jpg",
     "author": "Tekyta",
     "license": "CC BY-SA 4.0",
@@ -608,13 +608,13 @@
     "description": "Cook and shred chicken, make salsa, fill tortillas, cover with sauce, and bake or warm.",
     "caption": "Enchiladas verdes",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Enchilada"
   },
   {
     "dish": "Arroz con gandules",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Arroz_con_gandules.jpg/500px-Arroz_con_gandules.jpg",
+    "file": "images/food/americas/arroz-con-gandules.jpg",
     "title": "File:Arroz con gandules.jpg",
     "author": "Jose Kevo",
     "license": "CC BY-SA 2.0",
@@ -624,13 +624,13 @@
     "description": "Brown the pork, cook sofrito and peas, add rice and liquid, cover, and simmer.",
     "caption": "Arroz con gandules",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Arroz_con_gandules"
   },
   {
     "dish": "Chiles rellenos",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Chiles_rellenos.jpg/500px-Chiles_rellenos.jpg",
+    "file": "images/food/americas/chiles-rellenos.jpg",
     "title": "File:Chiles rellenos.jpg",
     "author": "Susana Vázquez",
     "license": "CC BY-SA 4.0",
@@ -640,13 +640,13 @@
     "description": "Roast and peel peppers, stuff with cheese, coat in egg batter, fry, and serve with sauce.",
     "caption": "Chiles rellenos",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Chile_relleno"
   },
   {
     "dish": "Poutine",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Poutine.jpg/500px-Poutine.jpg",
+    "file": "images/food/americas/poutine.jpg",
     "title": "File:Poutine.jpg",
     "author": "Gideon Tsang",
     "license": "CC BY-SA 2.0",
@@ -656,7 +656,7 @@
     "description": "Fry or roast potatoes, add curds, and ladle over hot gravy.",
     "caption": "Poutine",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Poutine"
   },
   {
@@ -678,7 +678,7 @@
   {
     "dish": "Lomo saltado",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Lomo-saltado-perudelights.jpg/500px-Lomo-saltado-perudelights.jpg",
+    "file": "images/food/americas/lomo-saltado.jpg",
     "title": "File:Lomo-saltado-perudelights.jpg",
     "author": "WikiHes",
     "license": "CC BY-SA 4.0",
@@ -688,13 +688,13 @@
     "description": "Sear beef, stir-fry with vegetables and soy sauce, and serve with fries and rice.",
     "caption": "Lomo saltado",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Lomo_saltado"
   },
   {
     "dish": "Bandeja paisa",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Bandeja_paisa_30062011.jpg/500px-Bandeja_paisa_30062011.jpg",
+    "file": "images/food/americas/bandeja-paisa.jpg",
     "title": "File:Bandeja paisa 30062011.jpg",
     "author": "Dtarazona",
     "license": "CC BY-SA 3.0",
@@ -704,13 +704,13 @@
     "description": "Cook components separately and arrange on a large plate.",
     "caption": "Bandeja paisa",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Bandeja_paisa"
   },
   {
     "dish": "Peruvian ceviche",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Ceviche_peruano_es_inscrita_en_la_Lista_Representativa_de_Patrimonio_Cultural_Inmaterial_de_la_Humanidad_-_53381967964.jpg/500px-Ceviche_peruano_es_inscrita_en_la_Lista_Representativa_de_Patrimonio_Cultural_Inmaterial_de_la_Humanidad_-_53381967964.jpg",
+    "file": "images/food/americas/peruvian-ceviche.jpg",
     "title": "File:Ceviche peruano es inscrita en la Lista Representativa de Patrimonio Cultural Inmaterial de la Humanidad - 53381967964.jpg",
     "author": "Ministerio de la Producción (PRODUCE)",
     "license": "Public Domain Mark 1.0",
@@ -720,7 +720,7 @@
     "description": "Cut fish, briefly marinate in citrus, and serve chilled.",
     "caption": "Peruvian ceviche",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Ceviche"
   },
   {
@@ -742,7 +742,7 @@
   {
     "dish": "Pastel de choclo",
     "region": "americas",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Pastel_de_choclo.jpg/500px-Pastel_de_choclo.jpg",
+    "file": "images/food/americas/pastel-de-choclo.jpg",
     "title": "File:Pastel de choclo.jpg",
     "author": "Paloma Baytelman",
     "license": "CC BY-SA 2.0",
@@ -752,7 +752,7 @@
     "description": "Prepare a seasoned meat filling, top with corn purée, and bake until browned.",
     "caption": "Pastel de choclo",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": "https://en.wikipedia.org/wiki/Pastel_de_choclo"
   }
 ]

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Review a sample Foodie World order and enter demo delivery details. No payment is taken.">
+        <title>Demo checkout | Foodie World</title>
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/extras.css">
+        <link rel="stylesheet" href="css/order.css">
+        <link rel="stylesheet" href="css/food-theme.css">
+        <script src="js/script.js" defer></script>
+        <script src="js/order-data.js" defer></script>
+        <script src="js/order.js" defer></script>
+    </head>
+    <body data-order-page="checkout">
+        <a class="skip" href="#main">Skip to content</a>
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="index.html">Foodie World<span class="brand-dot">.</span></a>
+                <nav class="main-nav" aria-label="Main navigation">
+                    <a href="index.html">Home</a>
+                    <a href="order.html">Order menu</a>
+                    <a href="credits.html">Credits</a>
+                </nav>
+            </div>
+        </header>
+        <div class="features-bar">
+            <nav class="wrap" aria-label="Foodie World activities">
+                <a href="compare.html">Compare cuisines</a>
+                <a href="quiz.html">Cuisine quiz</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="converter.html">Kitchen converter</a>
+                <a href="order.html">Demo order</a>
+            </nav>
+        </div>
+        <main id="main">
+            <section class="wrap extras-heading">
+                <p class="breadcrumb"><a href="index.html">Home</a> / <a href="order.html">Order menu</a> / Demo checkout</p>
+                <p class="eyebrow">ONE LAST LOOK AT YOUR FEAST</p>
+                <h1>Order details <span class="brand-dot">.</span></h1>
+                <p class="lede">Add pretend delivery details and review your total. This checkout is a demonstration only; it does not take payment or send your information anywhere.</p>
+            </section>
+            <section class="wrap extras-content checkout-layout">
+                <section class="tool-panel checkout-summary-panel" aria-labelledby="checkout-summary-heading">
+                    <div class="section-heading">
+                        <div>
+                            <p class="eyebrow">YOUR BASKET</p>
+                            <h2 id="checkout-summary-heading">Order summary</h2>
+                        </div>
+                        <a href="order.html#order-menu">Edit basket</a>
+                    </div>
+                    <p id="checkout-empty" class="mini-note" hidden>Your basket is empty. Choose dishes before checking out.</p>
+                    <ul id="checkout-items" class="checkout-items"></ul>
+                    <div id="checkout-totals" class="price-summary"></div>
+                    <p id="checkout-promo" class="basket-promo"></p>
+                    <p class="basket-footnote">Sample prices are in INR and include all demo charges shown. No tax is added at checkout.</p>
+                </section>
+                <form id="checkout-form" class="checkout-form" novalidate>
+                    <p class="eyebrow">DEMO DELIVERY DETAILS</p>
+                    <h2>Where should we pretend to bring it?</h2>
+                    <p>Use fictional details if you prefer. This form is stored only in your browser when you place the demo order.</p>
+                    <div class="field">
+                        <label for="customer-name">Name</label>
+                        <input id="customer-name" name="name" autocomplete="name" required minlength="2" maxlength="80">
+                    </div>
+                    <div class="field">
+                        <label for="customer-phone">Contact number</label>
+                        <input id="customer-phone" name="phone" type="tel" autocomplete="tel" required minlength="7" maxlength="20" pattern="[0-9+() -]{7,20}" title="Enter 7–20 digits, spaces, or + ( ) - characters.">
+                    </div>
+                    <div class="field">
+                        <label for="customer-address">Delivery location / address</label>
+                        <textarea id="customer-address" name="address" autocomplete="street-address" rows="4" required minlength="8" maxlength="300" placeholder="House or building, street, area, city"></textarea>
+                    </div>
+                    <div class="field">
+                        <label for="delivery-notes">Delivery notes <span class="optional-label">(optional)</span></label>
+                        <textarea id="delivery-notes" name="notes" rows="3" maxlength="300" placeholder="Landmark or any pretend delivery instructions"></textarea>
+                    </div>
+                    <p id="checkout-status" class="tool-status" role="status" aria-live="polite"></p>
+                    <button id="place-order" class="button" type="submit">Place demo order · no payment</button>
+                    <p class="checkout-privacy">No payment details are requested. Your demo order and details stay in this browser and are not sent to a restaurant or delivery service.</p>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-inner">
+                <a class="brand" href="index.html">Foodie World.</a>
+                <p>A little curiosity. A world of flavour.</p>
+                <p>Demo ordering only · no payment or delivery</p>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Review your Foodie World sample order receipt. Demo only; no food is prepared or delivered.">
+        <title>Demo order receipt | Foodie World</title>
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/extras.css">
+        <link rel="stylesheet" href="css/order.css">
+        <link rel="stylesheet" href="css/food-theme.css">
+        <script src="js/script.js" defer></script>
+        <script src="js/order-data.js" defer></script>
+        <script src="js/order.js" defer></script>
+    </head>
+    <body data-order-page="receipt">
+        <a class="skip" href="#main">Skip to content</a>
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="index.html">Foodie World<span class="brand-dot">.</span></a>
+                <nav class="main-nav" aria-label="Main navigation">
+                    <a href="index.html">Home</a>
+                    <a href="order.html">Order menu</a>
+                    <a href="credits.html">Credits</a>
+                </nav>
+            </div>
+        </header>
+        <div class="features-bar">
+            <nav class="wrap" aria-label="Foodie World activities">
+                <a href="compare.html">Compare cuisines</a>
+                <a href="quiz.html">Cuisine quiz</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="converter.html">Kitchen converter</a>
+                <a href="order.html">Demo order</a>
+            </nav>
+        </div>
+        <main id="main">
+            <section class="wrap extras-heading">
+                <p class="breadcrumb"><a href="index.html">Home</a> / Demo order receipt</p>
+                <p class="eyebrow">THANKS FOR PLAYING ALONG</p>
+                <h1 id="receipt-heading">Your demo receipt <span class="brand-dot">.</span></h1>
+                <p class="lede" id="receipt-intro">This sample receipt is saved in this browser only.</p>
+            </section>
+            <section class="wrap extras-content">
+                <div id="receipt-empty" class="tool-panel" hidden>
+                    <h2>No recent demo order</h2>
+                    <p>Place a sample order first to see its receipt here.</p>
+                    <a class="button" href="order.html">Browse the order menu →</a>
+                </div>
+                <article id="receipt-card" class="receipt-card" hidden aria-labelledby="receipt-order-number">
+                    <div class="receipt-top">
+                        <div>
+                            <p class="eyebrow">DEMO ORDER · NO PAYMENT TAKEN</p>
+                            <h2 id="receipt-order-number"></h2>
+                            <p id="receipt-date" class="receipt-muted"></p>
+                        </div>
+                        <span class="receipt-stamp">SAMPLE ONLY</span>
+                    </div>
+                    <div class="receipt-customer">
+                        <h3>Delivery details entered</h3>
+                        <p id="receipt-customer-name"></p>
+                        <p id="receipt-customer-phone"></p>
+                        <p id="receipt-customer-address"></p>
+                        <p id="receipt-customer-notes"></p>
+                    </div>
+                    <h3>Items</h3>
+                    <ul id="receipt-items" class="checkout-items receipt-items"></ul>
+                    <div id="receipt-totals" class="price-summary"></div>
+                    <p id="receipt-promo" class="basket-promo"></p>
+                    <p class="demo-notice"><strong>No real order was placed.</strong> The restaurant did not receive these details, no payment was made, and no food will be delivered.</p>
+                    <a class="button" href="order.html">Build another demo order →</a>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-inner">
+                <a class="brand" href="index.html">Foodie World.</a>
+                <p>A little curiosity. A world of flavour.</p>
+                <p>Demo ordering only · no payment or delivery</p>
+            </div>
+        </footer>
+    </body>
+</html>

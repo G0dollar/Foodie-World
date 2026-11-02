@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Build a sample Foodie World order from 260 dishes. Demo only; no payment is taken.">
+        <title>Demo order menu | Foodie World</title>
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/extras.css">
+        <link rel="stylesheet" href="css/photos.css">
+        <link rel="stylesheet" href="css/order.css">
+        <link rel="stylesheet" href="css/food-theme.css">
+        <script src="js/script.js" defer></script>
+        <script src="js/order-data.js" defer></script>
+        <script src="js/order.js" defer></script>
+    </head>
+    <body data-order-page="menu">
+        <a class="skip" href="#main">Skip to content</a>
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="index.html">Foodie World<span class="brand-dot">.</span></a>
+                <nav class="main-nav" aria-label="Main navigation">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#regions">Explore regions</a>
+                    <a href="order.html" aria-current="page">Demo order</a>
+                    <a href="credits.html">Credits</a>
+                </nav>
+            </div>
+        </header>
+        <div class="features-bar">
+            <nav class="wrap" aria-label="Foodie World activities">
+                <a href="compare.html">Compare cuisines</a>
+                <a href="quiz.html">Cuisine quiz</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="converter.html">Kitchen converter</a>
+                <a href="order.html" aria-current="page">Demo order</a>
+            </nav>
+        </div>
+        <main id="main">
+            <section class="wrap extras-heading">
+                <p class="breadcrumb"><a href="index.html">Home</a> / Demo order menu</p>
+                <p class="eyebrow">PICK A FEAST. BUILD YOUR BASKET.</p>
+                <h1>Order menu <span class="brand-dot">.</span></h1>
+                <p class="lede">Choose from all 260 dishes, mix regions and categories, and adjust quantities in your basket. Sample prices are shown in Indian rupees (INR).</p>
+                <p class="demo-notice"><strong>Demo only:</strong> this order stays in this browser. No restaurant receives it, and no payment or real delivery is arranged.</p>
+            </section>
+            <section class="wrap extras-content">
+                <div class="order-layout">
+                    <section class="order-menu" id="order-menu" aria-labelledby="menu-heading">
+                        <div class="section-heading">
+                            <div>
+                                <p class="eyebrow">260 DISHES FROM SIX FOOD REGIONS</p>
+                                <h2 id="menu-heading">Find something delicious</h2>
+                            </div>
+                            <p id="menu-count" role="status"></p>
+                        </div>
+                        <div class="order-filters">
+                            <div class="field">
+                                <label for="order-search">Search dishes</label>
+                                <input id="order-search" type="search" placeholder="Try biryani, tea, or tacos">
+                            </div>
+                            <div class="field">
+                                <label for="order-region">Food region</label>
+                                <select id="order-region">
+                                    <option value="all">All regions</option>
+                                    <option value="asia">Asia</option>
+                                    <option value="europe">Europe</option>
+                                    <option value="africa">Africa</option>
+                                    <option value="americas">Americas</option>
+                                    <option value="middle-east">Middle East</option>
+                                    <option value="oceania">Oceania</option>
+                                </select>
+                            </div>
+                            <div class="field">
+                                <label for="order-category">Category</label>
+                                <select id="order-category">
+                                    <option value="all">All categories</option>
+                                    <option value="drinks">Drinks</option>
+                                    <option value="breakies">Breakies</option>
+                                    <option value="fullies">Fullies</option>
+                                </select>
+                            </div>
+                            <label class="check-label"><input id="order-vegetarian" type="checkbox"> Vegetarian only</label>
+                        </div>
+                        <p id="menu-status" class="tool-status" role="status" aria-live="polite"></p>
+                        <div id="order-products" class="order-products"></div>
+                        <p id="order-empty" class="empty" hidden>No dishes match those filters. Try another search or region.</p>
+                        <noscript><p class="mini-note">Enable JavaScript to search dishes and build a demo basket.</p></noscript>
+                    </section>
+                    <aside class="basket-panel" aria-labelledby="basket-heading">
+                        <div class="basket-heading">
+                            <div>
+                                <p class="eyebrow">YOUR PICKS</p>
+                                <h2 id="basket-heading">Basket</h2>
+                            </div>
+                            <span id="basket-count" class="basket-count">0 items</span>
+                        </div>
+                        <p class="basket-empty" id="basket-empty">Your basket is empty. Add a dish to get started.</p>
+                        <ul id="basket-items" class="basket-items"></ul>
+                        <div id="basket-totals" class="price-summary" hidden></div>
+                        <p id="basket-promo" class="basket-promo" hidden></p>
+                        <p id="basket-status" class="tool-status" role="status" aria-live="polite"></p>
+                        <a id="checkout-link" class="button checkout-button" href="checkout.html" aria-disabled="true">Continue to checkout →</a>
+                        <p class="basket-footnote">Prices are demo estimates in INR. Delivery is free on baskets of ₹600 or more.</p>
+                    </aside>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-inner">
+                <a class="brand" href="index.html">Foodie World.</a>
+                <p>A little curiosity. A world of flavour.</p>
+                <p>Demo ordering only · no payment or delivery</p>
+            </div>
+        </footer>
+    </body>
+</html>

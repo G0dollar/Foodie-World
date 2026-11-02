@@ -407,7 +407,7 @@
   {
     "dish": "Pierogi (potato-and-cheese filling)",
     "region": "europe",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Pierogi.jpg/500px-Pierogi.jpg",
+    "file": "images/food/europe/pierogi-potato-and-cheese-filling.jpg",
     "title": "File:Pierogi.jpg",
     "author": "Kpalion",
     "license": "CC BY-SA 3.0",
@@ -417,7 +417,7 @@
     "description": "Fill and seal dough rounds, boil until tender, and optionally pan-fry with onion.",
     "caption": "Pierogi (potato-and-cheese filling)",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
@@ -535,7 +535,7 @@
   {
     "dish": "Stuffed cabbage rolls",
     "region": "europe",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Stuffed_cabbage.jpg/500px-Stuffed_cabbage.jpg",
+    "file": "images/food/europe/stuffed-cabbage-rolls.jpg",
     "title": "File:Stuffed cabbage.jpg",
     "author": "gran",
     "license": "CC BY 3.0",
@@ -545,13 +545,13 @@
     "description": "Soften cabbage leaves, wrap the filling, and simmer the rolls in tomato sauce until cooked.",
     "caption": "Stuffed cabbage rolls",
     "extra": false,
-    "changes": "Wikimedia-generated 500px thumbnail is linked directly because a local copy could not be fetched in this environment.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "Latte macchiato",
     "region": "europe",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Latte_macchiato.jpg/500px-Latte_macchiato.jpg",
+    "file": "images/food/europe/latte-macchiato.jpg",
     "title": "File:Latte macchiato.jpg",
     "author": "coffeefellow",
     "license": "CC BY-SA 2.5 Generic",
@@ -561,13 +561,13 @@
     "description": "Pour espresso into steamed milk to create distinct layers.",
     "caption": "Latte macchiato",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "Greek frappé coffee",
     "region": "europe",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Frappe.jpg/500px-Frappe.jpg",
+    "file": "images/food/europe/greek-frappe-coffee.jpg",
     "title": "File:Frappe.jpg",
     "author": "Geraki (credited as source on Commons)",
     "license": "CC BY-SA 3.0 Unported",
@@ -577,13 +577,13 @@
     "description": "Shake or froth instant coffee with a little water and optional sugar; pour over ice and top with water or milk.",
     "caption": "Greek frappé coffee",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "Ouzo",
     "region": "europe",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Ouzo.jpg/500px-Ouzo.jpg",
+    "file": "images/food/europe/ouzo.jpg",
     "title": "File:Ouzo.jpg",
     "author": "Udm",
     "license": "CC BY-SA 3.0 Unported",
@@ -593,13 +593,13 @@
     "description": "Serve chilled, neat or diluted with cold water; dilution turns it cloudy.",
     "caption": "Ouzo",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "Port wine",
     "region": "europe",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Port_wine.jpg/500px-Port_wine.jpg",
+    "file": "images/food/europe/port-wine.jpg",
     "title": "File:Port wine.jpg",
     "author": "Jon Sullivan (PD Photo.org)",
     "license": "Public domain",
@@ -609,13 +609,13 @@
     "description": "Ferment grape must, fortify with grape spirit, then mature before serving.",
     "caption": "Port wine",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "French dry vermouth",
     "region": "europe",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Vermouth.jpg/500px-Vermouth.jpg",
+    "file": "images/food/europe/french-dry-vermouth.jpg",
     "title": "File:Vermouth.jpg",
     "author": "Zoicon5",
     "license": "Public domain",
@@ -625,13 +625,13 @@
     "description": "Aromatize wine with botanicals and fortify; serve chilled or as a cocktail ingredient.",
     "caption": "French dry vermouth",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "Sherry",
     "region": "europe",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Sherry.jpg/500px-Sherry.jpg",
+    "file": "images/food/europe/sherry.jpg",
     "title": "File:Sherry.jpg",
     "author": "רון קדמי",
     "license": "CC BY-SA 4.0 International",
@@ -641,13 +641,13 @@
     "description": "Ferment the wine, fortify, and mature using the sherry ageing process.",
     "caption": "Sherry",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "Full English breakfast",
     "region": "europe",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/English_breakfast.jpg/500px-English_breakfast.jpg",
+    "file": "images/food/europe/full-english-breakfast.jpg",
     "title": "File:English breakfast.jpg",
     "author": "Miss O'Crazy",
     "license": "CC BY 2.0 Generic",
@@ -657,13 +657,13 @@
     "description": "Fry or grill the meat, egg, tomato, and mushrooms; heat the beans and serve with bread.",
     "caption": "Full English breakfast",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "Welsh rarebit",
     "region": "europe",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Welsh_Rarebit.jpg/500px-Welsh_Rarebit.jpg",
+    "file": "images/food/europe/welsh-rarebit.jpg",
     "title": "File:Welsh Rarebit.jpg",
     "author": "stef yau",
     "license": "CC BY 2.0 Generic",
@@ -673,13 +673,13 @@
     "description": "Make a melted cheese-and-ale mixture with mustard, spread over toast, and grill until bubbling.",
     "caption": "Welsh rarebit",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "Belgian waffle",
     "region": "europe",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Belgian_waffle.jpg/1280px-Belgian_waffle.jpg",
+    "file": "images/food/europe/belgian-waffle.jpg",
     "title": "File:Belgian waffle.jpg",
     "author": "Anusha Shirly",
     "license": "CC BY-SA 4.0 International",
@@ -689,13 +689,13 @@
     "description": "Mix the batter and cook it in a heated waffle iron until crisp and golden.",
     "caption": "Belgian waffle",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "Brioche",
     "region": "europe",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Brioche.jpg/500px-Brioche.jpg",
+    "file": "images/food/europe/brioche.jpg",
     "title": "File:Brioche.jpg",
     "author": "Rainer Zenz",
     "license": "CC BY-SA 3.0 Unported",
@@ -705,13 +705,13 @@
     "description": "Knead an enriched yeasted dough, let it rise, shape, proof, and bake.",
     "caption": "Brioche",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "Pain perdu",
     "region": "europe",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Pain_perdu.jpg/500px-Pain_perdu.jpg",
+    "file": "images/food/europe/pain-perdu.jpg",
     "title": "File:Pain perdu.jpg",
     "author": "Antoinel",
     "license": "CC BY-SA 3.0 Unported",
@@ -721,13 +721,13 @@
     "description": "Dip bread in egg and milk, then fry in butter until golden.",
     "caption": "Pain perdu",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "Beef Wellington",
     "region": "europe",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Beef_Wellington.jpg/500px-Beef_Wellington.jpg",
+    "file": "images/food/europe/beef-wellington.jpg",
     "title": "File:Beef Wellington.jpg",
     "author": "Jon Sullivan (PD Photo.org)",
     "license": "Public domain",
@@ -737,13 +737,13 @@
     "description": "Sear the beef, wrap it with mushroom duxelles and pastry, then bake until the pastry is golden and the beef reaches the desired doneness.",
     "caption": "Beef Wellington",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   },
   {
     "dish": "Steak and kidney pie",
     "region": "europe",
-    "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Steak_and_kidney_pie.jpg/1280px-Steak_and_kidney_pie.jpg",
+    "file": "images/food/europe/steak-and-kidney-pie.jpg",
     "title": "File:Steak and kidney pie.jpg",
     "author": "Sean Whitton (Xyrael)",
     "license": "CC BY-SA 2.5 Generic",
@@ -753,7 +753,7 @@
     "description": "Cook steak and kidney with onion and stock until tender, place in a pastry case, cover with pastry, and bake.",
     "caption": "Steak and kidney pie",
     "extra": false,
-    "changes": "Wikimedia-generated thumbnail linked directly; no local copy was made.",
+    "changes": "Wikimedia-sourced image stored locally; displayed with CSS cropping.",
     "recipe_source_url": null
   }
 ]

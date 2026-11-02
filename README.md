@@ -4,7 +4,7 @@
 
 Foodie World is a Web Development Laboratory mini-project built with HTML, CSS, and vanilla JavaScript. Visitors can browse regional food, explore real photographs, compare menu selections, play a short quiz, and use simple kitchen tools.
 
-The complete project includes **25 HTML pages, 54 food entries, and 72 locally stored food photographs**. It runs without a framework, package installation, or build step.
+The complete project includes **28 HTML pages, 260 food entries, and 276 locally stored food photographs**. It runs without a framework, package installation, or build step.
 
 ## Quick start
 
@@ -20,7 +20,7 @@ Use a recent browser with JavaScript enabled. Keep the server address and port c
 
 You can also open `index.html` directly. A local server is recommended because browsers can handle storage differently for `file://` pages.
 
-**No npm commands, API keys, account, or database setup are required.** Images are bundled with the project, so displaying them does not require an internet connection. External photo-source and reference links do require internet access.
+**No npm commands, API keys, account, or database setup are required.** All food photographs are bundled locally and work offline. External photo-source and reference links require internet access.
 
 ## Explore the website
 
@@ -43,6 +43,8 @@ Every category page contains three entries. Each entry includes a regional assoc
 - **Surprise Me:** selects a currently visible card, highlights it, and opens its recipe notes.
 - **Expandable recipes:** use native HTML `<details>` and `<summary>` elements.
 - **Region collages:** twelve-photo previews link to the matching region in Gallery.
+- **Demo ordering:** search all 260 dishes, mix regions, set quantities, and review INR sample prices with a random basket discount.
+- **Demo checkout:** enter sample delivery details, review an itemised receipt, and complete the flow without payment.
 - **Responsive layouts:** shared styles adapt cards, forms, and navigation to smaller screens.
 
 Food histories often cross borders. Regional labels are starting points for exploration, not exclusive claims about a dish's origin. Recipe notes are simplified educational overviews rather than complete recipes with quantities and cooking times.
@@ -53,11 +55,20 @@ Food histories often cross borders. Regional labels are starting points for expl
 | --- | --- |
 | `compare.html` | Compare ingredients, flavour examples, and menu entries from two regions. Swap selections or follow links to their food pages. |
 | `quiz.html` | Answer five questions with four choices each, receive feedback, review answers, and replay. Questions refer to where dishes appear on this website. |
-| `gallery.html` | Browse 72 photographs, filter by region, and open an enlarged view. Use Previous/Next, arrow keys, or Escape in the viewer. |
+| `gallery.html` | Browse 278 food-photo entries, filter by region, and open an enlarged view. Use Previous/Next, arrow keys, or Escape in the viewer. |
 | `converter.html` | Convert US cups ↔ grams for five ingredients and Celsius ↔ Fahrenheit. |
 | `suggest.html` | Validate and save a food suggestion in the current browser. |
+| `order.html` | Filter 260 dishes, add several to a basket, adjust quantities, and get a random 5–20% demo discount. Sample prices are in INR. |
+| `checkout.html` | Enter a name, contact number, and pretend delivery address, then review the order total. |
+| `order-confirmation.html` | View the latest itemised sample receipt saved in this browser. |
 
 The converter uses ingredient-specific weight values: a cup of flour and a cup of sugar do not have the same weight. Cup conversions are approximate and use **US recipe cups**, not 250 mL metric cups. Temperature conversion changes units only; it does not adjust for fan ovens.
+
+### Demo ordering only
+
+The order flow is a frontend demonstration, not a real shop. Prices are illustrative INR estimates; a randomly selected 5%, 10%, 15%, or 20% discount stays with the basket until it is emptied or placed. Delivery is shown as ₹40 below a ₹600 subtotal and free at or above ₹600. The total is calculated in the browser.
+
+The checkout requests a name, contact number, and delivery address only to demonstrate a checkout form. It requests no payment information, contacts no restaurant, and does not arrange delivery. The basket and latest receipt are stored in the current browser's `localStorage`; use fictional details for demonstrations and clear the browser's site data afterward if needed.
 
 ## Page structure
 
@@ -68,7 +79,8 @@ The converter uses ingredient-specific weight values: a cup of flour and a cup o
 | Suggestion form | 1 | `suggest.html` |
 | Team contributions and acknowledgements | 1 | `credits.html` |
 | Comparison, quiz, gallery, and converter | 4 | `compare.html`, `quiz.html`, `gallery.html`, `converter.html` |
-| **Total** | **25** | |
+| Demo order menu, checkout, and receipt | 3 | `order.html`, `checkout.html`, `order-confirmation.html` |
+| **Total** | **28** | |
 
 Region filename prefixes are `asia`, `europe`, `africa`, `americas`, `middle-east`, and `oceania`.
 
@@ -84,6 +96,8 @@ Region filename prefixes are `asia`, `europe`, `africa`, `americas`, `middle-eas
 | `js/extras-data.js` | Region and dish data used by comparison and quiz |
 | `js/conversions.js` | Ingredient weights and conversion calculations |
 | `js/extras.js` | Comparison, quiz, gallery, and converter interactions |
+| `js/order-data.js` | Dish names, regions, photos, dietary labels, and illustrative INR prices for ordering |
+| `js/order.js` and `css/order.css` | Browser-local demo basket, checkout, receipt, and responsive order layouts |
 | `images/food/` | Local menu photos and collage extras |
 | `images/food/ATTRIBUTION.md` | Photograph authors, licences, and source links |
 | `images/food/sources.json` | Detailed image source metadata |
@@ -110,7 +124,7 @@ Clearing browser site data removes saved entries and scores. A different browser
 
 ## Photographs and collages
 
-The collection contains **54 images associated with menu entries and 18 bonus food images**, with twelve photographs per region.
+The photo collection contains **278 food-photo entries**: 260 menu dishes and 18 collage extras. These entries use **276 locally stored image files**, so the food photos do not depend on a live Wikimedia connection.
 
 - Most menu images show prepared dishes or drinks. Captions identify serving variations where appropriate.
 - **Feijoa Smoothie uses a clearly labelled photograph of feijoa fruit**, its main ingredient, because a suitable reusable photograph of the prepared drink was unavailable.
@@ -128,6 +142,7 @@ Photo credits appear on food cards, in Gallery, on Credits, and in `images/food/
 | --- | --- |
 | Team names and contributions | Four-member table in `credits.html` |
 | Food descriptions and recipe notes | The corresponding regional HTML page |
+| Order-menu catalog | `js/order-data.js` (keep it in sync with regional dish pages) |
 | Food search labels | Keep each card's `data-name` consistent with its displayed name |
 | Vegetarian status | The card's `data-veg` value and visible diet label |
 | Quiz or comparison content | `js/extras-data.js` |
@@ -138,7 +153,7 @@ Photo credits appear on food cards, in Gallery, on Credits, and in `images/food/
 
 Keep filenames lowercase, use hyphens instead of spaces, and preserve relative paths. When changing shared data, update related visible labels and descriptions too.
 
-If you customise the homepage, keep navigation links to the four activities so every feature remains easy to find.
+If you customise the homepage, keep navigation links to the activities and demo order so every feature remains easy to find.
 
 ## Troubleshooting
 
@@ -165,8 +180,9 @@ A short presentation can follow this sequence:
 5. Compare two regions and use Swap.
 6. Complete the quiz and show its score and answer review.
 7. Convert 1 US cup of flour to 120 g and 212 °F to 100 °C.
-8. Submit an empty suggestion form to demonstrate validation, then save a valid suggestion and reload.
-9. Show the four-member contribution table and photograph acknowledgements.
+8. Add different dishes to the demo basket, change quantities, review the random discount, and place a sample order with fictional details. Confirm the receipt says that no payment or delivery occurred.
+9. Submit an empty suggestion form to demonstrate validation, then save a valid suggestion and reload.
+10. Show the four-member contribution table and photograph acknowledgements.
 
 These steps demonstrate multi-page navigation, semantic HTML, CSS Grid, responsive styling, DOM updates, events, form validation, and browser storage.
 
